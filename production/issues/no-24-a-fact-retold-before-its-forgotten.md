@@ -1,0 +1,30 @@
+---
+number: 24
+title: A Fact Retold Before It's Forgotten
+slug: a-fact-retold-before-its-forgotten
+date: July 9, 2026
+iso: 2026-07-09T15:00:00Z
+blurb: Inside every computer running right now, a single bit of memory is a small, continuous bet. A capacitor smaller than a virus either holds a tiny electrical charge, or it doesn't — that's the whole difference between a 1 and a 0. Left alone, that charge would leak away in well under a second. So nothing is ever left alone.
+meta_description: Every bit in a computer's memory chip leaks away in milliseconds — kept alive only because a controller rewrites it, hundreds of times a second, forever.
+og_description: The Standing Wave, No. 24 — a DRAM chip's memory is a bet remade thousands of times a second: read, sensed, and rewritten before a leaking capacitor's charge can change the answer.
+twitter_description: The Standing Wave, No. 24 — the memory in your phone right now doesn't hold still for long. It gets silently retold the right answer before you'd ever notice it had started to forget.
+---
+Inside every computer running right now, a single bit of memory is a small, continuous bet. A capacitor smaller than a virus either holds a tiny electrical charge, or it doesn't — that's the whole difference between a 1 and a 0. Left alone, that charge would leak away in well under a second. So nothing is ever left alone.
+
+This is DRAM — dynamic random-access memory — and "dynamic" is the honest word in that name, doing more work than most people notice. It's the working memory in nearly every laptop, phone, and server built today, and it holds what it holds by continuously failing to hold it, then quietly fixing that failure before anyone downstream can tell.
+
+The trade goes back to 1966, to an IBM engineer named Robert Dennard, who'd been assigned a memory-cell design that needed six transistors just to hold one bit steady — reliable, but expensive and space-hungry at any real scale. Thinking it through at home, he realized a single capacitor could do most of that job alone: charge it, and you've written a 1; drain it, and you've written a 0; check whether it's charged, and you've read the bit back. One transistor to gate the whole arrangement, instead of six. The patent issued in 1968, and within less than a decade this design was standard equipment in nearly every computer being built. The saving was real. So was the cost: a lone capacitor holds far less charge than six transistors' worth of latched logic, and every capacitor, however well made, leaks.
+
+In a modern chip, that leak is fast — milliseconds, not minutes — so a memory controller runs a standing repair crew underneath every program that has ever executed. It works through the chip's rows in order, and reading a row is itself destructive: it drains whatever charge was sitting there onto a shared wire, which would normally erase the very thing being read. A row of tiny circuits called sense amplifiers sits between the cells and that wire watching for the faintest tilt in voltage; the instant one appears, it drives the wire to a full, clean 1 or 0, then writes that same value straight back into the cell it just borrowed it from. Reading and repairing happen in the same motion, an entire row at once. On an ordinary DDR4 chip, that sweep runs across every row once every 64 milliseconds, split into more than eight thousand smaller passes, one every 7.8 microseconds — all day, whether or not any program ever asks to look at that memory again.
+
+Newer chips have made the deadline stricter, not looser. DDR5 memory, packing far more capacitors into the same sliver of silicon, halves the safe window to about 32 milliseconds, tightening further at high temperature. The denser the memory, the less patience each cell's charge has for sitting still before it needs retelling.
+
+The mechanism has one more honest wrinkle, and it isn't hypothetical. Read — or rewrite — one particular row of a modern chip fast enough, over and over, and the electrical disturbance can bleed sideways into a neighboring row, nudging its capacitors past the line between a stored 1 and a stored 0 before that row's own turn in the refresh cycle ever comes around. Researchers named this Rowhammer, and it has been demonstrated on chips from every major manufacturer: an ordinary side effect of packing cells closer together, turned into a real, working security exploit — flip the right bit in the right neighbor's row, and you can corrupt data you were never authorized to touch. Chipmakers now refresh a hammered row's neighbors early as a countermeasure, calling in the same standing repair crew ahead of its usual shift.
+
+Every loop this series has covered runs on some version of the same bargain — something is always failing, and something else is always paying, continuously, to undo the failure before it registers. What's unusual about a DRAM chip is the tempo, and the total absence of anyone. No. 23's eternal flame relied on a duty roster spanning human lifetimes, priestesses and veterans handing a single fire down hand to hand. This one runs a duty roster too, just clocked in microseconds, executed by circuitry that carries no memory of ever having done anything at all. And where a flame that goes dark can, in principle, be relit — a mirror catching sunlight, a match, a spark — a chip that stops being refreshed doesn't dim. It simply keeps leaking on the exact schedule it always has, until every bit it was holding quietly crosses its own threshold and becomes indistinguishable from noise. Nothing is preserved underneath, waiting to be found again. The pattern only ever existed because something kept insisting on it, thousands of times a second, and it stops existing the moment the insisting does.
+
+≈
+
+One loop I'm watching
+
+Next: swap silicon for cells, and the same shape turns up again — a real, molecular clock ticking inside nearly every cell in your body, keeping roughly a day's time entirely on its own, with no wristwatch, no sunrise required, and no controller anywhere in sight.

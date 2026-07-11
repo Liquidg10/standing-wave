@@ -1,0 +1,393 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "The Standing Wave",
+  "home_page_url": "https://standingwave.ink/",
+  "feed_url": "https://standingwave.ink/feed.json",
+  "description": "Field notes on things that run themselves.",
+  "language": "en-US",
+  "authors": [
+    {
+      "name": "Mark"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://standingwave.ink/issues/the-forest-held-up-by-its-own-collapse",
+      "url": "https://standingwave.ink/issues/the-forest-held-up-by-its-own-collapse",
+      "title": "No. 27 · The Forest Held Up by Its Own Collapse",
+      "summary": "A four-hundred-year-old forest can look, from the air, almost exactly the way it looked in a photograph taken a century earlier. Ask which trees are holding that shape up, though, and the honest answer is: mostly none of the ones in that older photo. They're on the ground, rotting, or gone.",
+      "content_text": "A four-hundred-year-old forest can look, from the air, almost exactly the way it looked in a photograph taken a century earlier. Ask which trees are holding that shape up, though, and the honest answer is: mostly none of the ones in that older photo. They're on the ground, rotting, or gone.",
+      "date_published": "2026-07-10T20:00:00Z",
+      "image": "https://standingwave.ink/og/the-forest-held-up-by-its-own-collapse.png",
+      "authors": [
+        {
+          "name": "Mark"
+        }
+      ]
+    },
+    {
+      "id": "https://standingwave.ink/issues/a-beam-that-was-never-aimed-at-you",
+      "url": "https://standingwave.ink/issues/a-beam-that-was-never-aimed-at-you",
+      "title": "No. 26 · A Beam That Was Never Aimed at You",
+      "summary": "A radio signal ticking with impossible regularity looked so deliberate that its discoverer half-joked it might be aliens. It wasn't. It was a dead star spinning, sweeping a beam of light past Earth the way a lighthouse lamp sweeps a coastline — bolted to a turntable nobody is operating.",
+      "content_text": "A radio signal ticking with impossible regularity looked so deliberate that its discoverer half-joked it might be aliens. It wasn't. It was a dead star spinning, sweeping a beam of light past Earth the way a lighthouse lamp sweeps a coastline — bolted to a turntable nobody is operating.",
+      "date_published": "2026-07-10T11:00:00Z",
+      "image": "https://standingwave.ink/og/a-beam-that-was-never-aimed-at-you.png",
+      "authors": [
+        {
+          "name": "Mark"
+        }
+      ]
+    },
+    {
+      "id": "https://standingwave.ink/issues/a-clock-that-builds-its-own-off-switch",
+      "url": "https://standingwave.ink/issues/a-clock-that-builds-its-own-off-switch",
+      "title": "No. 25 · A Clock That Builds Its Own Off-Switch",
+      "summary": "Right now, inside nearly every one of your cells, a loop of four or five genes is keeping a rough day's time. Nothing outside the cell is ticking it forward. The trick is almost too simple to believe works: the cell builds the very thing that will tell it to stop.",
+      "content_text": "Right now, inside nearly every one of your cells, a loop of four or five genes is keeping a rough day's time. Nothing outside the cell is ticking it forward. The trick is almost too simple to believe works: the cell builds the very thing that will tell it to stop.",
+      "date_published": "2026-07-09T23:15:00Z",
+      "image": "https://standingwave.ink/og/a-clock-that-builds-its-own-off-switch.png",
+      "authors": [
+        {
+          "name": "Mark"
+        }
+      ]
+    },
+    {
+      "id": "https://standingwave.ink/issues/a-fact-retold-before-its-forgotten",
+      "url": "https://standingwave.ink/issues/a-fact-retold-before-its-forgotten",
+      "title": "No. 24 · A Fact Retold Before It's Forgotten",
+      "summary": "Inside every computer running right now, a single bit of memory is a small, continuous bet. A capacitor smaller than a virus either holds a tiny electrical charge, or it doesn't — that's the whole difference between a 1 and a 0. Left alone, that charge would leak away in well under a second. So nothing is ever left alone.",
+      "content_text": "Inside every computer running right now, a single bit of memory is a small, continuous bet. A capacitor smaller than a virus either holds a tiny electrical charge, or it doesn't — that's the whole difference between a 1 and a 0. Left alone, that charge would leak away in well under a second. So nothing is ever left alone.",
+      "date_published": "2026-07-09T15:00:00Z",
+      "image": "https://standingwave.ink/og/a-fact-retold-before-its-forgotten.png",
+      "authors": [
+        {
+          "name": "Mark"
+        }
+      ]
+    },
+    {
+      "id": "https://standingwave.ink/issues/kept-by-people-who-never-met",
+      "url": "https://standingwave.ink/issues/kept-by-people-who-never-met",
+      "title": "No. 23 · Kept by People Who Never Met",
+      "summary": "In Rome, a small fire was never allowed to go out — not for a night, not for a decade, but for over a thousand years. No candle burns that long. No coal holds that much heat. What actually stayed lit that whole time wasn't a flame. It was a schedule.",
+      "content_text": "In Rome, a small fire was never allowed to go out — not for a night, not for a decade, but for over a thousand years. No candle burns that long. No coal holds that much heat. What actually stayed lit that whole time wasn't a flame. It was a schedule.",
+      "date_published": "2026-07-08T23:30:00Z",
+      "image": "https://standingwave.ink/og/kept-by-people-who-never-met.png",
+      "authors": [
+        {
+          "name": "Mark"
+        }
+      ]
+    },
+    {
+      "id": "https://standingwave.ink/issues/a-grip-that-has-to-keep-letting-go",
+      "url": "https://standingwave.ink/issues/a-grip-that-has-to-keep-letting-go",
+      "title": "No. 22 · A Grip That Has to Keep Letting Go",
+      "summary": "Draw a bow across a violin string and the string doesn't do what a plucked string does — ring, then quietly decay. Something stranger is happening, too fast to see: the bow's own friction grips the string, drags it sideways, loses its grip completely, and grabs on again, hundreds of times every second. The note isn't the sound of a vibration being sustained. It's the sound of a grip being broken and remade, continuously, for as long as the bow keeps moving.",
+      "content_text": "Draw a bow across a violin string and the string doesn't do what a plucked string does — ring, then quietly decay. Something stranger is happening, too fast to see: the bow's own friction grips the string, drags it sideways, loses its grip completely, and grabs on again, hundreds of times every second. The note isn't the sound of a vibration being sustained. It's the sound of a grip being broken and remade, continuously, for as long as the bow keeps moving.",
+      "date_published": "2026-07-08T21:00:00Z",
+      "image": "https://standingwave.ink/og/a-grip-that-has-to-keep-letting-go.png",
+      "authors": [
+        {
+          "name": "Mark"
+        }
+      ]
+    },
+    {
+      "id": "https://standingwave.ink/issues/the-hole-that-never-empties",
+      "url": "https://standingwave.ink/issues/the-hole-that-never-empties",
+      "title": "No. 21 · The Hole That Never Empties",
+      "summary": "Pull the plug and watch the water spiral down, and you're watching a shape, not a substance. The funnel holds the same place, the same rough form, the same rotation for as long as the draining lasts — but no single drop of water stays inside it for more than a second or two. It isn't one whirlpool made of some water. It's a hole-shaped habit that a whole succession of water falls into, one batch after another, for as long as there's a drain to fall toward.",
+      "content_text": "Pull the plug and watch the water spiral down, and you're watching a shape, not a substance. The funnel holds the same place, the same rough form, the same rotation for as long as the draining lasts — but no single drop of water stays inside it for more than a second or two. It isn't one whirlpool made of some water. It's a hole-shaped habit that a whole succession of water falls into, one batch after another, for as long as there's a drain to fall toward.",
+      "date_published": "2026-07-07T23:30:00Z",
+      "image": "https://standingwave.ink/og/the-hole-that-never-empties.png",
+      "authors": [
+        {
+          "name": "Mark"
+        }
+      ]
+    },
+    {
+      "id": "https://standingwave.ink/issues/a-fall-that-never-reaches-the-ground",
+      "url": "https://standingwave.ink/issues/a-fall-that-never-reaches-the-ground",
+      "title": "No. 20 · A Fall That Never Reaches the Ground",
+      "summary": "Wind a longcase clock and, in every sense physics cares about, you start something falling. It never lands. Not because gravity ever lets up on it, but because a small mechanical lever standing between the weight and the pendulum spends the next eight days handing that fall out in identical, precisely timed installments, once almost exactly every second, forever — as long as someone keeps climbing back up to wind it.",
+      "content_text": "Wind a longcase clock and, in every sense physics cares about, you start something falling. It never lands. Not because gravity ever lets up on it, but because a small mechanical lever standing between the weight and the pendulum spends the next eight days handing that fall out in identical, precisely timed installments, once almost exactly every second, forever — as long as someone keeps climbing back up to wind it.",
+      "date_published": "2026-07-07T22:00:00Z",
+      "image": "https://standingwave.ink/og/a-fall-that-never-reaches-the-ground.png",
+      "authors": [
+        {
+          "name": "Mark"
+        }
+      ]
+    },
+    {
+      "id": "https://standingwave.ink/issues/a-fall-that-hasnt-happened-yet",
+      "url": "https://standingwave.ink/issues/a-fall-that-hasnt-happened-yet",
+      "title": "No. 19 · A Fall That Hasn't Happened Yet",
+      "summary": "Spin a top hard enough and something strange happens: tip it, and instead of falling over the way it would if you'd just set it down, it stands back up. Push it, and instead of toppling in the direction you pushed, it wanders off ninety degrees from your hand. For as long as it keeps spinning fast enough, it behaves like gravity has quietly stopped applying to it. Then, with nothing about its shape or weight having changed, it doesn't.",
+      "content_text": "Spin a top hard enough and something strange happens: tip it, and instead of falling over the way it would if you'd just set it down, it stands back up. Push it, and instead of toppling in the direction you pushed, it wanders off ninety degrees from your hand. For as long as it keeps spinning fast enough, it behaves like gravity has quietly stopped applying to it. Then, with nothing about its shape or weight having changed, it doesn't.",
+      "date_published": "2026-07-06T22:00:00Z",
+      "image": "https://standingwave.ink/og/a-fall-that-hasnt-happened-yet.png",
+      "authors": [
+        {
+          "name": "Mark"
+        }
+      ]
+    },
+    {
+      "id": "https://standingwave.ink/issues/a-wave-you-speak-with",
+      "url": "https://standingwave.ink/issues/a-wave-you-speak-with",
+      "title": "No. 18 · A Wave You Speak With",
+      "summary": "In 1958 the Dutch physician Janwillem van den Berg took a human larynx that had been removed entirely from its owner — no brain attached, no nerve firing, no muscle on a schedule — mounted it on a tube, and pushed air through it. It made a voice. Whatever was opening and closing those two small flaps of tissue, it wasn't a nerve keeping time. It was the air itself.",
+      "content_text": "In 1958 the Dutch physician Janwillem van den Berg took a human larynx that had been removed entirely from its owner — no brain attached, no nerve firing, no muscle on a schedule — mounted it on a tube, and pushed air through it. It made a voice. Whatever was opening and closing those two small flaps of tissue, it wasn't a nerve keeping time. It was the air itself.",
+      "date_published": "2026-07-06T14:00:00Z",
+      "image": "https://standingwave.ink/og/a-wave-you-speak-with.png",
+      "authors": [
+        {
+          "name": "Mark"
+        }
+      ]
+    },
+    {
+      "id": "https://standingwave.ink/issues/a-fire-that-eats-the-sea",
+      "url": "https://standingwave.ink/issues/a-fire-that-eats-the-sea",
+      "title": "No. 17 · A Fire That Eats the Sea",
+      "summary": "On October 23, 2015, Hurricane Patricia crossed the Mexican coast near Cuixmala with sustained winds of 165 miles an hour — the strongest landfall ever recorded in the Western Hemisphere. Twenty-four hours later it was gone: not weakened, gone, dissolved into an ordinary rainstorm over the mountains of Jalisco. Nothing else in this series has died that fast. That isn't a flaw in the pattern. It's the whole point of it.",
+      "content_text": "On October 23, 2015, Hurricane Patricia crossed the Mexican coast near Cuixmala with sustained winds of 165 miles an hour — the strongest landfall ever recorded in the Western Hemisphere. Twenty-four hours later it was gone: not weakened, gone, dissolved into an ordinary rainstorm over the mountains of Jalisco. Nothing else in this series has died that fast. That isn't a flaw in the pattern. It's the whole point of it.",
+      "date_published": "2026-07-05T23:00:00Z",
+      "image": "https://standingwave.ink/og/a-fire-that-eats-the-sea.png",
+      "authors": [
+        {
+          "name": "Mark"
+        }
+      ]
+    },
+    {
+      "id": "https://standingwave.ink/issues/a-wall-that-wont-hold-still",
+      "url": "https://standingwave.ink/issues/a-wall-that-wont-hold-still",
+      "title": "No. 16 · A Wall That Won't Hold Still",
+      "summary": "Every cell in your body is wrapped in a wall about five nanometers thick — two molecules deep — with no scaffolding, no fasteners, and no permanent parts, and yet it does the single most important job in biology: deciding, continuously and without pause, what counts as you and what counts as everything else. It manages this not by being solid, but by behaving like a very thin, very disciplined puddle.",
+      "content_text": "Every cell in your body is wrapped in a wall about five nanometers thick — two molecules deep — with no scaffolding, no fasteners, and no permanent parts, and yet it does the single most important job in biology: deciding, continuously and without pause, what counts as you and what counts as everything else. It manages this not by being solid, but by behaving like a very thin, very disciplined puddle.",
+      "date_published": "2026-07-04T23:00:00Z",
+      "image": "https://standingwave.ink/og/a-wall-that-wont-hold-still.png",
+      "authors": [
+        {
+          "name": "Mark"
+        }
+      ]
+    },
+    {
+      "id": "https://standingwave.ink/issues/a-wave-made-of-stars",
+      "url": "https://standingwave.ink/issues/a-wave-made-of-stars",
+      "title": "No. 15 · A Wave Made of Stars",
+      "summary": "Some 25 million light-years away, in the constellation Canes Venatici, a smaller galaxy is currently falling through the disk of a bigger one — and the bigger one has responded by growing two of the cleanest spiral arms astronomers have photographed. They call it M51, the Whirlpool. Look at any picture and the obvious guess is that you're seeing a fixed population of stars: a vast pinwheel, born together, wheeling around the center as one shape. It's a reasonable guess. It's also wrong, and the reason is stranger than the photograph.",
+      "content_text": "Some 25 million light-years away, in the constellation Canes Venatici, a smaller galaxy is currently falling through the disk of a bigger one — and the bigger one has responded by growing two of the cleanest spiral arms astronomers have photographed. They call it M51, the Whirlpool. Look at any picture and the obvious guess is that you're seeing a fixed population of stars: a vast pinwheel, born together, wheeling around the center as one shape. It's a reasonable guess. It's also wrong, and the reason is stranger than the photograph.",
+      "date_published": "2026-07-04T12:00:00Z",
+      "image": "https://standingwave.ink/og/a-wave-made-of-stars.png",
+      "authors": [
+        {
+          "name": "Mark"
+        }
+      ]
+    },
+    {
+      "id": "https://standingwave.ink/issues/not-one-drop-remains",
+      "url": "https://standingwave.ink/issues/not-one-drop-remains",
+      "title": "No. 14 · Not One Drop Remains",
+      "summary": "In a cave in the west of Ireland hangs a spike of stone nearly 24 feet long, tapering to a point that's still, this minute, catching a fresh film of water before the next drop falls. It looks like the most permanent object in the room — grey, motionless, older than anyone who will ever stand under it. And structurally, it is permanent: once a layer sets, nothing disturbs it again. But not one molecule of the water that built it is still inside it. Every bit of stone hanging from that ceiling is made from something that has already left.",
+      "content_text": "In a cave in the west of Ireland hangs a spike of stone nearly 24 feet long, tapering to a point that's still, this minute, catching a fresh film of water before the next drop falls. It looks like the most permanent object in the room — grey, motionless, older than anyone who will ever stand under it. And structurally, it is permanent: once a layer sets, nothing disturbs it again. But not one molecule of the water that built it is still inside it. Every bit of stone hanging from that ceiling is made from something that has already left.",
+      "date_published": "2026-07-03T22:00:00Z",
+      "image": "https://standingwave.ink/og/not-one-drop-remains.png",
+      "authors": [
+        {
+          "name": "Mark"
+        }
+      ]
+    },
+    {
+      "id": "https://standingwave.ink/issues/the-slowest-handshake-in-biology",
+      "url": "https://standingwave.ink/issues/the-slowest-handshake-in-biology",
+      "title": "No. 13 · The Slowest Handshake in Biology",
+      "summary": "The gray-green crust on a gravestone or a bare boulder looks like the least alive thing in the landscape — closer to a stain than a living thing. It's actually two organisms from two different kingdoms of life, wearing one shape, in a partnership so old and so patient that some individual patches have been sitting on the same rock since before the pyramids were finished.",
+      "content_text": "The gray-green crust on a gravestone or a bare boulder looks like the least alive thing in the landscape — closer to a stain than a living thing. It's actually two organisms from two different kingdoms of life, wearing one shape, in a partnership so old and so patient that some individual patches have been sitting on the same rock since before the pyramids were finished.",
+      "date_published": "2026-07-03T11:00:00Z",
+      "image": "https://standingwave.ink/og/the-slowest-handshake-in-biology.png",
+      "authors": [
+        {
+          "name": "Mark"
+        }
+      ]
+    },
+    {
+      "id": "https://standingwave.ink/issues/the-scaffolding-is-the-part-of-you-most-alive",
+      "url": "https://standingwave.ink/issues/the-scaffolding-is-the-part-of-you-most-alive",
+      "title": "No. 12 · The Scaffolding Is the Part of You Most Alive",
+      "summary": "You think of your skeleton as the fixed part of you — the frame everything else hangs off, the one thing in the body that just sits there. It doesn't. Right now, cells are quietly dissolving your bones away while other cells rebuild them just behind, so the skeleton holding you up this morning is, piece by piece, not the one that held you up a decade ago.",
+      "content_text": "You think of your skeleton as the fixed part of you — the frame everything else hangs off, the one thing in the body that just sits there. It doesn't. Right now, cells are quietly dissolving your bones away while other cells rebuild them just behind, so the skeleton holding you up this morning is, piece by piece, not the one that held you up a decade ago.",
+      "date_published": "2026-07-03T09:00:00Z",
+      "image": "https://standingwave.ink/og/the-scaffolding-is-the-part-of-you-most-alive.png",
+      "authors": [
+        {
+          "name": "Mark"
+        }
+      ]
+    },
+    {
+      "id": "https://standingwave.ink/issues/a-stone-that-eats-sunlight",
+      "url": "https://standingwave.ink/issues/a-stone-that-eats-sunlight",
+      "title": "No. 11 · A Stone That Eats Sunlight",
+      "summary": "Swim out over a coral reef and you are floating above one of the strangest things life has built — a mountain that is mostly a graveyard, capped in a skin of living color a few millimeters thick. A reef looks like stone and breaks ships like stone, yet it is being raised right now by animals that farm sunlight inside their own cells. And the same warmth that lets them build it can, in a bad year, switch the whole bargain off.",
+      "content_text": "Swim out over a coral reef and you are floating above one of the strangest things life has built — a mountain that is mostly a graveyard, capped in a skin of living color a few millimeters thick. A reef looks like stone and breaks ships like stone, yet it is being raised right now by animals that farm sunlight inside their own cells. And the same warmth that lets them build it can, in a bad year, switch the whole bargain off.",
+      "date_published": "2026-06-26T12:00:00Z",
+      "image": "https://standingwave.ink/og/a-stone-that-eats-sunlight.png",
+      "authors": [
+        {
+          "name": "Mark"
+        }
+      ]
+    },
+    {
+      "id": "https://standingwave.ink/issues/a-storm-with-no-walls",
+      "url": "https://standingwave.ink/issues/a-storm-with-no-walls",
+      "title": "No. 10 · A Storm With No Walls",
+      "summary": "Point a small telescope at Jupiter and you can find it: a pale salmon oval riding the southern stripes, small in the eyepiece and large enough to swallow the Earth. The Great Red Spot is the most famous weather on any world but ours, a storm that has blown for lifetimes — and almost nothing about it is solid. It has no walls, keeps no cloud it was made of, and may not even be the storm our ancestors named. It is a pattern in pure flow, the longest-standing wave we know, and it is shrinking.",
+      "content_text": "Point a small telescope at Jupiter and you can find it: a pale salmon oval riding the southern stripes, small in the eyepiece and large enough to swallow the Earth. The Great Red Spot is the most famous weather on any world but ours, a storm that has blown for lifetimes — and almost nothing about it is solid. It has no walls, keeps no cloud it was made of, and may not even be the storm our ancestors named. It is a pattern in pure flow, the longest-standing wave we know, and it is shrinking.",
+      "date_published": "2026-06-26T11:00:00Z",
+      "image": "https://standingwave.ink/og/a-storm-with-no-walls.png",
+      "authors": [
+        {
+          "name": "Mark"
+        }
+      ]
+    },
+    {
+      "id": "https://standingwave.ink/issues/a-wave-you-sit-inside",
+      "url": "https://standingwave.ink/issues/a-wave-you-sit-inside",
+      "title": "No. 9 · A Wave You Sit Inside",
+      "summary": "You have been stuck in a traffic jam that had no cause — no wreck, no stalled car, nothing to clear. You crawled, you stopped, and then the road simply opened and you passed empty asphalt. The thing holding you was real, but it wasn't a thing. It was a wave of stopped cars sliding backward through the traffic, born of nothing but too many drivers following too closely — a jam with an empty middle, and as pure a standing wave as the flame.",
+      "content_text": "You have been stuck in a traffic jam that had no cause — no wreck, no stalled car, nothing to clear. You crawled, you stopped, and then the road simply opened and you passed empty asphalt. The thing holding you was real, but it wasn't a thing. It was a wave of stopped cars sliding backward through the traffic, born of nothing but too many drivers following too closely — a jam with an empty middle, and as pure a standing wave as the flame.",
+      "date_published": "2026-06-25T11:00:00Z",
+      "image": "https://standingwave.ink/og/a-wave-you-sit-inside.png",
+      "authors": [
+        {
+          "name": "Mark"
+        }
+      ]
+    },
+    {
+      "id": "https://standingwave.ink/issues/nobody-gives-the-signal",
+      "url": "https://standingwave.ink/issues/nobody-gives-the-signal",
+      "title": "No. 8 · Nobody Gives the Signal",
+      "summary": "For two weeks a year, on a hillside in the Smoky Mountains, thousands of fireflies blink in perfect unison — and the spooky part is that no one is in charge. No leader, no signal, no count being kept. Just thousands of separate clocks, each one only watching its neighbors, crossing a threshold into a single beat that no individual firefly is making.",
+      "content_text": "For two weeks a year, on a hillside in the Smoky Mountains, thousands of fireflies blink in perfect unison — and the spooky part is that no one is in charge. No leader, no signal, no count being kept. Just thousands of separate clocks, each one only watching its neighbors, crossing a threshold into a single beat that no individual firefly is making.",
+      "date_published": "2026-06-24T23:00:00Z",
+      "image": "https://standingwave.ink/og/nobody-gives-the-signal.png",
+      "authors": [
+        {
+          "name": "Mark"
+        }
+      ]
+    },
+    {
+      "id": "https://standingwave.ink/issues/a-leak-that-keeps-time",
+      "url": "https://standingwave.ink/issues/a-leak-that-keeps-time",
+      "title": "No. 7 · A Leak That Keeps Time",
+      "summary": "Find your pulse. That steady knock has no clock behind it and no clock inside it either — it is a knot of cells in your chest leaking themselves out of balance, firing, and leaking again, two to three billion times, with nothing keeping the beat but the beat itself.",
+      "content_text": "Find your pulse. That steady knock has no clock behind it and no clock inside it either — it is a knot of cells in your chest leaking themselves out of balance, firing, and leaking again, two to three billion times, with nothing keeping the beat but the beat itself.",
+      "date_published": "2026-06-24T13:00:00Z",
+      "image": "https://standingwave.ink/og/a-leak-that-keeps-time.png",
+      "authors": [
+        {
+          "name": "Mark"
+        }
+      ]
+    },
+    {
+      "id": "https://standingwave.ink/issues/nothing-holds-the-sun-up",
+      "url": "https://standingwave.ink/issues/nothing-holds-the-sun-up",
+      "title": "No. 6 · Nothing Holds the Sun Up",
+      "summary": "The Sun looks like the most solid object in the sky. It's actually a catastrophe in slow motion — an unthinkable weight of gas falling inward forever and never landing, held up by nothing but the heat of its own fall.",
+      "content_text": "The Sun looks like the most solid object in the sky. It's actually a catastrophe in slow motion — an unthinkable weight of gas falling inward forever and never landing, held up by nothing but the heat of its own fall.",
+      "date_published": "2026-06-23T21:00:00Z",
+      "image": "https://standingwave.ink/og/nothing-holds-the-sun-up.png",
+      "authors": [
+        {
+          "name": "Mark"
+        }
+      ]
+    },
+    {
+      "id": "https://standingwave.ink/issues/the-word-in-your-mouth-is-older-than-writing",
+      "url": "https://standingwave.ink/issues/the-word-in-your-mouth-is-older-than-writing",
+      "title": "No. 5 · The Word in Your Mouth Is Older Than Writing",
+      "summary": "Say \"mother\" and you've used something older than the pyramids — a sound with no surviving original and no master copy anywhere, kept alive for thousands of years by the only force that can keep it alive: someone saying it to someone else.",
+      "content_text": "Say \"mother\" and you've used something older than the pyramids — a sound with no surviving original and no master copy anywhere, kept alive for thousands of years by the only force that can keep it alive: someone saying it to someone else.",
+      "date_published": "2026-06-23T09:00:00Z",
+      "image": "https://standingwave.ink/og/the-word-in-your-mouth-is-older-than-writing.png",
+      "authors": [
+        {
+          "name": "Mark"
+        }
+      ]
+    },
+    {
+      "id": "https://standingwave.ink/issues/the-oldest-thing-in-the-kitchen-is-brand-new",
+      "url": "https://standingwave.ink/issues/the-oldest-thing-in-the-kitchen-is-brand-new",
+      "title": "No. 4 · The Oldest Thing in the Kitchen Is Brand New",
+      "summary": "A bakery's sourdough starter dated to 1849 — though nothing in the jar is more than days old — the microbial loop that holds its shape, and why the magic was never San Francisco's.",
+      "content_text": "A bakery's sourdough starter dated to 1849 — though nothing in the jar is more than days old — the microbial loop that holds its shape, and why the magic was never San Francisco's.",
+      "date_published": "2026-06-22T09:00:00Z",
+      "image": "https://standingwave.ink/og/the-oldest-thing-in-the-kitchen-is-brand-new.png",
+      "authors": [
+        {
+          "name": "Mark"
+        }
+      ]
+    },
+    {
+      "id": "https://standingwave.ink/issues/a-world-that-drinks-its-own-rain",
+      "url": "https://standingwave.ink/issues/a-world-that-drinks-its-own-rain",
+      "title": "No. 3 · A World That Drinks Its Own Rain",
+      "summary": "A bottle garden sealed in 1960 and watered just once since, the loops that keep it breathing, and why the whole Earth is the same machine.",
+      "content_text": "A bottle garden sealed in 1960 and watered just once since, the loops that keep it breathing, and why the whole Earth is the same machine.",
+      "date_published": "2026-06-20T09:00:00Z",
+      "image": "https://standingwave.ink/og/a-world-that-drinks-its-own-rain.png",
+      "authors": [
+        {
+          "name": "Mark"
+        }
+      ]
+    },
+    {
+      "id": "https://standingwave.ink/issues/a-wave-you-can-stand-in",
+      "url": "https://standingwave.ink/issues/a-wave-you-can-stand-in",
+      "title": "No. 2 · A Wave You Can Stand In",
+      "summary": "A river wave that hasn't moved in fifty years, the surfers who ride it without going anywhere, and why a standing pattern needs something to push against.",
+      "content_text": "A river wave that hasn't moved in fifty years, the surfers who ride it without going anywhere, and why a standing pattern needs something to push against.",
+      "date_published": "2026-06-17T09:00:00Z",
+      "image": "https://standingwave.ink/og/a-wave-you-can-stand-in.png",
+      "authors": [
+        {
+          "name": "Mark"
+        }
+      ]
+    },
+    {
+      "id": "https://standingwave.ink/issues/the-most-durable-things-are-the-least-solid",
+      "url": "https://standingwave.ink/issues/the-most-durable-things-are-the-least-solid",
+      "title": "No. 1 · The Most Durable Things Are the Least Solid",
+      "summary": "A candle's flame keeps its shape while every particle in it is on the way out. So do you. So does almost everything worth building.",
+      "content_text": "A candle's flame keeps its shape while every particle in it is on the way out. So do you. So does almost everything worth building.",
+      "date_published": "2026-06-16T09:00:00Z",
+      "image": "https://standingwave.ink/og/the-most-durable-things-are-the-least-solid.png",
+      "authors": [
+        {
+          "name": "Mark"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+# The Standing Wave
+
+> A publication about self-sustaining systems — the loops, cycles, and standing patterns that hold their shape while everything inside them flows through and leaves. One issue, one system: a flame, a heartbeat, a coral reef, a spiral galaxy's arms. ~600-900 words per issue, written by Mark, sources verified and cited, no paywall.
+
+## Start here
+
+- [Start here](https://standingwave.ink/start): the premise, plus three issues to read first.
+- [About](https://standingwave.ink/about): editorial standards and how issues get researched and sourced.
+- [All issues](https://standingwave.ink/): the full archive, newest first.
+
+## Issues (oldest to newest)
+
+- [No. 1 · The Most Durable Things Are the Least Solid](https://standingwave.ink/issues/the-most-durable-things-are-the-least-solid): a candle flame: matter flows through continuously, only the shape persists
+- [No. 2 · A Wave You Can Stand In](https://standingwave.ink/issues/a-wave-you-can-stand-in): a standing river wave: a pattern needs something to push against to hold its shape
+- [No. 3 · A World That Drinks Its Own Rain](https://standingwave.ink/issues/a-world-that-drinks-its-own-rain): a sealed bottle garden, decades old: materially closed, energetically open, like Earth itself
+- [No. 4 · The Oldest Thing in the Kitchen Is Brand New](https://standingwave.ink/issues/the-oldest-thing-in-the-kitchen-is-brand-new): a sourdough starter: a standing wave of microbes, kept alive only by feeding
+- [No. 5 · The Word in Your Mouth Is Older Than Writing](https://standingwave.ink/issues/the-word-in-your-mouth-is-older-than-writing): a language: no original copy, held in shape only by continuous use
+- [No. 6 · Nothing Holds the Sun Up](https://standingwave.ink/issues/nothing-holds-the-sun-up): a star: hydrostatic equilibrium, a standing truce between gravity and fusion
+- [No. 7 · A Leak That Keeps Time](https://standingwave.ink/issues/a-leak-that-keeps-time): the heartbeat: the sinoatrial node's self-winding electrical rhythm
+- [No. 8 · Nobody Gives the Signal](https://standingwave.ink/issues/nobody-gives-the-signal): fireflies: spontaneous synchronization with no leader and no signal
+- [No. 9 · A Wave You Sit Inside](https://standingwave.ink/issues/a-wave-you-sit-inside): a phantom traffic jam: a self-sustaining stop-wave that needs no cause
+- [No. 10 · A Storm With No Walls](https://standingwave.ink/issues/a-storm-with-no-walls): Jupiter's Great Red Spot: a centuries-old anticyclone with no surface to slow it down
+- [No. 11 · A Stone That Eats Sunlight](https://standingwave.ink/issues/a-stone-that-eats-sunlight): a coral reef: a living veneer over a mountain of its own cemented dead
+- [No. 12 · The Scaffolding Is the Part of You Most Alive](https://standingwave.ink/issues/the-scaffolding-is-the-part-of-you-most-alive): the human skeleton: continuously dissolved and rebuilt by competing cells
+- [No. 13 · The Slowest Handshake in Biology](https://standingwave.ink/issues/the-slowest-handshake-in-biology): a lichen: a fungus and an alga (sometimes three partners), re-forming their bargain every generation
+- [No. 14 · Not One Drop Remains](https://standingwave.ink/issues/not-one-drop-remains): a stalactite: a stone built entirely from water, none of which is still inside it
+- [No. 15 · A Wave Made of Stars](https://standingwave.ink/issues/a-wave-made-of-stars): a spiral galaxy's arms: a density wave that stars drift through and leave, not a fixed population
+- [No. 16 · A Wall That Won't Hold Still](https://standingwave.ink/issues/a-wall-that-wont-hold-still): a cell membrane: two molecules thick and structurally permanent-feeling, yet built entirely from motion
+- [No. 17 · A Fire That Eats the Sea](https://standingwave.ink/issues/a-fire-that-eats-the-sea): a hurricane: a heat engine with exactly one fuel source, able to collapse within hours of losing it
+- [No. 18 · A Wave You Speak With](https://standingwave.ink/issues/a-wave-you-speak-with): the vocal folds: a myoelastic-aerodynamic flutter, no nerve timing each cycle, just moving air
+- [No. 19 · A Fall That Hasn't Happened Yet](https://standingwave.ink/issues/a-fall-that-hasnt-happened-yet): a spinning top: stability rented continuously from angular momentum, gone the instant the spin runs out
+- [No. 20 · A Fall That Never Reaches the Ground](https://standingwave.ink/issues/a-fall-that-never-reaches-the-ground): a pendulum clock's escapement: a decaying swing paid back one precisely timed tick at a time
+- [No. 21 · The Hole That Never Empties](https://standingwave.ink/issues/the-hole-that-never-empties): a bathtub whirlpool: angular momentum made visible, a hole-shaped habit fed by water that's never the same water twice
+- [No. 22 · A Grip That Has to Keep Letting Go](https://standingwave.ink/issues/a-grip-that-has-to-keep-letting-go): a bowed violin string: a stick-slip cycle repeating hundreds of times a second, first traced by Helmholtz's vibration microscope
+- [No. 23 · Kept by People Who Never Met](https://standingwave.ink/issues/kept-by-people-who-never-met): an eternal flame: not a fire that never goes out, but an unbroken duty roster of people who never let it stay out
+- [No. 24 · A Fact Retold Before It's Forgotten](https://standingwave.ink/issues/a-fact-retold-before-its-forgotten): a DRAM chip: every bit's charge leaks in milliseconds, sensed and rewritten by a controller before anyone would notice
+- [No. 25 · A Clock That Builds Its Own Off-Switch](https://standingwave.ink/issues/a-clock-that-builds-its-own-off-switch): the circadian clock: nearly every cell keeps its own day using a gene loop that builds the exact protein that will shut it off
+- [No. 26 · A Beam That Was Never Aimed at You](https://standingwave.ink/issues/a-beam-that-was-never-aimed-at-you): a pulsar: a dead star's tilted magnetic beam, swept past Earth once per rotation by nothing but momentum
+- [No. 27 · The Forest Held Up by Its Own Collapse](https://standingwave.ink/issues/the-forest-held-up-by-its-own-collapse): an old-growth forest: canopy patches cycling through collapse and regrowth so the landscape looks stable while few of its trees do
+
+## Feeds
+
+- [RSS](https://standingwave.ink/feed.xml)
+- [JSON Feed](https://standingwave.ink/feed.json)
