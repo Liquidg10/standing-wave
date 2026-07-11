@@ -1,0 +1,116 @@
+:root{--paper:#faf6ef;--ink:#23201b;--muted:#6f685c;--rule:#e2d9c9;--accent:#9a3b26;--measure:34rem}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:Georgia,"Iowan Old Style","Palatino Linotype",Palatino,serif;font-size:1.18rem;line-height:1.66;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased}
+.wrap{max-width:var(--measure);margin:0 auto;padding:2.4rem 1.3rem 4rem}
+.tagline{font-size:.8rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:0 0 1.6rem}
+nav.top{font-size:.95rem;margin-bottom:2.6rem;display:flex;gap:1.1rem;flex-wrap:wrap}
+a{color:var(--accent);text-decoration:none;border-bottom:1px solid rgba(154,59,38,.28)}
+a:hover{border-bottom-color:var(--accent)}
+nav.top a{color:var(--muted);border:0}nav.top a:hover{color:var(--ink)}
+.issue-meta{font-size:.82rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:.6rem}
+h1{font-size:2.35rem;line-height:1.12;letter-spacing:-.01em;margin:.2rem 0 1.3rem;font-weight:600}
+h1.site{font-size:2rem;margin:.2rem 0 1.1rem}
+h1.site a{border:0;color:var(--ink)}
+.dek{font-size:1.32rem;line-height:1.5;color:#3a352d;font-style:italic;margin:0 0 2.1rem;padding-bottom:1.6rem;border-bottom:1px solid var(--rule)}
+p{margin:0 0 1.25rem}
+.divider{text-align:center;color:var(--accent);font-size:1.7rem;margin:2.8rem 0 2rem;opacity:.8}
+.watching{background:#f3ecdf;border:1px solid var(--rule);border-radius:10px;padding:1.4rem 1.5rem;margin:0 0 2.6rem}
+.watching h2{font-size:.82rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:0 0 .7rem;font-weight:600}
+.watching p{margin:0;font-size:1.1rem}
+.endnav{display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap;font-size:.92rem;color:var(--muted);margin:2.4rem 0 1.4rem}
+.endnav .count{color:var(--muted)}
+.subscribe{border-top:1px solid var(--rule);padding-top:1.6rem;font-size:1.02rem;color:#3a352d}
+footer{border-top:1px solid var(--rule);margin-top:2.6rem;padding-top:1.4rem;font-size:.85rem;color:var(--muted);line-height:1.6}
+.issue-list{list-style:none;padding:0;margin:2rem 0 0}
+.issue-list li{margin:0 0 2.1rem;padding:0 0 1.9rem;border-bottom:1px solid var(--rule)}
+.issue-list h2{font-size:1.5rem;line-height:1.2;margin:.15rem 0 .5rem;font-weight:600}
+.issue-list h2 a{color:var(--ink);border:0}
+.issue-list h2 a:hover{color:var(--accent)}
+.issue-list .blurb{margin:0;color:#46413a;font-size:1.06rem}
+.intro{font-size:1.12rem;color:#3a352d}
+.starthere{font-size:1rem;color:var(--muted);margin:.3rem 0 0}
+.related{border-top:1px solid var(--rule);margin-top:2.2rem;padding-top:1.3rem}
+.related h2{font-size:.82rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:0 0 .9rem;font-weight:600}
+.related ul{list-style:none;padding:0;margin:0}
+.related li{margin:0 0 .8rem;line-height:1.4}
+.related li a{font-size:1.06rem;border:0;color:var(--ink)}
+.related li a:hover{color:var(--accent)}
+.related .why{display:block;font-size:.92rem;color:var(--muted);border:0}
+/* "Further reading" — a small curated bibliography per issue (see SOURCES in build.py).
+   Added 2026-07-09 (No. 24). Styled like .related (same quiet, uppercase-label
+   convention) but kept OUT of the print stylesheet's hidden-chrome list on purpose —
+   unlike nav/subscribe/related, a source list is real editorial/citation content, the
+   same reasoning that already keeps the "one loop I'm watching" teaser visible on paper. */
+.sources{border-top:1px solid var(--rule);margin-top:1.6rem;padding-top:1.2rem}
+.sources h2{font-size:.82rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:0 0 .8rem;font-weight:600}
+.sources ul{list-style:none;padding:0;margin:0}
+.sources li{margin:0 0 .55rem;line-height:1.4;font-size:.98rem;color:#3a352d}
+.sources li a{color:var(--ink)}
+.sources li a:hover{color:var(--accent)}
+/* Skip-to-content link (keyboard/screen-reader accessibility) — invisible until it
+   receives keyboard focus, at which point it's the very first stop in the tab order
+   on every page, letting a keyboard or screen-reader reader jump straight past the
+   repeated top nav to the actual issue text. Paired with an explicit focus-visible
+   outline below, since the browser default outline can be easy to lose against the
+   paper background. Added 2026-07-06 (No. 19) — the first accessibility-specific
+   growth feature after several rounds of crawler/AI-agent/reader-onboarding work. */
+.skip-link{position:absolute;left:-9999px;top:0;background:var(--accent);color:#fff;
+  padding:.7rem 1.1rem;z-index:100;border-radius:0 0 8px 0;font-size:.95rem;border:0}
+.skip-link:focus{left:0}
+a:focus-visible,.skip-link:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+@media (max-width:480px){body{font-size:1.1rem}h1{font-size:1.95rem}.dek{font-size:1.18rem}}
+/* Keyboard-nav discoverability hint — added 2026-07-07 (No. 21), paired with the
+   inline keydown-listener script in issue_html(). Quiet by design: same muted
+   tone as the byline, not a call-to-action. */
+.kbdhint{color:var(--muted);font-size:.85rem;margin:.35rem 0 1.5rem}
+/* "Share this issue" control — added 2026-07-08 (No. 22). No-JS-safe default is a
+   plain, selectable URL (works via copy-paste with zero JavaScript); progressively
+   enhanced into a real button that calls the native Web Share sheet on devices that
+   support it, or copies the link to the clipboard with a short text confirmation
+   otherwise. First reader-facing feature aimed at lowering the friction of passing a
+   single issue on, distinct from the author-run distribution kits. */
+.share{border-top:1px solid var(--rule);padding-top:1.4rem;margin:0 0 1.6rem;font-size:1rem;color:var(--muted)}
+.share code{font-size:.92rem;word-break:break-all;color:var(--ink)}
+.share-btn{font:inherit;font-size:.98rem;background:var(--accent);color:#fff;border:0;border-radius:7px;padding:.55rem 1.05rem;cursor:pointer}
+.share-btn:hover{opacity:.88}
+.share-btn:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+/* "Read a random issue" — added 2026-07-08 (No. 23), sitewide (issue pages, home,
+   /start). The print stylesheet has hidden a #read-random selector since it was
+   written (No. 20) but nothing ever used that id — this was the 404 page's own
+   "read a random issue" trick (see not_found_html()), rolled out everywhere else
+   too, so the archive gets a genuine shuffle-discovery path beyond the reverse-chron
+   home page and the three curated /start picks. No-JS-safe default points at
+   /start; the inline script (identical pattern to the 404 page's) rewrites it to a
+   real random issue, excluding the issue the reader is already on. */
+.randlink{font-size:1rem;color:var(--muted);margin:.3rem 0 0}
+/* Automatic dark mode, keyed off the reader's OS/browser preference (no toggle,
+   no JS, no stored state — see the paired theme-color <meta> tags in head()).
+   Re-themes the CSS custom properties in :root, then overrides the handful of
+   rules below that predate the variable system and still hardcode a literal
+   hex value instead of var(--ink)/var(--muted). Added 2026-07-05 (No. 17). */
+@media (prefers-color-scheme:dark){
+:root{--paper:#1c1a17;--ink:#e9e2d3;--muted:#a89e8d;--rule:#3a352c;--accent:#e0906f}
+.watching{background:#26221d}
+.dek,.intro,.subscribe,.sources li{color:#d9d0c0}
+.issue-list .blurb{color:#cfc6b4}
+}
+/* Print stylesheet — added 2026-07-07 (No. 20). Reading an issue on paper (or
+   "Print to PDF") had never been considered: without this, a printed page carried
+   full site chrome (nav, subscribe box, related-issues links, footer nav — none of
+   it useful once ink is on paper), plus dark mode's near-black background if the
+   reader's OS was set to dark, which most browsers still try to honor when printing
+   and which wastes toner/ink for no reason. This forces light paper + dark ink
+   regardless of color-scheme preference, drops every purely-navigational element,
+   and leaves only the masthead, title, byline, and the issue's own text — including
+   the "one loop I'm watching" teaser, which is real editorial content, not chrome. */
+@media print{
+  :root{--paper:#fff;--ink:#111;--muted:#444;--rule:#ccc;--accent:#000}
+  .skip-link,nav.top,.subscribe,.related,footer,#read-random,.kbdhint,.share{display:none!important}
+  body{background:#fff;color:#111}
+  a{color:#111;text-decoration:underline}
+  .wrap{max-width:100%;padding:0 .25in}
+  h1,.dek{page-break-after:avoid}
+  .watching{background:#fff;border:1px solid #ccc}
+  body::after{content:"The Standing Wave · standingwave.ink";display:block;
+    text-align:center;margin-top:2rem;font-size:.75rem;color:#666}
+}
