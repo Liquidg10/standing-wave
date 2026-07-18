@@ -20,6 +20,20 @@ p{margin:0 0 1.25rem}
 .endnav{display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap;font-size:.92rem;color:var(--muted);margin:2.4rem 0 1.4rem}
 .endnav .count{color:var(--muted)}
 .subscribe{border-top:1px solid var(--rule);padding-top:1.6rem;font-size:1.02rem;color:#3a352d}
+.subscribe>strong{display:block;color:var(--ink);font-size:1.12rem;margin-bottom:.25rem}
+.subscribe-form{margin:1rem 0 .65rem;padding:1rem;border:1px solid var(--rule);border-radius:10px;background:#f3ecdf}
+.subscribe-row{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:.65rem}
+.subscribe-label{display:block;font-size:.88rem;color:var(--muted);margin:0 0 .35rem}
+.subscribe-form input[type=email]{width:100%;min-width:0;padding:.7rem .8rem;border:1px solid var(--rule);border-radius:7px;background:var(--paper);color:var(--ink);font:inherit;font-size:1rem}
+.subscribe-form input[type=email]:focus{outline:3px solid rgba(154,59,38,.22);border-color:var(--accent)}
+.subscribe-form button{align-self:end;padding:.72rem 1rem;border:0;border-radius:7px;background:var(--accent);color:#fff;font:inherit;font-size:.95rem;font-weight:600;cursor:pointer}
+.subscribe-form button:hover{opacity:.88}.subscribe-form button:disabled{cursor:wait;opacity:.65}
+.subscribe-consent{display:flex;align-items:flex-start;gap:.55rem;margin:.7rem 0 0;color:var(--muted);font-size:.84rem;line-height:1.45}
+.subscribe-consent input{margin-top:.25rem;accent-color:var(--accent)}
+.subscribe-status{min-height:1.35rem;margin:.55rem 0 0;font-size:.86rem;color:var(--muted)}
+.subscribe-status.error{color:var(--accent)}.subscribe-status.success{color:#42704d}
+.subscribe-note{margin:.45rem 0 0;color:var(--muted);font-size:.9rem}
+.subscribe-hp{position:absolute!important;left:-10000px!important;width:1px!important;height:1px!important;overflow:hidden!important}
 footer{border-top:1px solid var(--rule);margin-top:2.6rem;padding-top:1.4rem;font-size:.85rem;color:var(--muted);line-height:1.6}
 .issue-list{list-style:none;padding:0;margin:2rem 0 0}
 .issue-list li{margin:0 0 2.1rem;padding:0 0 1.9rem;border-bottom:1px solid var(--rule)}
@@ -58,7 +72,7 @@ footer{border-top:1px solid var(--rule);margin-top:2.6rem;padding-top:1.4rem;fon
   padding:.7rem 1.1rem;z-index:100;border-radius:0 0 8px 0;font-size:.95rem;border:0}
 .skip-link:focus{left:0}
 a:focus-visible,.skip-link:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
-@media (max-width:480px){body{font-size:1.1rem}h1{font-size:1.95rem}.dek{font-size:1.18rem}}
+@media (max-width:480px){body{font-size:1.1rem}h1{font-size:1.95rem}.dek{font-size:1.18rem}.subscribe-row{grid-template-columns:1fr}.subscribe-form button{width:100%}}
 /* Keyboard-nav discoverability hint — added 2026-07-07 (No. 21), paired with the
    inline keydown-listener script in issue_html(). Quiet by design: same muted
    tone as the byline, not a call-to-action. */
@@ -93,6 +107,7 @@ a:focus-visible,.skip-link:focus-visible{outline:3px solid var(--accent);outline
 .watching{background:#26221d}
 .dek,.intro,.subscribe,.sources li{color:#d9d0c0}
 .issue-list .blurb{color:#cfc6b4}
+.subscribe-form{background:#26221d}.subscribe-status.success{color:#8fcf9c}
 }
 /* Print stylesheet — added 2026-07-07 (No. 20). Reading an issue on paper (or
    "Print to PDF") had never been considered: without this, a printed page carried

@@ -10,6 +10,8 @@ SITE = os.path.join(ROOT, "site")
 SITE_ISSUES = os.path.join(SITE, "issues")
 OG = os.path.join(SITE, "og")
 BASE = "https://standingwave.ink"
+LEAD_ENDPOINT = "https://gdcfvscjmnfkfwsjpaxn.supabase.co/functions/v1/musenexus-lead"
+CONSENT_VERSION = "2026-07-18.1"
 
 for d in (SITE, SITE_ISSUES, OG):
     os.makedirs(d, exist_ok=True)
@@ -302,6 +304,20 @@ p{margin:0 0 1.25rem}
 .endnav{display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap;font-size:.92rem;color:var(--muted);margin:2.4rem 0 1.4rem}
 .endnav .count{color:var(--muted)}
 .subscribe{border-top:1px solid var(--rule);padding-top:1.6rem;font-size:1.02rem;color:#3a352d}
+.subscribe>strong{display:block;color:var(--ink);font-size:1.12rem;margin-bottom:.25rem}
+.subscribe-form{margin:1rem 0 .65rem;padding:1rem;border:1px solid var(--rule);border-radius:10px;background:#f3ecdf}
+.subscribe-row{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:.65rem}
+.subscribe-label{display:block;font-size:.88rem;color:var(--muted);margin:0 0 .35rem}
+.subscribe-form input[type=email]{width:100%;min-width:0;padding:.7rem .8rem;border:1px solid var(--rule);border-radius:7px;background:var(--paper);color:var(--ink);font:inherit;font-size:1rem}
+.subscribe-form input[type=email]:focus{outline:3px solid rgba(154,59,38,.22);border-color:var(--accent)}
+.subscribe-form button{align-self:end;padding:.72rem 1rem;border:0;border-radius:7px;background:var(--accent);color:#fff;font:inherit;font-size:.95rem;font-weight:600;cursor:pointer}
+.subscribe-form button:hover{opacity:.88}.subscribe-form button:disabled{cursor:wait;opacity:.65}
+.subscribe-consent{display:flex;align-items:flex-start;gap:.55rem;margin:.7rem 0 0;color:var(--muted);font-size:.84rem;line-height:1.45}
+.subscribe-consent input{margin-top:.25rem;accent-color:var(--accent)}
+.subscribe-status{min-height:1.35rem;margin:.55rem 0 0;font-size:.86rem;color:var(--muted)}
+.subscribe-status.error{color:var(--accent)}.subscribe-status.success{color:#42704d}
+.subscribe-note{margin:.45rem 0 0;color:var(--muted);font-size:.9rem}
+.subscribe-hp{position:absolute!important;left:-10000px!important;width:1px!important;height:1px!important;overflow:hidden!important}
 footer{border-top:1px solid var(--rule);margin-top:2.6rem;padding-top:1.4rem;font-size:.85rem;color:var(--muted);line-height:1.6}
 .issue-list{list-style:none;padding:0;margin:2rem 0 0}
 .issue-list li{margin:0 0 2.1rem;padding:0 0 1.9rem;border-bottom:1px solid var(--rule)}
@@ -340,7 +356,7 @@ footer{border-top:1px solid var(--rule);margin-top:2.6rem;padding-top:1.4rem;fon
   padding:.7rem 1.1rem;z-index:100;border-radius:0 0 8px 0;font-size:.95rem;border:0}
 .skip-link:focus{left:0}
 a:focus-visible,.skip-link:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
-@media (max-width:480px){body{font-size:1.1rem}h1{font-size:1.95rem}.dek{font-size:1.18rem}}
+@media (max-width:480px){body{font-size:1.1rem}h1{font-size:1.95rem}.dek{font-size:1.18rem}.subscribe-row{grid-template-columns:1fr}.subscribe-form button{width:100%}}
 /* Keyboard-nav discoverability hint — added 2026-07-07 (No. 21), paired with the
    inline keydown-listener script in issue_html(). Quiet by design: same muted
    tone as the byline, not a call-to-action. */
@@ -375,6 +391,7 @@ a:focus-visible,.skip-link:focus-visible{outline:3px solid var(--accent);outline
 .watching{background:#26221d}
 .dek,.intro,.subscribe,.sources li{color:#d9d0c0}
 .issue-list .blurb{color:#cfc6b4}
+.subscribe-form{background:#26221d}.subscribe-status.success{color:#8fcf9c}
 }
 /* Print stylesheet — added 2026-07-07 (No. 20). Reading an issue on paper (or
    "Print to PDF") had never been considered: without this, a printed page carried
@@ -509,6 +526,24 @@ def random_link_html(exclude_slug=None):
               '})();</script>') % data
     return box + "\n" + script
 
+def subscribe_html():
+    """Consent-forward email capture, shared across every reader-facing page."""
+    endpoint = json.dumps(LEAD_ENDPOINT)
+    version = json.dumps(CONSENT_VERSION)
+    return '''<section id="subscribe" class="subscribe">
+<strong>Get each issue.</strong>
+<span>One short email when a new issue is live — no noise.</span>
+<form class="subscribe-form" id="standingwave-subscribe" novalidate>
+  <div class="subscribe-hp" aria-hidden="true"><label for="standingwave-website">Website</label><input id="standingwave-website" name="website" type="text" tabindex="-1" autocomplete="off"></div>
+  <label class="subscribe-label" for="standingwave-email">Email address</label>
+  <div class="subscribe-row"><input id="standingwave-email" name="email" type="email" maxlength="254" autocomplete="email" inputmode="email" placeholder="you@example.com" required><button type="submit">Subscribe</button></div>
+  <label class="subscribe-consent"><input name="consent" type="checkbox" required><span>Email me new issues of The Standing Wave. I can unsubscribe at any time.</span></label>
+  <p class="subscribe-status" role="status" aria-live="polite"></p>
+</form>
+<p class="subscribe-note">Prefer feeds? Follow by <a href="/feed.xml">RSS</a> or <a href="/feed.json">JSON Feed</a>.</p>
+</section>
+<script>(function(){var form=document.getElementById("standingwave-subscribe");if(!form)return;var status=form.querySelector(".subscribe-status"),button=form.querySelector("button[type=submit]");function say(kind,message){status.className="subscribe-status"+(kind?" "+kind:"");status.setAttribute("role",kind==="error"?"alert":"status");status.textContent=message;}form.addEventListener("submit",async function(event){event.preventDefault();if(!form.reportValidity())return;var email=form.elements.email.value.trim(),website=form.elements.website.value;button.disabled=true;button.textContent="Subscribing…";say("","");try{var response=await fetch(%s,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({email:email,intent:"newsletter",site:"standingwave",interest:"updates",consent:true,consent_version:%s,page:window.location.pathname,website:website})});if(!response.ok)throw new Error("subscribe failed");form.reset();say("success","You’re on the list. The next issue will find you.");}catch(error){say("error","That did not land. Please try again in a moment.");}finally{button.disabled=false;button.textContent="Subscribe";}});})();</script>''' % (endpoint, version)
+
 def sources_html(n):
     """'Further reading' — a small, curated public bibliography per issue, drawn from
     SOURCES above. Renders nothing if the issue has no entry (issues 1-3, and any
@@ -616,9 +651,7 @@ def issue_html(it):
               '}).catch(function(){});}'
               '});box.textContent="";box.appendChild(btn);'
               '})();</script>' % (json.dumps(canonical), json.dumps(it["title"] + " — The Standing Wave")))
-    p.append('<p class="subscribe">Get the next issue the moment it’s live — '
-             '<a href="/#subscribe">subscribe by email</a> or '
-             '<a href="/feed.xml">follow by RSS</a>.</p>')
+    p.append(subscribe_html())
     if n != 1:
         p.append('<p class="starthere">New to The Standing Wave? <a href="/start">Start here →</a></p>')
     # Related issues — curated thematic cross-links (internal-linking growth feature).
@@ -671,9 +704,7 @@ def index_html():
         p.append('<p class="blurb">%s</p>' % inline(it["blurb"]))
         p.append("</li>")
     p.append("</ul>")
-    p.append('<section id="subscribe" class="subscribe"><strong>Get each issue.</strong> '
-             'One short email when a new issue is live — no noise, unsubscribe anytime. '
-             'Prefer RSS? Point any reader at <a href="/feed.xml">standingwave.ink/feed.xml</a>.</section>')
+    p.append(subscribe_html())
     p.append(random_link_html())
     p.append('<footer>The Standing Wave · written at <a href="/">standingwave.ink</a> · '
              '<a href="https://musenexus.studio/ecosystem">Muse Nexus ecosystem</a><br>'
@@ -707,9 +738,7 @@ def start_html():
         p.append("</li>")
     p.append("</ul>")
     p.append('<p class="starthere">Or just begin at the beginning — <a href="/issues/%s">Issue No. 1 →</a> — and read forward. Every issue ends by naming the next.</p>' % issues[0]["slug"])
-    p.append('<section id="subscribe" class="subscribe"><strong>Get each issue.</strong> '
-             'One short email when a new issue is live — no noise, unsubscribe anytime. '
-             'Prefer RSS? Point any reader at <a href="/feed.xml">standingwave.ink/feed.xml</a>.</section>')
+    p.append(subscribe_html())
     p.append(random_link_html())
     p.append('<footer>The Standing Wave · <a href="/">standingwave.ink</a><br>'
              'A pattern that shows up when there’s something to burn.</footer>')
@@ -740,12 +769,10 @@ def about_html():
     p.append('<p class="dek">What this is, and how it gets made.</p>')
     p.append('<p class="intro">The Standing Wave is a publication about self-sustaining systems — the loops, cycles, and standing patterns that hold their shape while everything inside them flows through and leaves. One issue, one system: a flame, a heartbeat, a stalactite, a DRAM chip\'s memory. Usually 600 to 900 words, written to be readable in one sitting and to still hold up years later.</p>')
     p.append("<p>Every issue is researched before it's written, not after. Facts get checked against current, credible sources — peer-reviewed papers where they exist, primary sources and major institutions where they don't — and where the evidence is genuinely unsettled (a physics dispute, a contested historical detail, a figure that varies by an order of magnitude depending on who measured it), the piece says so plainly instead of picking the tidier-sounding number. Most issues carry a short “Further reading” list at the bottom linking a few of the actual sources used to write them, drawn from the real research notes kept for each piece rather than added for show.</p>")
-    p.append("<p>New issues run three to four times a week, evergreen rather than tied to the news. There's no paywall, no ads, and nothing on this site tracks you. Read it here, or subscribe by RSS or JSON Feed and get the same words with nothing added.</p>")
+    p.append("<p>New issues run three to four times a week, evergreen rather than tied to the news. There's no paywall, no ads, and nothing on this site tracks you. Read it here, receive each issue by email, or follow by RSS or JSON Feed and get the same words with nothing added.</p>")
     p.append("<p>Byline: Mark.</p>")
     p.append('<p class="starthere">New here? <a href="/start">Start here →</a></p>')
-    p.append('<section id="subscribe" class="subscribe"><strong>Get each issue.</strong> '
-             'One short email when a new issue is live — no noise, unsubscribe anytime. '
-             'Prefer RSS? Point any reader at <a href="/feed.xml">standingwave.ink/feed.xml</a>.</section>')
+    p.append(subscribe_html())
     p.append(random_link_html())
     p.append('<footer>The Standing Wave · <a href="/">standingwave.ink</a><br>'
              'A pattern that shows up when there’s something to burn.</footer>')
@@ -940,6 +967,11 @@ sm.append("</urlset>")
 open(os.path.join(SITE, "sitemap.xml"), "w", encoding="utf-8").write("\n".join(sm))
 
 print("text outputs written:", TOTAL, "issues + index + start + feed(xml+json) + sitemap + robots")
+
+if os.environ.get("STANDING_WAVE_TEXT_ONLY") == "1":
+    print("binary art preserved (STANDING_WAVE_TEXT_ONLY=1)")
+    print("DONE -> site/")
+    sys.exit(0)
 
 # ---------- OG images ----------
 def find_font(names):

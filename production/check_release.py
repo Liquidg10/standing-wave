@@ -27,6 +27,17 @@ for tag in (
 
 assert "twitter:image:alt" in builder, "generator would drop twitter:image:alt"
 
+assert html.count('id="standingwave-subscribe"') == 1, "homepage email form missing or duplicated"
+for contract in (
+    'intent:"newsletter"',
+    'site:"standingwave"',
+    'interest:"updates"',
+    'consent_version:',
+    'name="consent"',
+    'name="website"',
+):
+    assert contract in html, f"homepage email contract missing: {contract}"
+
 png = OG_IMAGE.read_bytes()
 assert png[:8] == b"\x89PNG\r\n\x1a\n", "standingwave.png is not a PNG"
 width, height = unpack(">II", png[16:24])
@@ -40,4 +51,10 @@ assert len(issue_sources) == len(issue_pages) == 27, (
     len(issue_pages),
 )
 
-print("Standing Wave production artifact: PASS (27 issues, exact OG art, complete metadata)")
+for page in issue_pages:
+    issue_html = page.read_text(encoding="utf-8")
+    assert issue_html.count('id="standingwave-subscribe"') == 1, (
+        f"issue email form missing or duplicated: {page.name}"
+    )
+
+print("Standing Wave production artifact: PASS (27 issues, email capture, exact OG art, complete metadata)")
