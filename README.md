@@ -23,6 +23,14 @@ produce different PNG bytes on another machine. When editorial work requires a
 rebuild, inspect any `production/site/og/` diff and commit artwork changes only
 when they are intentional.
 
+For text or interface-only changes, preserve the committed art while rebuilding
+all HTML and feeds:
+
+```sh
+STANDING_WAVE_TEXT_ONLY=1 python3 production/build.py
+python3 production/check_release.py
+```
+
 The static files at the repository root are the original two-issue Vercel
 snapshot retained for history. They are not the source or deploy artifact for
 the current publication.
