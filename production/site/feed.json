@@ -5,12 +5,308 @@
   "feed_url": "https://standingwave.ink/feed.json",
   "description": "Field notes on things that run themselves.",
   "language": "en-US",
+  "icon": "https://standingwave.ink/icon-512.png",
+  "favicon": "https://standingwave.ink/favicon.png",
   "authors": [
     {
       "name": "Mark"
     }
   ],
   "items": [
+    {
+      "id": "https://standingwave.ink/issues/the-half-that-wasnt-listening",
+      "url": "https://standingwave.ink/issues/the-half-that-wasnt-listening",
+      "title": "No. 41 · The Half That Wasn't Listening",
+      "summary": "A greylag goose retrieving a displaced egg looks like one smooth motion. Lift the egg away mid-retrieval and the goose keeps going anyway, cradling nothing — the textbook proof of instinct running blind. But Lorenz and Tinbergen's actual 1938 finding was stranger and more precise than that: the motion is two movements fused together, one ballistic and deaf to feedback, the other continuously steered by the real egg's actual position. Only one half stops when the egg disappears. The other half was never listening in the first place.",
+      "content_text": "A greylag goose retrieving a displaced egg looks like one smooth motion. Lift the egg away mid-retrieval and the goose keeps going anyway, cradling nothing — the textbook proof of instinct running blind. But Lorenz and Tinbergen's actual 1938 finding was stranger and more precise than that: the motion is two movements fused together, one ballistic and deaf to feedback, the other continuously steered by the real egg's actual position. Only one half stops when the egg disappears. The other half was never listening in the first place.",
+      "date_published": "2026-07-18T20:00:00Z",
+      "image": "https://standingwave.ink/og/the-half-that-wasnt-listening.png",
+      "authors": [
+        {
+          "name": "Mark"
+        }
+      ],
+      "tags": [
+        "fixed action pattern",
+        "ethology",
+        "Konrad Lorenz",
+        "Niko Tinbergen",
+        "instinct"
+      ]
+    },
+    {
+      "id": "https://standingwave.ink/issues/a-room-finds-its-own-voice",
+      "url": "https://standingwave.ink/issues/a-room-finds-its-own-voice",
+      "title": "No. 40 · A Room Finds Its Own Voice",
+      "summary": "Every performer knows the half-second before it happens: a rising pitch out of nowhere, swelling into a squeal loud enough to make a whole room wince. Nothing broke — the same microphone, amplifier, and speakers that just carried a voice cleanly found an easier job and started doing that instead. It's a real closed loop crossing a real threshold, the same rule (the Barkhausen criterion) used to design every electronic oscillator built on purpose, and which exact note wins depends on peaks stacked from the microphone, the speakers, and the room's own hidden resonances — the same physics that flatters your voice in the shower. Named for a Danish physicist who wrote it down in 1911, decades before anyone had a PA system to lose control of.",
+      "content_text": "Every performer knows the half-second before it happens: a rising pitch out of nowhere, swelling into a squeal loud enough to make a whole room wince. Nothing broke — the same microphone, amplifier, and speakers that just carried a voice cleanly found an easier job and started doing that instead. It's a real closed loop crossing a real threshold, the same rule (the Barkhausen criterion) used to design every electronic oscillator built on purpose, and which exact note wins depends on peaks stacked from the microphone, the speakers, and the room's own hidden resonances — the same physics that flatters your voice in the shower. Named for a Danish physicist who wrote it down in 1911, decades before anyone had a PA system to lose control of.",
+      "date_published": "2026-07-17T23:00:00Z",
+      "image": "https://standingwave.ink/og/a-room-finds-its-own-voice.png",
+      "authors": [
+        {
+          "name": "Mark"
+        }
+      ],
+      "tags": [
+        "audio feedback",
+        "Larsen effect",
+        "acoustic resonance",
+        "loop gain",
+        "Barkhausen criterion"
+      ]
+    },
+    {
+      "id": "https://standingwave.ink/issues/a-web-built-from-what-it-just-ate",
+      "url": "https://standingwave.ink/issues/a-web-built-from-what-it-just-ate",
+      "title": "No. 39 · A Web Built From What It Just Ate",
+      "summary": "Most nights, an orb-weaving spider tears down the entire web she built the evening before, eats every strand of it, and spins a completely new one by morning — in close to the same size and shape as the one she just consumed, using silk that twelve hours earlier was a different web entirely. A classic radioactive-tracer experiment proved the protein really does move from old web to new. Even doped with LSD in a famous set of 1948 experiments, spiders kept running the same basic build sequence — evidence for how deep the program runs, and how much room it still leaves for reading the site.",
+      "content_text": "Most nights, an orb-weaving spider tears down the entire web she built the evening before, eats every strand of it, and spins a completely new one by morning — in close to the same size and shape as the one she just consumed, using silk that twelve hours earlier was a different web entirely. A classic radioactive-tracer experiment proved the protein really does move from old web to new. Even doped with LSD in a famous set of 1948 experiments, spiders kept running the same basic build sequence — evidence for how deep the program runs, and how much room it still leaves for reading the site.",
+      "date_published": "2026-07-17T19:00:00Z",
+      "image": "https://standingwave.ink/og/a-web-built-from-what-it-just-ate.png",
+      "authors": [
+        {
+          "name": "Mark"
+        }
+      ],
+      "tags": [
+        "orb-weaver spiders",
+        "silk protein recycling",
+        "web-building instinct",
+        "fixed action pattern",
+        "Araneus diadematus"
+      ]
+    },
+    {
+      "id": "https://standingwave.ink/issues/a-shape-with-no-address",
+      "url": "https://standingwave.ink/issues/a-shape-with-no-address",
+      "title": "No. 38 · A Shape With No Address",
+      "summary": "A rainbow has no fixed place in the sky and no material substance of its own — it's remade continuously out of whichever raindrops happen to sit at exactly the right angle between the sun, the falling rain, and one particular pair of eyes. Move a few feet, or just swap eyes, and the raindrops doing the work change completely: no two people, and not even your own two eyes, technically see the same rainbow. The real geometry behind the oldest chase in folklore — plus an ancient dark band hiding in plain sight between a rainbow and its fainter twin.",
+      "content_text": "A rainbow has no fixed place in the sky and no material substance of its own — it's remade continuously out of whichever raindrops happen to sit at exactly the right angle between the sun, the falling rain, and one particular pair of eyes. Move a few feet, or just swap eyes, and the raindrops doing the work change completely: no two people, and not even your own two eyes, technically see the same rainbow. The real geometry behind the oldest chase in folklore — plus an ancient dark band hiding in plain sight between a rainbow and its fainter twin.",
+      "date_published": "2026-07-16T23:30:00Z",
+      "image": "https://standingwave.ink/og/a-shape-with-no-address.png",
+      "authors": [
+        {
+          "name": "Mark"
+        }
+      ],
+      "tags": [
+        "rainbow optics",
+        "antisolar point",
+        "light dispersion",
+        "atmospheric optics",
+        "history of optics"
+      ]
+    },
+    {
+      "id": "https://standingwave.ink/issues/a-thread-of-water-that-isnt-allowed-to-snap",
+      "url": "https://standingwave.ink/issues/a-thread-of-water-that-isnt-allowed-to-snap",
+      "title": "No. 37 · A Thread of Water That Isn't Allowed to Snap",
+      "summary": "No pump, valve, or muscle exists anywhere inside a tree, yet water reaches the top of a two-hundred-foot redwood every day of its life. The explanation, proposed in 1894 and still standing, is almost unbelievable: the water is pulled from above by evaporation, through one unbroken thread of liquid held together by nothing but its own molecular grip, under more tension than a steel cable — and one stray air bubble away from snapping the whole column.",
+      "content_text": "No pump, valve, or muscle exists anywhere inside a tree, yet water reaches the top of a two-hundred-foot redwood every day of its life. The explanation, proposed in 1894 and still standing, is almost unbelievable: the water is pulled from above by evaporation, through one unbroken thread of liquid held together by nothing but its own molecular grip, under more tension than a steel cable — and one stray air bubble away from snapping the whole column.",
+      "date_published": "2026-07-16T22:00:00Z",
+      "image": "https://standingwave.ink/og/a-thread-of-water-that-isnt-allowed-to-snap.png",
+      "authors": [
+        {
+          "name": "Mark"
+        }
+      ],
+      "tags": [
+        "cohesion-tension theory",
+        "xylem transport",
+        "transpiration pull",
+        "plant water relations",
+        "tree height limits"
+      ]
+    },
+    {
+      "id": "https://standingwave.ink/issues/a-charge-held-up-by-its-own-spending",
+      "url": "https://standingwave.ink/issues/a-charge-held-up-by-its-own-spending",
+      "title": "No. 36 · A Charge Held Up by Its Own Spending",
+      "summary": "In 1961 a British biochemist published four pages in Nature proposing something most of his colleagues found faintly absurd — that a cell stores its working energy not in a special chemical bond, as every textbook of the time insisted, but as a voltage, pumped across a membrane a few molecules thick. The response was closer to ridicule than rebuttal. It took a dark-room experiment and most of a decade to make him right.",
+      "content_text": "In 1961 a British biochemist published four pages in Nature proposing something most of his colleagues found faintly absurd — that a cell stores its working energy not in a special chemical bond, as every textbook of the time insisted, but as a voltage, pumped across a membrane a few molecules thick. The response was closer to ridicule than rebuttal. It took a dark-room experiment and most of a decade to make him right.",
+      "date_published": "2026-07-15T23:50:00Z",
+      "image": "https://standingwave.ink/og/a-charge-held-up-by-its-own-spending.png",
+      "authors": [
+        {
+          "name": "Mark"
+        }
+      ],
+      "tags": [
+        "chemiosmosis",
+        "proton motive force",
+        "ATP synthase",
+        "electron transport chain",
+        "Peter Mitchell"
+      ]
+    },
+    {
+      "id": "https://standingwave.ink/issues/the-solution-that-cant-decide",
+      "url": "https://standingwave.ink/issues/the-solution-that-cant-decide",
+      "title": "No. 35 · The Solution That Can't Decide",
+      "summary": "In 1951 a Soviet chemist watched a clear beaker of liquid turn yellow, then clear, then yellow again, with nothing added and nothing removed, for the better part of an hour. A journal rejected his paper on the spot: a chemical reaction, the reviewers held, simply could not behave that way. They weren't unreasonable. They just hadn't met a system where two reactions take turns being right, and neither one is ever allowed to keep the win.",
+      "content_text": "In 1951 a Soviet chemist watched a clear beaker of liquid turn yellow, then clear, then yellow again, with nothing added and nothing removed, for the better part of an hour. A journal rejected his paper on the spot: a chemical reaction, the reviewers held, simply could not behave that way. They weren't unreasonable. They just hadn't met a system where two reactions take turns being right, and neither one is ever allowed to keep the win.",
+      "date_published": "2026-07-15T22:15:00Z",
+      "image": "https://standingwave.ink/og/the-solution-that-cant-decide.png",
+      "authors": [
+        {
+          "name": "Mark"
+        }
+      ],
+      "tags": [
+        "Belousov-Zhabotinsky reaction",
+        "chemical oscillator",
+        "FKN mechanism",
+        "dissipative structures",
+        "excitable media"
+      ]
+    },
+    {
+      "id": "https://standingwave.ink/issues/the-bandage-that-digests-itself",
+      "url": "https://standingwave.ink/issues/the-bandage-that-digests-itself",
+      "title": "No. 34 · The Bandage That Digests Itself",
+      "summary": "A scab looks like the most static thing on your body — a hard little lid clamped over a scrape until the skin underneath grows back. It is very nearly the opposite: from the first minute, a clot is two opposed systems running at once, one laying down a mesh to seal the wound and the other already dissolving that same mesh — and the machinery that will take the clot apart is woven into it before the bleeding even stops.",
+      "content_text": "A scab looks like the most static thing on your body — a hard little lid clamped over a scrape until the skin underneath grows back. It is very nearly the opposite: from the first minute, a clot is two opposed systems running at once, one laying down a mesh to seal the wound and the other already dissolving that same mesh — and the machinery that will take the clot apart is woven into it before the bleeding even stops.",
+      "date_published": "2026-07-14T23:45:00Z",
+      "image": "https://standingwave.ink/og/the-bandage-that-digests-itself.png",
+      "authors": [
+        {
+          "name": "Mark"
+        }
+      ],
+      "tags": [
+        "blood coagulation",
+        "fibrinolysis",
+        "cell-based coagulation model",
+        "thrombin and plasmin",
+        "hemostasis"
+      ]
+    },
+    {
+      "id": "https://standingwave.ink/issues/the-wind-that-wont-go-in-circles",
+      "url": "https://standingwave.ink/issues/the-wind-that-wont-go-in-circles",
+      "title": "No. 33 · The Wind That Won't Go in Circles",
+      "summary": "Every rotating fluid this series has met eventually rounds off its corners — a hurricane's eye, Jupiter's Great Red Spot, water spinning down a drain. At Saturn's north pole, a jet stream roughly 20,000 miles around has held six straight sides through more than forty years of spacecraft photographs, and scientists still argue about why a planet with no coastline or mountain range would ever bother drawing a hexagon.",
+      "content_text": "Every rotating fluid this series has met eventually rounds off its corners — a hurricane's eye, Jupiter's Great Red Spot, water spinning down a drain. At Saturn's north pole, a jet stream roughly 20,000 miles around has held six straight sides through more than forty years of spacecraft photographs, and scientists still argue about why a planet with no coastline or mountain range would ever bother drawing a hexagon.",
+      "date_published": "2026-07-14T22:00:00Z",
+      "image": "https://standingwave.ink/og/the-wind-that-wont-go-in-circles.png",
+      "authors": [
+        {
+          "name": "Mark"
+        }
+      ],
+      "tags": [
+        "Saturn's hexagon",
+        "Rossby wave",
+        "planetary jet streams",
+        "Cassini mission",
+        "atmospheric dynamics"
+      ]
+    },
+    {
+      "id": "https://standingwave.ink/issues/a-clock-that-keeps-time-by-erupting",
+      "url": "https://standingwave.ink/issues/a-clock-that-keeps-time-by-erupting",
+      "title": "No. 32 · A Clock That Keeps Time by Erupting",
+      "summary": "Forty-five feet beneath the boardwalk at Old Faithful, a throat of rock barely four inches wide is doing arithmetic with heat and its own weight. Water trapped there stays liquid past 400°F under sheer pressure, until steam bubbles finally force their way through and the whole column flashes and erupts. The wait between eruptions is even predictable, mostly — except three earthquakes since 1959 have permanently reset the rhythm anyway, and a geothermal plant in New Zealand once erased seventy geysers for good.",
+      "content_text": "Forty-five feet beneath the boardwalk at Old Faithful, a throat of rock barely four inches wide is doing arithmetic with heat and its own weight. Water trapped there stays liquid past 400°F under sheer pressure, until steam bubbles finally force their way through and the whole column flashes and erupts. The wait between eruptions is even predictable, mostly — except three earthquakes since 1959 have permanently reset the rhythm anyway, and a geothermal plant in New Zealand once erased seventy geysers for good.",
+      "date_published": "2026-07-14T11:30:00Z",
+      "image": "https://standingwave.ink/og/a-clock-that-keeps-time-by-erupting.png",
+      "authors": [
+        {
+          "name": "Mark"
+        }
+      ],
+      "tags": [
+        "geyser eruption mechanics",
+        "Old Faithful",
+        "hydrothermal systems",
+        "Yellowstone geology",
+        "eruption interval prediction"
+      ]
+    },
+    {
+      "id": "https://standingwave.ink/issues/the-rain-that-floats-on-the-sea",
+      "url": "https://standingwave.ink/issues/the-rain-that-floats-on-the-sea",
+      "title": "No. 31 · The Rain That Floats on the Sea",
+      "summary": "Dig a couple of feet into the sand of a low coral island and you strike fresh water — resting directly on seawater, with no wall between them. It floats there like an iceberg, most of it hanging deep below the level of the sea itself, and it keeps its shape only because the rain refills it as fast as it drains away. Pump a little too hard and the ocean rises quietly into your well.",
+      "content_text": "Dig a couple of feet into the sand of a low coral island and you strike fresh water — resting directly on seawater, with no wall between them. It floats there like an iceberg, most of it hanging deep below the level of the sea itself, and it keeps its shape only because the rain refills it as fast as it drains away. Pump a little too hard and the ocean rises quietly into your well.",
+      "date_published": "2026-07-13T22:30:00Z",
+      "image": "https://standingwave.ink/og/the-rain-that-floats-on-the-sea.png",
+      "authors": [
+        {
+          "name": "Mark"
+        }
+      ],
+      "tags": [
+        "freshwater lens",
+        "Ghyben-Herzberg relation",
+        "atoll hydrology",
+        "saltwater intrusion",
+        "groundwater recharge"
+      ]
+    },
+    {
+      "id": "https://standingwave.ink/issues/the-one-note-a-continent-cant-stop-holding",
+      "url": "https://standingwave.ink/issues/the-one-note-a-continent-cant-stop-holding",
+      "title": "No. 30 · The One Note a Continent Can't Stop Holding",
+      "summary": "Somewhere near you a transformer is humming, and that single note — fifty or sixty cycles a second — is one the whole grid holds at once. There is almost no electricity stored anywhere in it; the lights stay on only because supply is matched to demand every instant, everywhere. Let the pitch sag, and a continent can go dark in seconds.",
+      "content_text": "Somewhere near you a transformer is humming, and that single note — fifty or sixty cycles a second — is one the whole grid holds at once. There is almost no electricity stored anywhere in it; the lights stay on only because supply is matched to demand every instant, everywhere. Let the pitch sag, and a continent can go dark in seconds.",
+      "date_published": "2026-07-13T21:30:00Z",
+      "image": "https://standingwave.ink/og/the-one-note-a-continent-cant-stop-holding.png",
+      "authors": [
+        {
+          "name": "Mark"
+        }
+      ],
+      "tags": [
+        "grid frequency",
+        "power system inertia",
+        "load-frequency control",
+        "black start",
+        "under-frequency load shedding"
+      ]
+    },
+    {
+      "id": "https://standingwave.ink/issues/the-shield-that-works-by-falling-apart",
+      "url": "https://standingwave.ink/issues/the-shield-that-works-by-falling-apart",
+      "title": "No. 29 · The Shield That Works by Falling Apart",
+      "summary": "Ten to twenty miles up, a thin layer of gas absorbs the ultraviolet light that would otherwise sterilize the ground. It does this by being torn apart. Every photon it stops shatters one of its own molecules — and the layer holds only because the same sunlight rebuilds them just as fast as it breaks them.",
+      "content_text": "Ten to twenty miles up, a thin layer of gas absorbs the ultraviolet light that would otherwise sterilize the ground. It does this by being torn apart. Every photon it stops shatters one of its own molecules — and the layer holds only because the same sunlight rebuilds them just as fast as it breaks them.",
+      "date_published": "2026-07-13T20:00:00Z",
+      "image": "https://standingwave.ink/og/the-shield-that-works-by-falling-apart.png",
+      "authors": [
+        {
+          "name": "Mark"
+        }
+      ],
+      "tags": [
+        "ozone layer",
+        "Chapman cycle",
+        "stratospheric ozone",
+        "Montreal Protocol",
+        "ozone depletion"
+      ]
+    },
+    {
+      "id": "https://standingwave.ink/issues/a-hill-made-of-salt-that-never-stops-moving",
+      "url": "https://standingwave.ink/issues/a-hill-made-of-salt-that-never-stops-moving",
+      "title": "No. 28 · A Hill Made of Salt That Never Stops Moving",
+      "summary": "Deep in each of your kidneys there is a hill of salt — a gradient that near its base runs about four times as concentrated as your own blood. And not one particle of salt in it is allowed to sit still. They are filtered in, pumped sideways, handed off, and carried away, continuously, for as long as you live.",
+      "content_text": "Deep in each of your kidneys there is a hill of salt — a gradient that near its base runs about four times as concentrated as your own blood. And not one particle of salt in it is allowed to sit still. They are filtered in, pumped sideways, handed off, and carried away, continuously, for as long as you live.",
+      "date_published": "2026-07-11T20:00:00Z",
+      "image": "https://standingwave.ink/og/a-hill-made-of-salt-that-never-stops-moving.png",
+      "authors": [
+        {
+          "name": "Mark"
+        }
+      ],
+      "tags": [
+        "countercurrent multiplier",
+        "loop of Henle",
+        "renal medulla",
+        "kidney physiology",
+        "osmotic gradient"
+      ]
+    },
     {
       "id": "https://standingwave.ink/issues/the-forest-held-up-by-its-own-collapse",
       "url": "https://standingwave.ink/issues/the-forest-held-up-by-its-own-collapse",
@@ -23,6 +319,13 @@
         {
           "name": "Mark"
         }
+      ],
+      "tags": [
+        "old-growth forest",
+        "canopy gap dynamics",
+        "shifting-mosaic steady state",
+        "forest ecology",
+        "gap-phase regeneration"
       ]
     },
     {
@@ -37,6 +340,13 @@
         {
           "name": "Mark"
         }
+      ],
+      "tags": [
+        "pulsar",
+        "neutron star",
+        "Jocelyn Bell Burnell",
+        "pulsar timing array",
+        "gravitational waves"
       ]
     },
     {
@@ -51,6 +361,12 @@
         {
           "name": "Mark"
         }
+      ],
+      "tags": [
+        "circadian rhythm",
+        "transcription-translation feedback loop",
+        "molecular clock",
+        "chronobiology"
       ]
     },
     {
@@ -65,6 +381,12 @@
         {
           "name": "Mark"
         }
+      ],
+      "tags": [
+        "DRAM memory refresh",
+        "computer memory",
+        "capacitor charge leakage",
+        "computer architecture"
       ]
     },
     {
@@ -79,6 +401,12 @@
         {
           "name": "Mark"
         }
+      ],
+      "tags": [
+        "eternal flame",
+        "Vestal Virgins",
+        "institutional continuity",
+        "ritual maintenance"
       ]
     },
     {
@@ -93,6 +421,12 @@
         {
           "name": "Mark"
         }
+      ],
+      "tags": [
+        "bowed string physics",
+        "Helmholtz motion",
+        "stick-slip friction",
+        "violin acoustics"
       ]
     },
     {
@@ -107,6 +441,12 @@
         {
           "name": "Mark"
         }
+      ],
+      "tags": [
+        "bathtub vortex",
+        "whirlpool physics",
+        "angular momentum conservation",
+        "fluid dynamics"
       ]
     },
     {
@@ -121,6 +461,12 @@
         {
           "name": "Mark"
         }
+      ],
+      "tags": [
+        "pendulum clock",
+        "anchor escapement",
+        "horology",
+        "mechanical timekeeping"
       ]
     },
     {
@@ -135,6 +481,12 @@
         {
           "name": "Mark"
         }
+      ],
+      "tags": [
+        "gyroscopic precession",
+        "spinning top physics",
+        "angular momentum",
+        "classical mechanics"
       ]
     },
     {
@@ -149,6 +501,12 @@
         {
           "name": "Mark"
         }
+      ],
+      "tags": [
+        "vocal folds",
+        "phonation physics",
+        "myoelastic-aerodynamic theory",
+        "voice production"
       ]
     },
     {
@@ -163,6 +521,12 @@
         {
           "name": "Mark"
         }
+      ],
+      "tags": [
+        "hurricane structure",
+        "tropical cyclone heat engine",
+        "warm core",
+        "atmospheric science"
       ]
     },
     {
@@ -177,6 +541,12 @@
         {
           "name": "Mark"
         }
+      ],
+      "tags": [
+        "cell membrane",
+        "lipid bilayer",
+        "fluid mosaic model",
+        "cell biology"
       ]
     },
     {
@@ -191,6 +561,12 @@
         {
           "name": "Mark"
         }
+      ],
+      "tags": [
+        "spiral galaxy arms",
+        "density wave theory",
+        "galactic dynamics",
+        "astrophysics"
       ]
     },
     {
@@ -205,6 +581,12 @@
         {
           "name": "Mark"
         }
+      ],
+      "tags": [
+        "stalactite formation",
+        "karst geology",
+        "cave dripstone",
+        "calcite precipitation"
       ]
     },
     {
@@ -219,6 +601,12 @@
         {
           "name": "Mark"
         }
+      ],
+      "tags": [
+        "lichen symbiosis",
+        "fungus and alga partnership",
+        "lichenometry",
+        "extremophile biology"
       ]
     },
     {
@@ -233,6 +621,12 @@
         {
           "name": "Mark"
         }
+      ],
+      "tags": [
+        "bone remodeling",
+        "osteoclasts and osteoblasts",
+        "skeletal biology",
+        "human physiology"
       ]
     },
     {
@@ -247,6 +641,12 @@
         {
           "name": "Mark"
         }
+      ],
+      "tags": [
+        "coral reef",
+        "zooxanthellae symbiosis",
+        "calcium carbonate",
+        "coral bleaching"
       ]
     },
     {
@@ -261,6 +661,12 @@
         {
           "name": "Mark"
         }
+      ],
+      "tags": [
+        "Great Red Spot",
+        "Jupiter",
+        "anticyclone",
+        "planetary atmospheres"
       ]
     },
     {
@@ -275,6 +681,12 @@
         {
           "name": "Mark"
         }
+      ],
+      "tags": [
+        "phantom traffic jam",
+        "traffic flow physics",
+        "stop-and-go waves",
+        "emergent patterns"
       ]
     },
     {
@@ -289,6 +701,12 @@
         {
           "name": "Mark"
         }
+      ],
+      "tags": [
+        "firefly synchronization",
+        "coupled oscillators",
+        "Kuramoto model",
+        "emergent behavior"
       ]
     },
     {
@@ -303,6 +721,12 @@
         {
           "name": "Mark"
         }
+      ],
+      "tags": [
+        "sinoatrial node",
+        "cardiac pacemaker cells",
+        "heartbeat",
+        "cardiac electrophysiology"
       ]
     },
     {
@@ -317,6 +741,12 @@
         {
           "name": "Mark"
         }
+      ],
+      "tags": [
+        "hydrostatic equilibrium",
+        "stellar physics",
+        "nuclear fusion",
+        "stars"
       ]
     },
     {
@@ -331,6 +761,12 @@
         {
           "name": "Mark"
         }
+      ],
+      "tags": [
+        "language change",
+        "historical linguistics",
+        "oral tradition",
+        "Proto-Indo-European"
       ]
     },
     {
@@ -345,6 +781,12 @@
         {
           "name": "Mark"
         }
+      ],
+      "tags": [
+        "sourdough starter",
+        "wild yeast fermentation",
+        "microbial ecology",
+        "lactobacillus"
       ]
     },
     {
@@ -359,6 +801,12 @@
         {
           "name": "Mark"
         }
+      ],
+      "tags": [
+        "closed ecosystem",
+        "terrarium",
+        "biosphere",
+        "carbon and water cycles"
       ]
     },
     {
@@ -373,6 +821,12 @@
         {
           "name": "Mark"
         }
+      ],
+      "tags": [
+        "standing wave",
+        "hydraulic jump",
+        "river surfing",
+        "fluid dynamics"
       ]
     },
     {
@@ -387,6 +841,12 @@
         {
           "name": "Mark"
         }
+      ],
+      "tags": [
+        "candle flame",
+        "combustion",
+        "self-sustaining systems",
+        "matter and energy flow"
       ]
     }
   ]

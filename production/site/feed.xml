@@ -6,13 +6,208 @@
     <atom:link href="https://standingwave.ink/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Field notes on things that run themselves.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 10 Jul 2026 20:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://standingwave.ink/favicon.png</url>
+      <title>The Standing Wave</title>
+      <link>https://standingwave.ink/</link>
+      <width>48</width>
+      <height>48</height>
+    </image>
+    <lastBuildDate>Sat, 18 Jul 2026 20:00:00 +0000</lastBuildDate>
+    <item>
+      <title>No. 41 · The Half That Wasn&#x27;t Listening</title>
+      <link>https://standingwave.ink/issues/the-half-that-wasnt-listening</link>
+      <guid isPermaLink="true">https://standingwave.ink/issues/the-half-that-wasnt-listening</guid>
+      <pubDate>Sat, 18 Jul 2026 20:00:00 +0000</pubDate>
+      <description>A greylag goose retrieving a displaced egg looks like one smooth motion. Lift the egg away mid-retrieval and the goose keeps going anyway, cradling nothing — the textbook proof of instinct running blind. But Lorenz and Tinbergen’s actual 1938 finding was stranger and more precise than that: the motion is two movements fused together, one ballistic and deaf to feedback, the other continuously steered by the real egg’s actual position. Only one half stops when the egg disappears. The other half was never listening in the first place.</description>
+      <enclosure url="https://standingwave.ink/og/the-half-that-wasnt-listening.png" length="28768" type="image/png"/>
+      <category>fixed action pattern</category>
+      <category>ethology</category>
+      <category>Konrad Lorenz</category>
+      <category>Niko Tinbergen</category>
+      <category>instinct</category>
+    </item>
+    <item>
+      <title>No. 40 · A Room Finds Its Own Voice</title>
+      <link>https://standingwave.ink/issues/a-room-finds-its-own-voice</link>
+      <guid isPermaLink="true">https://standingwave.ink/issues/a-room-finds-its-own-voice</guid>
+      <pubDate>Fri, 17 Jul 2026 23:00:00 +0000</pubDate>
+      <description>Every performer knows the half-second before it happens: a rising pitch out of nowhere, swelling into a squeal loud enough to make a whole room wince. Nothing broke — the same microphone, amplifier, and speakers that just carried a voice cleanly found an easier job and started doing that instead. It’s a real closed loop crossing a real threshold, the same rule (the Barkhausen criterion) used to design every electronic oscillator built on purpose, and which exact note wins depends on peaks stacked from the microphone, the speakers, and the room’s own hidden resonances — the same physics that flatters your voice in the shower. Named for a Danish physicist who wrote it down in 1911, decades before anyone had a PA system to lose control of.</description>
+      <enclosure url="https://standingwave.ink/og/a-room-finds-its-own-voice.png" length="32847" type="image/png"/>
+      <category>audio feedback</category>
+      <category>Larsen effect</category>
+      <category>acoustic resonance</category>
+      <category>loop gain</category>
+      <category>Barkhausen criterion</category>
+    </item>
+    <item>
+      <title>No. 39 · A Web Built From What It Just Ate</title>
+      <link>https://standingwave.ink/issues/a-web-built-from-what-it-just-ate</link>
+      <guid isPermaLink="true">https://standingwave.ink/issues/a-web-built-from-what-it-just-ate</guid>
+      <pubDate>Fri, 17 Jul 2026 19:00:00 +0000</pubDate>
+      <description>Most nights, an orb-weaving spider tears down the entire web she built the evening before, eats every strand of it, and spins a completely new one by morning — in close to the same size and shape as the one she just consumed, using silk that twelve hours earlier was a different web entirely. A classic radioactive-tracer experiment proved the protein really does move from old web to new. Even doped with LSD in a famous set of 1948 experiments, spiders kept running the same basic build sequence — evidence for how deep the program runs, and how much room it still leaves for reading the site.</description>
+      <enclosure url="https://standingwave.ink/og/a-web-built-from-what-it-just-ate.png" length="34078" type="image/png"/>
+      <category>orb-weaver spiders</category>
+      <category>silk protein recycling</category>
+      <category>web-building instinct</category>
+      <category>fixed action pattern</category>
+      <category>Araneus diadematus</category>
+    </item>
+    <item>
+      <title>No. 38 · A Shape With No Address</title>
+      <link>https://standingwave.ink/issues/a-shape-with-no-address</link>
+      <guid isPermaLink="true">https://standingwave.ink/issues/a-shape-with-no-address</guid>
+      <pubDate>Thu, 16 Jul 2026 23:30:00 +0000</pubDate>
+      <description>A rainbow has no fixed place in the sky and no material substance of its own — it’s remade continuously out of whichever raindrops happen to sit at exactly the right angle between the sun, the falling rain, and one particular pair of eyes. Move a few feet, or just swap eyes, and the raindrops doing the work change completely: no two people, and not even your own two eyes, technically see the same rainbow. The real geometry behind the oldest chase in folklore — plus an ancient dark band hiding in plain sight between a rainbow and its fainter twin.</description>
+      <enclosure url="https://standingwave.ink/og/a-shape-with-no-address.png" length="33574" type="image/png"/>
+      <category>rainbow optics</category>
+      <category>antisolar point</category>
+      <category>light dispersion</category>
+      <category>atmospheric optics</category>
+      <category>history of optics</category>
+    </item>
+    <item>
+      <title>No. 37 · A Thread of Water That Isn&#x27;t Allowed to Snap</title>
+      <link>https://standingwave.ink/issues/a-thread-of-water-that-isnt-allowed-to-snap</link>
+      <guid isPermaLink="true">https://standingwave.ink/issues/a-thread-of-water-that-isnt-allowed-to-snap</guid>
+      <pubDate>Thu, 16 Jul 2026 22:00:00 +0000</pubDate>
+      <description>No pump, valve, or muscle exists anywhere inside a tree, yet water reaches the top of a two-hundred-foot redwood every day of its life. The explanation, proposed in 1894 and still standing, is almost unbelievable: the water is pulled from above by evaporation, through one unbroken thread of liquid held together by nothing but its own molecular grip, under more tension than a steel cable — and one stray air bubble away from snapping the whole column.</description>
+      <enclosure url="https://standingwave.ink/og/a-thread-of-water-that-isnt-allowed-to-snap.png" length="38989" type="image/png"/>
+      <category>cohesion-tension theory</category>
+      <category>xylem transport</category>
+      <category>transpiration pull</category>
+      <category>plant water relations</category>
+      <category>tree height limits</category>
+    </item>
+    <item>
+      <title>No. 36 · A Charge Held Up by Its Own Spending</title>
+      <link>https://standingwave.ink/issues/a-charge-held-up-by-its-own-spending</link>
+      <guid isPermaLink="true">https://standingwave.ink/issues/a-charge-held-up-by-its-own-spending</guid>
+      <pubDate>Wed, 15 Jul 2026 23:50:00 +0000</pubDate>
+      <description>In 1961 a British biochemist published four pages in Nature proposing something most of his colleagues found faintly absurd — that a cell stores its working energy not in a special chemical bond, as every textbook of the time insisted, but as a voltage, pumped across a membrane a few molecules thick. The response was closer to ridicule than rebuttal. It took a dark-room experiment and most of a decade to make him right.</description>
+      <enclosure url="https://standingwave.ink/og/a-charge-held-up-by-its-own-spending.png" length="39312" type="image/png"/>
+      <category>chemiosmosis</category>
+      <category>proton motive force</category>
+      <category>ATP synthase</category>
+      <category>electron transport chain</category>
+      <category>Peter Mitchell</category>
+    </item>
+    <item>
+      <title>No. 35 · The Solution That Can&#x27;t Decide</title>
+      <link>https://standingwave.ink/issues/the-solution-that-cant-decide</link>
+      <guid isPermaLink="true">https://standingwave.ink/issues/the-solution-that-cant-decide</guid>
+      <pubDate>Wed, 15 Jul 2026 22:15:00 +0000</pubDate>
+      <description>In 1951 a Soviet chemist watched a clear beaker of liquid turn yellow, then clear, then yellow again, with nothing added and nothing removed, for the better part of an hour. A journal rejected his paper on the spot: a chemical reaction, the reviewers held, simply could not behave that way. They weren’t unreasonable. They just hadn’t met a system where two reactions take turns being right, and neither one is ever allowed to keep the win.</description>
+      <enclosure url="https://standingwave.ink/og/the-solution-that-cant-decide.png" length="30261" type="image/png"/>
+      <category>Belousov-Zhabotinsky reaction</category>
+      <category>chemical oscillator</category>
+      <category>FKN mechanism</category>
+      <category>dissipative structures</category>
+      <category>excitable media</category>
+    </item>
+    <item>
+      <title>No. 34 · The Bandage That Digests Itself</title>
+      <link>https://standingwave.ink/issues/the-bandage-that-digests-itself</link>
+      <guid isPermaLink="true">https://standingwave.ink/issues/the-bandage-that-digests-itself</guid>
+      <pubDate>Tue, 14 Jul 2026 23:45:00 +0000</pubDate>
+      <description>A scab looks like the most static thing on your body — a hard little lid clamped over a scrape until the skin underneath grows back. It is very nearly the opposite: from the first minute, a clot is two opposed systems running at once, one laying down a mesh to seal the wound and the other already dissolving that same mesh — and the machinery that will take the clot apart is woven into it before the bleeding even stops.</description>
+      <enclosure url="https://standingwave.ink/og/the-bandage-that-digests-itself.png" length="29590" type="image/png"/>
+      <category>blood coagulation</category>
+      <category>fibrinolysis</category>
+      <category>cell-based coagulation model</category>
+      <category>thrombin and plasmin</category>
+      <category>hemostasis</category>
+    </item>
+    <item>
+      <title>No. 33 · The Wind That Won&#x27;t Go in Circles</title>
+      <link>https://standingwave.ink/issues/the-wind-that-wont-go-in-circles</link>
+      <guid isPermaLink="true">https://standingwave.ink/issues/the-wind-that-wont-go-in-circles</guid>
+      <pubDate>Tue, 14 Jul 2026 22:00:00 +0000</pubDate>
+      <description>Every rotating fluid this series has met eventually rounds off its corners — a hurricane’s eye, Jupiter’s Great Red Spot, water spinning down a drain. At Saturn’s north pole, a jet stream roughly 20,000 miles around has held six straight sides through more than forty years of spacecraft photographs, and scientists still argue about why a planet with no coastline or mountain range would ever bother drawing a hexagon.</description>
+      <enclosure url="https://standingwave.ink/og/the-wind-that-wont-go-in-circles.png" length="33410" type="image/png"/>
+      <category>Saturn&#x27;s hexagon</category>
+      <category>Rossby wave</category>
+      <category>planetary jet streams</category>
+      <category>Cassini mission</category>
+      <category>atmospheric dynamics</category>
+    </item>
+    <item>
+      <title>No. 32 · A Clock That Keeps Time by Erupting</title>
+      <link>https://standingwave.ink/issues/a-clock-that-keeps-time-by-erupting</link>
+      <guid isPermaLink="true">https://standingwave.ink/issues/a-clock-that-keeps-time-by-erupting</guid>
+      <pubDate>Tue, 14 Jul 2026 11:30:00 +0000</pubDate>
+      <description>Forty-five feet beneath the boardwalk at Old Faithful, a throat of rock barely four inches wide is doing arithmetic with heat and its own weight. Water trapped there stays liquid past 400°F under sheer pressure, until steam bubbles finally force their way through and the whole column flashes and erupts. The wait between eruptions is even predictable, mostly — except three earthquakes since 1959 have permanently reset the rhythm anyway, and a geothermal plant in New Zealand once erased seventy geysers for good.</description>
+      <enclosure url="https://standingwave.ink/og/a-clock-that-keeps-time-by-erupting.png" length="37349" type="image/png"/>
+      <category>geyser eruption mechanics</category>
+      <category>Old Faithful</category>
+      <category>hydrothermal systems</category>
+      <category>Yellowstone geology</category>
+      <category>eruption interval prediction</category>
+    </item>
+    <item>
+      <title>No. 31 · The Rain That Floats on the Sea</title>
+      <link>https://standingwave.ink/issues/the-rain-that-floats-on-the-sea</link>
+      <guid isPermaLink="true">https://standingwave.ink/issues/the-rain-that-floats-on-the-sea</guid>
+      <pubDate>Mon, 13 Jul 2026 22:30:00 +0000</pubDate>
+      <description>Dig a couple of feet into the sand of a low coral island and you strike fresh water — resting directly on seawater, with no wall between them. It floats there like an iceberg, most of it hanging deep below the level of the sea itself, and it keeps its shape only because the rain refills it as fast as it drains away. Pump a little too hard and the ocean rises quietly into your well.</description>
+      <enclosure url="https://standingwave.ink/og/the-rain-that-floats-on-the-sea.png" length="28770" type="image/png"/>
+      <category>freshwater lens</category>
+      <category>Ghyben-Herzberg relation</category>
+      <category>atoll hydrology</category>
+      <category>saltwater intrusion</category>
+      <category>groundwater recharge</category>
+    </item>
+    <item>
+      <title>No. 30 · The One Note a Continent Can&#x27;t Stop Holding</title>
+      <link>https://standingwave.ink/issues/the-one-note-a-continent-cant-stop-holding</link>
+      <guid isPermaLink="true">https://standingwave.ink/issues/the-one-note-a-continent-cant-stop-holding</guid>
+      <pubDate>Mon, 13 Jul 2026 21:30:00 +0000</pubDate>
+      <description>Somewhere near you a transformer is humming, and that single note — fifty or sixty cycles a second — is one the whole grid holds at once. There is almost no electricity stored anywhere in it; the lights stay on only because supply is matched to demand every instant, everywhere. Let the pitch sag, and a continent can go dark in seconds.</description>
+      <enclosure url="https://standingwave.ink/og/the-one-note-a-continent-cant-stop-holding.png" length="38147" type="image/png"/>
+      <category>grid frequency</category>
+      <category>power system inertia</category>
+      <category>load-frequency control</category>
+      <category>black start</category>
+      <category>under-frequency load shedding</category>
+    </item>
+    <item>
+      <title>No. 29 · The Shield That Works by Falling Apart</title>
+      <link>https://standingwave.ink/issues/the-shield-that-works-by-falling-apart</link>
+      <guid isPermaLink="true">https://standingwave.ink/issues/the-shield-that-works-by-falling-apart</guid>
+      <pubDate>Mon, 13 Jul 2026 20:00:00 +0000</pubDate>
+      <description>Ten to twenty miles up, a thin layer of gas absorbs the ultraviolet light that would otherwise sterilize the ground. It does this by being torn apart. Every photon it stops shatters one of its own molecules — and the layer holds only because the same sunlight rebuilds them just as fast as it breaks them.</description>
+      <enclosure url="https://standingwave.ink/og/the-shield-that-works-by-falling-apart.png" length="37151" type="image/png"/>
+      <category>ozone layer</category>
+      <category>Chapman cycle</category>
+      <category>stratospheric ozone</category>
+      <category>Montreal Protocol</category>
+      <category>ozone depletion</category>
+    </item>
+    <item>
+      <title>No. 28 · A Hill Made of Salt That Never Stops Moving</title>
+      <link>https://standingwave.ink/issues/a-hill-made-of-salt-that-never-stops-moving</link>
+      <guid isPermaLink="true">https://standingwave.ink/issues/a-hill-made-of-salt-that-never-stops-moving</guid>
+      <pubDate>Sat, 11 Jul 2026 20:00:00 +0000</pubDate>
+      <description>Deep in each of your kidneys there is a hill of salt — a gradient that near its base runs about four times as concentrated as your own blood. And not one particle of salt in it is allowed to sit still. They are filtered in, pumped sideways, handed off, and carried away, continuously, for as long as you live.</description>
+      <enclosure url="https://standingwave.ink/og/a-hill-made-of-salt-that-never-stops-moving.png" length="40765" type="image/png"/>
+      <category>countercurrent multiplier</category>
+      <category>loop of Henle</category>
+      <category>renal medulla</category>
+      <category>kidney physiology</category>
+      <category>osmotic gradient</category>
+    </item>
     <item>
       <title>No. 27 · The Forest Held Up by Its Own Collapse</title>
       <link>https://standingwave.ink/issues/the-forest-held-up-by-its-own-collapse</link>
       <guid isPermaLink="true">https://standingwave.ink/issues/the-forest-held-up-by-its-own-collapse</guid>
       <pubDate>Fri, 10 Jul 2026 20:00:00 +0000</pubDate>
       <description>A four-hundred-year-old forest can look, from the air, almost exactly the way it looked in a photograph taken a century earlier. Ask which trees are holding that shape up, though, and the honest answer is: mostly none of the ones in that older photo. They’re on the ground, rotting, or gone.</description>
+      <enclosure url="https://standingwave.ink/og/the-forest-held-up-by-its-own-collapse.png" length="37804" type="image/png"/>
+      <category>old-growth forest</category>
+      <category>canopy gap dynamics</category>
+      <category>shifting-mosaic steady state</category>
+      <category>forest ecology</category>
+      <category>gap-phase regeneration</category>
     </item>
     <item>
       <title>No. 26 · A Beam That Was Never Aimed at You</title>
@@ -20,6 +215,12 @@
       <guid isPermaLink="true">https://standingwave.ink/issues/a-beam-that-was-never-aimed-at-you</guid>
       <pubDate>Fri, 10 Jul 2026 11:00:00 +0000</pubDate>
       <description>A radio signal ticking with impossible regularity looked so deliberate that its discoverer half-joked it might be aliens. It wasn’t. It was a dead star spinning, sweeping a beam of light past Earth the way a lighthouse lamp sweeps a coastline — bolted to a turntable nobody is operating.</description>
+      <enclosure url="https://standingwave.ink/og/a-beam-that-was-never-aimed-at-you.png" length="37748" type="image/png"/>
+      <category>pulsar</category>
+      <category>neutron star</category>
+      <category>Jocelyn Bell Burnell</category>
+      <category>pulsar timing array</category>
+      <category>gravitational waves</category>
     </item>
     <item>
       <title>No. 25 · A Clock That Builds Its Own Off-Switch</title>
@@ -27,6 +228,11 @@
       <guid isPermaLink="true">https://standingwave.ink/issues/a-clock-that-builds-its-own-off-switch</guid>
       <pubDate>Thu, 09 Jul 2026 23:15:00 +0000</pubDate>
       <description>Right now, inside nearly every one of your cells, a loop of four or five genes is keeping a rough day’s time. Nothing outside the cell is ticking it forward. The trick is almost too simple to believe works: the cell builds the very thing that will tell it to stop.</description>
+      <enclosure url="https://standingwave.ink/og/a-clock-that-builds-its-own-off-switch.png" length="37264" type="image/png"/>
+      <category>circadian rhythm</category>
+      <category>transcription-translation feedback loop</category>
+      <category>molecular clock</category>
+      <category>chronobiology</category>
     </item>
     <item>
       <title>No. 24 · A Fact Retold Before It&#x27;s Forgotten</title>
@@ -34,6 +240,11 @@
       <guid isPermaLink="true">https://standingwave.ink/issues/a-fact-retold-before-its-forgotten</guid>
       <pubDate>Thu, 09 Jul 2026 15:00:00 +0000</pubDate>
       <description>Inside every computer running right now, a single bit of memory is a small, continuous bet. A capacitor smaller than a virus either holds a tiny electrical charge, or it doesn’t — that’s the whole difference between a 1 and a 0. Left alone, that charge would leak away in well under a second. So nothing is ever left alone.</description>
+      <enclosure url="https://standingwave.ink/og/a-fact-retold-before-its-forgotten.png" length="33984" type="image/png"/>
+      <category>DRAM memory refresh</category>
+      <category>computer memory</category>
+      <category>capacitor charge leakage</category>
+      <category>computer architecture</category>
     </item>
     <item>
       <title>No. 23 · Kept by People Who Never Met</title>
@@ -41,6 +252,11 @@
       <guid isPermaLink="true">https://standingwave.ink/issues/kept-by-people-who-never-met</guid>
       <pubDate>Wed, 08 Jul 2026 23:30:00 +0000</pubDate>
       <description>In Rome, a small fire was never allowed to go out — not for a night, not for a decade, but for over a thousand years. No candle burns that long. No coal holds that much heat. What actually stayed lit that whole time wasn’t a flame. It was a schedule.</description>
+      <enclosure url="https://standingwave.ink/og/kept-by-people-who-never-met.png" length="31724" type="image/png"/>
+      <category>eternal flame</category>
+      <category>Vestal Virgins</category>
+      <category>institutional continuity</category>
+      <category>ritual maintenance</category>
     </item>
     <item>
       <title>No. 22 · A Grip That Has to Keep Letting Go</title>
@@ -48,6 +264,11 @@
       <guid isPermaLink="true">https://standingwave.ink/issues/a-grip-that-has-to-keep-letting-go</guid>
       <pubDate>Wed, 08 Jul 2026 21:00:00 +0000</pubDate>
       <description>Draw a bow across a violin string and the string doesn’t do what a plucked string does — ring, then quietly decay. Something stranger is happening, too fast to see: the bow’s own friction grips the string, drags it sideways, loses its grip completely, and grabs on again, hundreds of times every second. The note isn’t the sound of a vibration being sustained. It’s the sound of a grip being broken and remade, continuously, for as long as the bow keeps moving.</description>
+      <enclosure url="https://standingwave.ink/og/a-grip-that-has-to-keep-letting-go.png" length="34563" type="image/png"/>
+      <category>bowed string physics</category>
+      <category>Helmholtz motion</category>
+      <category>stick-slip friction</category>
+      <category>violin acoustics</category>
     </item>
     <item>
       <title>No. 21 · The Hole That Never Empties</title>
@@ -55,6 +276,11 @@
       <guid isPermaLink="true">https://standingwave.ink/issues/the-hole-that-never-empties</guid>
       <pubDate>Tue, 07 Jul 2026 23:30:00 +0000</pubDate>
       <description>Pull the plug and watch the water spiral down, and you’re watching a shape, not a substance. The funnel holds the same place, the same rough form, the same rotation for as long as the draining lasts — but no single drop of water stays inside it for more than a second or two. It isn’t one whirlpool made of some water. It’s a hole-shaped habit that a whole succession of water falls into, one batch after another, for as long as there’s a drain to fall toward.</description>
+      <enclosure url="https://standingwave.ink/og/the-hole-that-never-empties.png" length="28347" type="image/png"/>
+      <category>bathtub vortex</category>
+      <category>whirlpool physics</category>
+      <category>angular momentum conservation</category>
+      <category>fluid dynamics</category>
     </item>
     <item>
       <title>No. 20 · A Fall That Never Reaches the Ground</title>
@@ -62,6 +288,11 @@
       <guid isPermaLink="true">https://standingwave.ink/issues/a-fall-that-never-reaches-the-ground</guid>
       <pubDate>Tue, 07 Jul 2026 22:00:00 +0000</pubDate>
       <description>Wind a longcase clock and, in every sense physics cares about, you start something falling. It never lands. Not because gravity ever lets up on it, but because a small mechanical lever standing between the weight and the pendulum spends the next eight days handing that fall out in identical, precisely timed installments, once almost exactly every second, forever — as long as someone keeps climbing back up to wind it.</description>
+      <enclosure url="https://standingwave.ink/og/a-fall-that-never-reaches-the-ground.png" length="34964" type="image/png"/>
+      <category>pendulum clock</category>
+      <category>anchor escapement</category>
+      <category>horology</category>
+      <category>mechanical timekeeping</category>
     </item>
     <item>
       <title>No. 19 · A Fall That Hasn&#x27;t Happened Yet</title>
@@ -69,6 +300,11 @@
       <guid isPermaLink="true">https://standingwave.ink/issues/a-fall-that-hasnt-happened-yet</guid>
       <pubDate>Mon, 06 Jul 2026 22:00:00 +0000</pubDate>
       <description>Spin a top hard enough and something strange happens: tip it, and instead of falling over the way it would if you’d just set it down, it stands back up. Push it, and instead of toppling in the direction you pushed, it wanders off ninety degrees from your hand. For as long as it keeps spinning fast enough, it behaves like gravity has quietly stopped applying to it. Then, with nothing about its shape or weight having changed, it doesn’t.</description>
+      <enclosure url="https://standingwave.ink/og/a-fall-that-hasnt-happened-yet.png" length="27953" type="image/png"/>
+      <category>gyroscopic precession</category>
+      <category>spinning top physics</category>
+      <category>angular momentum</category>
+      <category>classical mechanics</category>
     </item>
     <item>
       <title>No. 18 · A Wave You Speak With</title>
@@ -76,6 +312,11 @@
       <guid isPermaLink="true">https://standingwave.ink/issues/a-wave-you-speak-with</guid>
       <pubDate>Mon, 06 Jul 2026 14:00:00 +0000</pubDate>
       <description>In 1958 the Dutch physician Janwillem van den Berg took a human larynx that had been removed entirely from its owner — no brain attached, no nerve firing, no muscle on a schedule — mounted it on a tube, and pushed air through it. It made a voice. Whatever was opening and closing those two small flaps of tissue, it wasn’t a nerve keeping time. It was the air itself.</description>
+      <enclosure url="https://standingwave.ink/og/a-wave-you-speak-with.png" length="29824" type="image/png"/>
+      <category>vocal folds</category>
+      <category>phonation physics</category>
+      <category>myoelastic-aerodynamic theory</category>
+      <category>voice production</category>
     </item>
     <item>
       <title>No. 17 · A Fire That Eats the Sea</title>
@@ -83,6 +324,11 @@
       <guid isPermaLink="true">https://standingwave.ink/issues/a-fire-that-eats-the-sea</guid>
       <pubDate>Sun, 05 Jul 2026 23:00:00 +0000</pubDate>
       <description>On October 23, 2015, Hurricane Patricia crossed the Mexican coast near Cuixmala with sustained winds of 165 miles an hour — the strongest landfall ever recorded in the Western Hemisphere. Twenty-four hours later it was gone: not weakened, gone, dissolved into an ordinary rainstorm over the mountains of Jalisco. Nothing else in this series has died that fast. That isn’t a flaw in the pattern. It’s the whole point of it.</description>
+      <enclosure url="https://standingwave.ink/og/a-fire-that-eats-the-sea.png" length="24314" type="image/png"/>
+      <category>hurricane structure</category>
+      <category>tropical cyclone heat engine</category>
+      <category>warm core</category>
+      <category>atmospheric science</category>
     </item>
     <item>
       <title>No. 16 · A Wall That Won&#x27;t Hold Still</title>
@@ -90,6 +336,11 @@
       <guid isPermaLink="true">https://standingwave.ink/issues/a-wall-that-wont-hold-still</guid>
       <pubDate>Sat, 04 Jul 2026 23:00:00 +0000</pubDate>
       <description>Every cell in your body is wrapped in a wall about five nanometers thick — two molecules deep — with no scaffolding, no fasteners, and no permanent parts, and yet it does the single most important job in biology: deciding, continuously and without pause, what counts as you and what counts as everything else. It manages this not by being solid, but by behaving like a very thin, very disciplined puddle.</description>
+      <enclosure url="https://standingwave.ink/og/a-wall-that-wont-hold-still.png" length="26914" type="image/png"/>
+      <category>cell membrane</category>
+      <category>lipid bilayer</category>
+      <category>fluid mosaic model</category>
+      <category>cell biology</category>
     </item>
     <item>
       <title>No. 15 · A Wave Made of Stars</title>
@@ -97,6 +348,11 @@
       <guid isPermaLink="true">https://standingwave.ink/issues/a-wave-made-of-stars</guid>
       <pubDate>Sat, 04 Jul 2026 12:00:00 +0000</pubDate>
       <description>Some 25 million light-years away, in the constellation Canes Venatici, a smaller galaxy is currently falling through the disk of a bigger one — and the bigger one has responded by growing two of the cleanest spiral arms astronomers have photographed. They call it M51, the Whirlpool. Look at any picture and the obvious guess is that you’re seeing a fixed population of stars: a vast pinwheel, born together, wheeling around the center as one shape. It’s a reasonable guess. It’s also wrong, and the reason is stranger than the photograph.</description>
+      <enclosure url="https://standingwave.ink/og/a-wave-made-of-stars.png" length="29819" type="image/png"/>
+      <category>spiral galaxy arms</category>
+      <category>density wave theory</category>
+      <category>galactic dynamics</category>
+      <category>astrophysics</category>
     </item>
     <item>
       <title>No. 14 · Not One Drop Remains</title>
@@ -104,6 +360,11 @@
       <guid isPermaLink="true">https://standingwave.ink/issues/not-one-drop-remains</guid>
       <pubDate>Fri, 03 Jul 2026 22:00:00 +0000</pubDate>
       <description>In a cave in the west of Ireland hangs a spike of stone nearly 24 feet long, tapering to a point that’s still, this minute, catching a fresh film of water before the next drop falls. It looks like the most permanent object in the room — grey, motionless, older than anyone who will ever stand under it. And structurally, it is permanent: once a layer sets, nothing disturbs it again. But not one molecule of the water that built it is still inside it. Every bit of stone hanging from that ceiling is made from something that has already left.</description>
+      <enclosure url="https://standingwave.ink/og/not-one-drop-remains.png" length="28609" type="image/png"/>
+      <category>stalactite formation</category>
+      <category>karst geology</category>
+      <category>cave dripstone</category>
+      <category>calcite precipitation</category>
     </item>
     <item>
       <title>No. 13 · The Slowest Handshake in Biology</title>
@@ -111,6 +372,11 @@
       <guid isPermaLink="true">https://standingwave.ink/issues/the-slowest-handshake-in-biology</guid>
       <pubDate>Fri, 03 Jul 2026 11:00:00 +0000</pubDate>
       <description>The gray-green crust on a gravestone or a bare boulder looks like the least alive thing in the landscape — closer to a stain than a living thing. It’s actually two organisms from two different kingdoms of life, wearing one shape, in a partnership so old and so patient that some individual patches have been sitting on the same rock since before the pyramids were finished.</description>
+      <enclosure url="https://standingwave.ink/og/the-slowest-handshake-in-biology.png" length="33836" type="image/png"/>
+      <category>lichen symbiosis</category>
+      <category>fungus and alga partnership</category>
+      <category>lichenometry</category>
+      <category>extremophile biology</category>
     </item>
     <item>
       <title>No. 12 · The Scaffolding Is the Part of You Most Alive</title>
@@ -118,6 +384,11 @@
       <guid isPermaLink="true">https://standingwave.ink/issues/the-scaffolding-is-the-part-of-you-most-alive</guid>
       <pubDate>Fri, 03 Jul 2026 09:00:00 +0000</pubDate>
       <description>You think of your skeleton as the fixed part of you — the frame everything else hangs off, the one thing in the body that just sits there. It doesn’t. Right now, cells are quietly dissolving your bones away while other cells rebuild them just behind, so the skeleton holding you up this morning is, piece by piece, not the one that held you up a decade ago.</description>
+      <enclosure url="https://standingwave.ink/og/the-scaffolding-is-the-part-of-you-most-alive.png" length="39567" type="image/png"/>
+      <category>bone remodeling</category>
+      <category>osteoclasts and osteoblasts</category>
+      <category>skeletal biology</category>
+      <category>human physiology</category>
     </item>
     <item>
       <title>No. 11 · A Stone That Eats Sunlight</title>
@@ -125,6 +396,11 @@
       <guid isPermaLink="true">https://standingwave.ink/issues/a-stone-that-eats-sunlight</guid>
       <pubDate>Fri, 26 Jun 2026 12:00:00 +0000</pubDate>
       <description>Swim out over a coral reef and you are floating above one of the strangest things life has built — a mountain that is mostly a graveyard, capped in a skin of living color a few millimeters thick. A reef looks like stone and breaks ships like stone, yet it is being raised right now by animals that farm sunlight inside their own cells. And the same warmth that lets them build it can, in a bad year, switch the whole bargain off.</description>
+      <enclosure url="https://standingwave.ink/og/a-stone-that-eats-sunlight.png" length="29790" type="image/png"/>
+      <category>coral reef</category>
+      <category>zooxanthellae symbiosis</category>
+      <category>calcium carbonate</category>
+      <category>coral bleaching</category>
     </item>
     <item>
       <title>No. 10 · A Storm With No Walls</title>
@@ -132,6 +408,11 @@
       <guid isPermaLink="true">https://standingwave.ink/issues/a-storm-with-no-walls</guid>
       <pubDate>Fri, 26 Jun 2026 11:00:00 +0000</pubDate>
       <description>Point a small telescope at Jupiter and you can find it: a pale salmon oval riding the southern stripes, small in the eyepiece and large enough to swallow the Earth. The Great Red Spot is the most famous weather on any world but ours, a storm that has blown for lifetimes — and almost nothing about it is solid. It has no walls, keeps no cloud it was made of, and may not even be the storm our ancestors named. It is a pattern in pure flow, the longest-standing wave we know, and it is shrinking.</description>
+      <enclosure url="https://standingwave.ink/og/a-storm-with-no-walls.png" length="27926" type="image/png"/>
+      <category>Great Red Spot</category>
+      <category>Jupiter</category>
+      <category>anticyclone</category>
+      <category>planetary atmospheres</category>
     </item>
     <item>
       <title>No. 9 · A Wave You Sit Inside</title>
@@ -139,6 +420,11 @@
       <guid isPermaLink="true">https://standingwave.ink/issues/a-wave-you-sit-inside</guid>
       <pubDate>Thu, 25 Jun 2026 11:00:00 +0000</pubDate>
       <description>You have been stuck in a traffic jam that had no cause — no wreck, no stalled car, nothing to clear. You crawled, you stopped, and then the road simply opened and you passed empty asphalt. The thing holding you was real, but it wasn’t a thing. It was a wave of stopped cars sliding backward through the traffic, born of nothing but too many drivers following too closely — a jam with an empty middle, and as pure a standing wave as the flame.</description>
+      <enclosure url="https://standingwave.ink/og/a-wave-you-sit-inside.png" length="29918" type="image/png"/>
+      <category>phantom traffic jam</category>
+      <category>traffic flow physics</category>
+      <category>stop-and-go waves</category>
+      <category>emergent patterns</category>
     </item>
     <item>
       <title>No. 8 · Nobody Gives the Signal</title>
@@ -146,6 +432,11 @@
       <guid isPermaLink="true">https://standingwave.ink/issues/nobody-gives-the-signal</guid>
       <pubDate>Wed, 24 Jun 2026 23:00:00 +0000</pubDate>
       <description>For two weeks a year, on a hillside in the Smoky Mountains, thousands of fireflies blink in perfect unison — and the spooky part is that no one is in charge. No leader, no signal, no count being kept. Just thousands of separate clocks, each one only watching its neighbors, crossing a threshold into a single beat that no individual firefly is making.</description>
+      <enclosure url="https://standingwave.ink/og/nobody-gives-the-signal.png" length="31036" type="image/png"/>
+      <category>firefly synchronization</category>
+      <category>coupled oscillators</category>
+      <category>Kuramoto model</category>
+      <category>emergent behavior</category>
     </item>
     <item>
       <title>No. 7 · A Leak That Keeps Time</title>
@@ -153,6 +444,11 @@
       <guid isPermaLink="true">https://standingwave.ink/issues/a-leak-that-keeps-time</guid>
       <pubDate>Wed, 24 Jun 2026 13:00:00 +0000</pubDate>
       <description>Find your pulse. That steady knock has no clock behind it and no clock inside it either — it is a knot of cells in your chest leaking themselves out of balance, firing, and leaking again, two to three billion times, with nothing keeping the beat but the beat itself.</description>
+      <enclosure url="https://standingwave.ink/og/a-leak-that-keeps-time.png" length="25608" type="image/png"/>
+      <category>sinoatrial node</category>
+      <category>cardiac pacemaker cells</category>
+      <category>heartbeat</category>
+      <category>cardiac electrophysiology</category>
     </item>
     <item>
       <title>No. 6 · Nothing Holds the Sun Up</title>
@@ -160,6 +456,11 @@
       <guid isPermaLink="true">https://standingwave.ink/issues/nothing-holds-the-sun-up</guid>
       <pubDate>Tue, 23 Jun 2026 21:00:00 +0000</pubDate>
       <description>The Sun looks like the most solid object in the sky. It’s actually a catastrophe in slow motion — an unthinkable weight of gas falling inward forever and never landing, held up by nothing but the heat of its own fall.</description>
+      <enclosure url="https://standingwave.ink/og/nothing-holds-the-sun-up.png" length="28049" type="image/png"/>
+      <category>hydrostatic equilibrium</category>
+      <category>stellar physics</category>
+      <category>nuclear fusion</category>
+      <category>stars</category>
     </item>
     <item>
       <title>No. 5 · The Word in Your Mouth Is Older Than Writing</title>
@@ -167,6 +468,11 @@
       <guid isPermaLink="true">https://standingwave.ink/issues/the-word-in-your-mouth-is-older-than-writing</guid>
       <pubDate>Tue, 23 Jun 2026 09:00:00 +0000</pubDate>
       <description>Say “mother” and you’ve used something older than the pyramids — a sound with no surviving original and no master copy anywhere, kept alive for thousands of years by the only force that can keep it alive: someone saying it to someone else.</description>
+      <enclosure url="https://standingwave.ink/og/the-word-in-your-mouth-is-older-than-writing.png" length="40798" type="image/png"/>
+      <category>language change</category>
+      <category>historical linguistics</category>
+      <category>oral tradition</category>
+      <category>Proto-Indo-European</category>
     </item>
     <item>
       <title>No. 4 · The Oldest Thing in the Kitchen Is Brand New</title>
@@ -174,6 +480,11 @@
       <guid isPermaLink="true">https://standingwave.ink/issues/the-oldest-thing-in-the-kitchen-is-brand-new</guid>
       <pubDate>Mon, 22 Jun 2026 09:00:00 +0000</pubDate>
       <description>A bakery’s sourdough starter dated to 1849 — though nothing in the jar is more than days old — the microbial loop that holds its shape, and why the magic was never San Francisco’s.</description>
+      <enclosure url="https://standingwave.ink/og/the-oldest-thing-in-the-kitchen-is-brand-new.png" length="35912" type="image/png"/>
+      <category>sourdough starter</category>
+      <category>wild yeast fermentation</category>
+      <category>microbial ecology</category>
+      <category>lactobacillus</category>
     </item>
     <item>
       <title>No. 3 · A World That Drinks Its Own Rain</title>
@@ -181,6 +492,11 @@
       <guid isPermaLink="true">https://standingwave.ink/issues/a-world-that-drinks-its-own-rain</guid>
       <pubDate>Sat, 20 Jun 2026 09:00:00 +0000</pubDate>
       <description>A bottle garden sealed in 1960 and watered just once since, the loops that keep it breathing, and why the whole Earth is the same machine.</description>
+      <enclosure url="https://standingwave.ink/og/a-world-that-drinks-its-own-rain.png" length="33826" type="image/png"/>
+      <category>closed ecosystem</category>
+      <category>terrarium</category>
+      <category>biosphere</category>
+      <category>carbon and water cycles</category>
     </item>
     <item>
       <title>No. 2 · A Wave You Can Stand In</title>
@@ -188,6 +504,11 @@
       <guid isPermaLink="true">https://standingwave.ink/issues/a-wave-you-can-stand-in</guid>
       <pubDate>Wed, 17 Jun 2026 09:00:00 +0000</pubDate>
       <description>A river wave that hasn’t moved in fifty years, the surfers who ride it without going anywhere, and why a standing pattern needs something to push against.</description>
+      <enclosure url="https://standingwave.ink/og/a-wave-you-can-stand-in.png" length="30388" type="image/png"/>
+      <category>standing wave</category>
+      <category>hydraulic jump</category>
+      <category>river surfing</category>
+      <category>fluid dynamics</category>
     </item>
     <item>
       <title>No. 1 · The Most Durable Things Are the Least Solid</title>
@@ -195,6 +516,11 @@
       <guid isPermaLink="true">https://standingwave.ink/issues/the-most-durable-things-are-the-least-solid</guid>
       <pubDate>Tue, 16 Jun 2026 09:00:00 +0000</pubDate>
       <description>A candle’s flame keeps its shape while every particle in it is on the way out. So do you. So does almost everything worth building.</description>
+      <enclosure url="https://standingwave.ink/og/the-most-durable-things-are-the-least-solid.png" length="38927" type="image/png"/>
+      <category>candle flame</category>
+      <category>combustion</category>
+      <category>self-sustaining systems</category>
+      <category>matter and energy flow</category>
     </item>
   </channel>
 </rss>
