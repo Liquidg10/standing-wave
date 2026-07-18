@@ -7,6 +7,7 @@
 - [Start here](https://standingwave.ink/start): the premise, plus three issues to read first.
 - [About](https://standingwave.ink/about): editorial standards and how issues get researched and sourced.
 - [All issues](https://standingwave.ink/): the full archive, newest first.
+- [Full text](https://standingwave.ink/llms-full.txt): every issue's complete text, concatenated in one file for context ingestion.
 
 ## Issues (oldest to newest)
 
@@ -37,6 +38,20 @@
 - [No. 25 · A Clock That Builds Its Own Off-Switch](https://standingwave.ink/issues/a-clock-that-builds-its-own-off-switch): the circadian clock: nearly every cell keeps its own day using a gene loop that builds the exact protein that will shut it off
 - [No. 26 · A Beam That Was Never Aimed at You](https://standingwave.ink/issues/a-beam-that-was-never-aimed-at-you): a pulsar: a dead star's tilted magnetic beam, swept past Earth once per rotation by nothing but momentum
 - [No. 27 · The Forest Held Up by Its Own Collapse](https://standingwave.ink/issues/the-forest-held-up-by-its-own-collapse): an old-growth forest: canopy patches cycling through collapse and regrowth so the landscape looks stable while few of its trees do
+- [No. 28 · A Hill Made of Salt That Never Stops Moving](https://standingwave.ink/issues/a-hill-made-of-salt-that-never-stops-moving): the kidney's countercurrent multiplier: a steep salt gradient inside the kidney held up only by pumping that never rests
+- [No. 29 · The Shield That Works by Falling Apart](https://standingwave.ink/issues/the-shield-that-works-by-falling-apart): the ozone layer: a three-millimeter UV shield continuously destroyed and rebuilt by the same sunlight it blocks
+- [No. 30 · The One Note a Continent Can't Stop Holding](https://standingwave.ink/issues/the-one-note-a-continent-cant-stop-holding): a power grid's frequency: one continent-wide 50/60 Hz note held in tune only by matching supply to demand every instant
+- [No. 31 · The Rain That Floats on the Sea](https://standingwave.ink/issues/the-rain-that-floats-on-the-sea): a freshwater lens: rain floating on the seawater under a sandy island, kept in shape only by the next rainfall
+- [No. 32 · A Clock That Keeps Time by Erupting](https://standingwave.ink/issues/a-clock-that-keeps-time-by-erupting): a geyser: a self-recharging pressure cooker that erupts on a predictable, but not perfectly fixed, schedule
+- [No. 33 · The Wind That Won't Go in Circles](https://standingwave.ink/issues/the-wind-that-wont-go-in-circles): Saturn's hexagon: a six-sided jet stream circling the north pole, unchanged across four decades of spacecraft photographs
+- [No. 34 · The Bandage That Digests Itself](https://standingwave.ink/issues/the-bandage-that-digests-itself): a blood clot: a wound seal built and dissolved at the same time, with the machinery that removes it woven in before the bleeding stops
+- [No. 35 · The Solution That Can't Decide](https://standingwave.ink/issues/the-solution-that-cant-decide): the Belousov-Zhabotinsky reaction: a beaker that flips color for an hour on its own, because two reactions keep manufacturing each other's trigger
+- [No. 36 · A Charge Held Up by Its Own Spending](https://standingwave.ink/issues/a-charge-held-up-by-its-own-spending): the mitochondrial proton gradient: a voltage pumped across a membrane a few molecules thick, spent back down through a spinning turbine that makes ATP
+- [No. 37 · A Thread of Water That Isn't Allowed to Snap](https://standingwave.ink/issues/a-thread-of-water-that-isnt-allowed-to-snap): cohesion-tension in a tree's xylem: water pulled 100+ meters by leaf evaporation alone, held together under tension by nothing but its own molecular cohesion
+- [No. 38 · A Shape With No Address](https://standingwave.ink/issues/a-shape-with-no-address): a rainbow: a 42-degree cone of light anchored to your own eye, remade every instant from whichever raindrops fall through the correct angle
+- [No. 39 · A Web Built From What It Just Ate](https://standingwave.ink/issues/a-web-built-from-what-it-just-ate): an orb-weaver's web: eaten whole most nights and rebuilt from the same recycled silk protein, in nearly the same shape, by morning
+- [No. 40 · A Room Finds Its Own Voice](https://standingwave.ink/issues/a-room-finds-its-own-voice): microphone feedback: a closed acoustic loop that reinforces one frequency the instant its gain crosses a threshold, drowning out everything else
+- [No. 41 · The Half That Wasn't Listening](https://standingwave.ink/issues/the-half-that-wasnt-listening): a greylag goose's egg-retrieval instinct: one motion fused from two — a fixed, ballistic pull that finishes even with the egg gone, and a second, feedback-steered correction that vanishes the instant it does
 
 ## Feeds
 

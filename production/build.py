@@ -11,7 +11,7 @@ SITE_ISSUES = os.path.join(SITE, "issues")
 OG = os.path.join(SITE, "og")
 BASE = "https://standingwave.ink"
 LEAD_ENDPOINT = "https://gdcfvscjmnfkfwsjpaxn.supabase.co/functions/v1/musenexus-lead"
-CONSENT_VERSION = "2026-07-18.1"
+CONSENT_VERSION = "2026-07-18.2"
 
 for d in (SITE, SITE_ISSUES, OG):
     os.makedirs(d, exist_ok=True)
@@ -122,6 +122,20 @@ RELATED = {
     25: [(7, "the body's other self-oscillator — electrical instead of molecular"), (18, "the same 'nobody times each cycle' thesis, run on airflow instead of gene expression"), (24, "the same continuous-repair loop, run in cells instead of silicon, at a completely different tempo")],
     26: [(19, "the same angular-momentum bargain, spent down over billions of years instead of minutes"), (21, "the same conserved-spin shape, a hole in water instead of a beam in space"), (8, "the same 'nobody's timing this' thesis — a signal that only looks sent on purpose")],
     27: [(9, "the same trick at a different scale — a pattern stable in aggregate, built from parts that are each only ever passing through"), (1, "the founding thesis, run across acres instead of a wick: a shape that outlives nearly everything that ever made it up"), (12, "the same 'so do you' bargain — a structure being constantly torn down and rebuilt in pieces, never all at once")],
+    28: [(6, "another balance held continuously against collapse — gravity versus fusion there, diffusion versus pumping here"), (20, "the same loss paid off in endless small installments — a falling weight there, leaking salt here"), (1, "the founding thesis, run inside an organ: a shape that persists only because its own substance never stops moving through")],
+    29: [(6, "the star that pays for this shield — the same sun, seen from underneath"), (3, "another planet-scale balance run on nothing but incoming sunlight"), (11, "the darker cousin: a standing wave we broke and haven't yet chosen to rebuild")],
+    30: [(8, "the same leaderless correction — a crowd of machines nudging into step with no conductor, only the frequency they can all feel"), (24, "the same imbalance caught and fixed in relentless small installments, faster than anyone would notice — charge on a chip, power on a continent"), (1, "the founding thesis at continental scale: a shape with almost no reservoir, remade every instant or lost")],
+    31: [(3, "the other world that runs on nothing but its own rain — sealed on a shelf instead of ringed by the ocean"), (28, "another standing shape built from a salt-versus-water balance, held up only by flow that never rests"), (1, "the founding thesis soaked into the ground — a shape made entirely of water passing through, never the same water twice")],
+    32: [(31, "the same groundwater standing wave, one valley over, and violent instead of placid"), (9, "the same critical-threshold release — a choke point overwhelmed — but timed instead of chaotic"), (1, "the founding thesis put to steam: a shape that resets itself the instant it lets go")],
+    33: [(10, "a planetary vortex too, but Jupiter's storm rounds into an oval — nothing forces this one into corners"), (21, "the ordinary version of the same physics: a draining vortex that settles into a plain circle, the shape this one refuses"), (1, "the founding thesis, run on a whole planet's weather: a shape held up only by whatever keeps moving through it")],
+    34: [(12, "the same build-versus-break balance, run in bone instead of blood — cells laying down exactly what other cells tear away"), (25, "the same trick of a system that switches on its own off-switch — thrombin at a wound, a clock protein in a cell"), (1, "the founding thesis made literal in a wound: a seal held together only by being continuously unmade")],
+    35: [(2, "the same closed-vs-open distinction, run in reverse: a river's standing wave needs a current the way this reaction needs a pump, not a fixed stock"), (21, "the same rotating, never-the-same-material shape, run in color instead of water — a spiral with nothing sitting still at its center"), (1, "the founding thesis with a twist: not one process outlasting its own fuel, but two processes that never let each other win")],
+    36: [(28, "the same standing gradient held up by pumping that never rests — a kidney's medulla instead of a membrane a few molecules wide"), (24, "the same leaking charge, rewritten before it's lost — silicon instead of a cell, milliseconds instead of moments"), (1, "the founding thesis at its smallest scale yet: a shape held up by nothing but the fact that it's continuously spent")],
+    37: [(36, "the same refusal to rest — a tension with no reservoir, held up only by a pull matched moment to moment, membrane voltage traded for a column of water"), (28, "the closest structural cousin in the archive: a steep gradient sustained purely by continuous throughput, medulla instead of xylem"), (1, "the founding thesis run in reverse — not a shape fed from below, but one pulled from above, close enough to its own breaking point to hear it")],
+    38: [(1, "the founding thesis, run at its most literal — a shape with no location and no material of its own at all"), (15, "the closest structural cousin in the archive: stars drift through a density wave and leave it, exactly like raindrops crossing a rainbow's cone"), (9, "the same trick at highway scale — a shape sustained only by a constant stream of strangers passing through the one place it happens to exist")],
+    39: [(1, "the founding thesis with teeth: this time the old material isn't just replaced, it's eaten first, on purpose, by the same animal that just used it"), (24, "the same complete erase-and-rewrite trick, run in milliseconds instead of overnight — a bit's leaking charge instead of a spider's digested silk"), (21, "the same never-the-same-material shape, spun from digested protein instead of draining water")],
+    40: [(18, "the same self-sustaining oscillation, fed by nothing but continuous energy — but here it's parasitic, drowning out a voice instead of being one"), (9, "the same shape as another unwanted self-sustaining pattern: a system finding a more efficient state than the one it was built to hold"), (1, "the founding thesis gone adversarial — a shape that persists because it's cheaper to sustain than the signal it just replaced")],
+    41: [(39, "an explicit foil: No. 39's spider gathered real nuance against pure automation; this is ethology's own textbook case for it — proven by physically taking the goal object away mid-behavior"), (20, "a mechanical cousin: an escapement also releases one fixed, indifferent packet of motion the instant it's triggered, then waits for the next release — the same open-loop shape, in brass instead of neurons"), (1, "the founding thesis run in reverse — for once, half of the pattern doesn't need to keep answering to the world to keep going; it only needed the world once, at the very start")],
 }
 
 # One-line subject summaries for llms.txt (an AI-agent-facing table of contents,
@@ -155,6 +169,20 @@ ONE_LINERS = {
     25: "the circadian clock: nearly every cell keeps its own day using a gene loop that builds the exact protein that will shut it off",
     26: "a pulsar: a dead star's tilted magnetic beam, swept past Earth once per rotation by nothing but momentum",
     27: "an old-growth forest: canopy patches cycling through collapse and regrowth so the landscape looks stable while few of its trees do",
+    28: "the kidney's countercurrent multiplier: a steep salt gradient inside the kidney held up only by pumping that never rests",
+    29: "the ozone layer: a three-millimeter UV shield continuously destroyed and rebuilt by the same sunlight it blocks",
+    30: "a power grid's frequency: one continent-wide 50/60 Hz note held in tune only by matching supply to demand every instant",
+    31: "a freshwater lens: rain floating on the seawater under a sandy island, kept in shape only by the next rainfall",
+    32: "a geyser: a self-recharging pressure cooker that erupts on a predictable, but not perfectly fixed, schedule",
+    33: "Saturn's hexagon: a six-sided jet stream circling the north pole, unchanged across four decades of spacecraft photographs",
+    34: "a blood clot: a wound seal built and dissolved at the same time, with the machinery that removes it woven in before the bleeding stops",
+    35: "the Belousov-Zhabotinsky reaction: a beaker that flips color for an hour on its own, because two reactions keep manufacturing each other's trigger",
+    36: "the mitochondrial proton gradient: a voltage pumped across a membrane a few molecules thick, spent back down through a spinning turbine that makes ATP",
+    37: "cohesion-tension in a tree's xylem: water pulled 100+ meters by leaf evaporation alone, held together under tension by nothing but its own molecular cohesion",
+    38: "a rainbow: a 42-degree cone of light anchored to your own eye, remade every instant from whichever raindrops fall through the correct angle",
+    39: "an orb-weaver's web: eaten whole most nights and rebuilt from the same recycled silk protein, in nearly the same shape, by morning",
+    40: "microphone feedback: a closed acoustic loop that reinforces one frequency the instant its gain crosses a threshold, drowning out everything else",
+    41: "a greylag goose's egg-retrieval instinct: one motion fused from two — a fixed, ballistic pull that finishes even with the egg gone, and a second, feedback-steered correction that vanishes the instant it does",
 }
 
 # Short topic/keyword tags per issue — sitewide SEO + AI-agent-facing metadata, distinct
@@ -197,6 +225,20 @@ TOPICS = {
     25: ["circadian rhythm", "transcription-translation feedback loop", "molecular clock", "chronobiology"],
     26: ["pulsar", "neutron star", "Jocelyn Bell Burnell", "pulsar timing array", "gravitational waves"],
     27: ["old-growth forest", "canopy gap dynamics", "shifting-mosaic steady state", "forest ecology", "gap-phase regeneration"],
+    28: ["countercurrent multiplier", "loop of Henle", "renal medulla", "kidney physiology", "osmotic gradient"],
+    29: ["ozone layer", "Chapman cycle", "stratospheric ozone", "Montreal Protocol", "ozone depletion"],
+    30: ["grid frequency", "power system inertia", "load-frequency control", "black start", "under-frequency load shedding"],
+    31: ["freshwater lens", "Ghyben-Herzberg relation", "atoll hydrology", "saltwater intrusion", "groundwater recharge"],
+    32: ["geyser eruption mechanics", "Old Faithful", "hydrothermal systems", "Yellowstone geology", "eruption interval prediction"],
+    33: ["Saturn's hexagon", "Rossby wave", "planetary jet streams", "Cassini mission", "atmospheric dynamics"],
+    34: ["blood coagulation", "fibrinolysis", "cell-based coagulation model", "thrombin and plasmin", "hemostasis"],
+    35: ["Belousov-Zhabotinsky reaction", "chemical oscillator", "FKN mechanism", "dissipative structures", "excitable media"],
+    36: ["chemiosmosis", "proton motive force", "ATP synthase", "electron transport chain", "Peter Mitchell"],
+    37: ["cohesion-tension theory", "xylem transport", "transpiration pull", "plant water relations", "tree height limits"],
+    38: ["rainbow optics", "antisolar point", "light dispersion", "atmospheric optics", "history of optics"],
+    39: ["orb-weaver spiders", "silk protein recycling", "web-building instinct", "fixed action pattern", "Araneus diadematus"],
+    40: ["audio feedback", "Larsen effect", "acoustic resonance", "loop gain", "Barkhausen criterion"],
+    41: ["fixed action pattern", "ethology", "Konrad Lorenz", "Niko Tinbergen", "instinct"],
 }
 
 # Curated "Further reading" citations per issue — a small, hand-picked bibliography
@@ -270,6 +312,48 @@ SOURCES = {
     27: [("The Encyclopedia of Earth, “Shifting mosaic steady-state”", "https://editors.eol.org/eoearth/wiki/Shifting_mosaic_steady-state"),
          ("Ecological Continuity Trust, “Lady Park Wood Handover”", "https://www.ecologicalcontinuitytrust.org/lpw-handover"),
          ("Wikipedia, “Białowieża Forest”", "https://en.wikipedia.org/wiki/Bia%C5%82owie%C5%BCa_Forest")],
+    28: [("TeachMePhysiology, “Loop of Henle – Countercurrent Multiplication”", "https://teachmephysiology.com/urinary-system/nephron/loop-henle/"),
+         ("Pannabecker, “Mammalian urine concentration: a review of renal medullary architecture and membrane transporters,” Am. J. Physiol. Renal (PMC6186196)", "https://pmc.ncbi.nlm.nih.gov/articles/PMC6186196/"),
+         ("Sands, “The osmotic gradient in kidney medulla: a retold story,” Advances in Physiology Education (2001)", "https://journals.physiology.org/doi/full/10.1152/advan.00037.2001")],
+    29: [("Wikipedia, “Ozone–oxygen cycle” (the Chapman mechanism)", "https://en.wikipedia.org/wiki/Ozone%E2%80%93oxygen_cycle"),
+         ("ACS, “Chlorofluorocarbons and Ozone Depletion” (National Historic Chemical Landmark)", "https://www.acs.org/education/whatischemistry/landmarks/cfcs-ozone.html"),
+         ("WMO, “Small and short-lived 2025 ozone hole confirms long-term recovery trend”", "https://wmo.int/media/news/small-and-short-lived-2025-ozone-hole-confirms-long-term-recovery-trend")],
+    30: [("GridBeyond, “Frequency…explained”", "https://gridbeyond.com/frequencyexplained/"),
+         ("ENTSO-E, Expert Panel Final Report on the 28 April 2025 blackout in Spain and Portugal", "https://www.entsoe.eu/news/2026/03/20/entso-e-publishes-expert-panel-final-report-on-28-april-2025-blackout-in-spain-and-portugal/"),
+         ("Practical Engineering, “What Is A Black Start Of The Power Grid?”", "https://practical.engineering/blog/2022/12/5/what-is-a-black-start-of-the-power-grid")],
+    31: [("Wikipedia, “Lens (hydrology)”", "https://en.wikipedia.org/wiki/Lens_(hydrology)"),
+         ("Post et al., “What is the Ghijben–Herzberg principle and who formulated it?”, Hydrogeology Journal (2018)", "https://link.springer.com/article/10.1007/s10040-018-1796-0"),
+         ("Wikipedia, “2011 Tuvalu drought”", "https://en.wikipedia.org/wiki/2011_Tuvalu_drought")],
+    32: [("USGS Yellowstone Volcano Observatory, “The story of a Yellowstone icon: Old Faithful Geyser”", "https://www.usgs.gov/observatories/yvo/news/story-a-yellowstone-icon-old-faithful-geyser"),
+         ("National Park Service, “How Geysers Erupt”", "https://www.nps.gov/teachers/classrooms/how-geysers-erupt.htm"),
+         ("“Geyser Decline and Extinction in New Zealand,” Environmental Management (Springer, 2005)", "https://link.springer.com/article/10.1007/s00267-005-0195-1")],
+    33: [("NASA Science, “Saturn's Hexagon in Motion”", "https://science.nasa.gov/mission/cassini/science/saturn/hexagon-in-motion/"),
+         ("The Planetary Society, “Saturn's hexagon recreated in the laboratory”", "https://www.planetary.org/articles/2471"),
+         ("PNAS, “Deep rotating convection generates the polar hexagon on Saturn” (2020)", "https://www.pnas.org/doi/10.1073/pnas.2000317117")],
+    34: [("StatPearls, “Physiology, Coagulation Pathways” (NCBI Bookshelf)", "https://www.ncbi.nlm.nih.gov/books/NBK482253/"),
+         ("“Back to basics: the coagulation pathway” (NCBI PMC)", "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11519239/"),
+         ("“The Role of Fibrinolytic System in Health and Disease” (NCBI PMC)", "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9101224/")],
+    35: [("Scholarpedia, “Belousov-Zhabotinsky reaction”", "http://www.scholarpedia.org/article/Belousov-Zhabotinsky_reaction"),
+         ("Kiprijanov, “Chaos and beauty in a beaker: the early history of the Belousov-Zhabotinsky reaction,” Annalen der Physik (2016)", "https://onlinelibrary.wiley.com/doi/full/10.1002/andp.201600025"),
+         ("Karma, “Physics of Cardiac Arrhythmogenesis,” Annu. Rev. Condens. Matter Phys.", "http://www.csun.edu/~yshiferaw/papers/annurev-conmatphys-020911-125112.pdf")],
+    36: [("NobelPrize.org, “The Nobel Prize in Chemistry 1978” (Peter Mitchell)", "https://www.nobelprize.org/prizes/chemistry/1978/summary/"),
+         ("NCBI Bookshelf, Molecular Biology of the Cell, “The Mitochondrion”", "https://www.ncbi.nlm.nih.gov/books/NBK26894/"),
+         ("PMC, “Runaway uncoupling in 2,4-dinitrophenol poisoning: clinical and mitochondrial observations from two cases”", "https://pmc.ncbi.nlm.nih.gov/articles/PMC12756549/")],
+    37: [("Koch, Sillett, Jennings & Davis, “The limits to tree height,” Nature 428 (2004)", "https://www.nature.com/articles/nature02417"),
+         ("Wheeler & Stroock, “The transpiration of water at negative pressures in a synthetic tree,” Nature 455 (2008)", "https://www.nature.com/articles/nature07226"),
+         ("PMC, “Cavitation and Its Discontents: Opportunities for Resolving Current Controversies”", "https://pmc.ncbi.nlm.nih.gov/articles/PMC3982731/")],
+    38: [("RainbowSpec, “Primary Rainbows”", "https://rainbowspec.observer/rainbows/"),
+         ("Atmospheric Optics, “Alexander's Dark Band”", "https://www.atoptics.co.uk/blog/alexanders-dark-band/"),
+         ("Encyclopedia.com, “Theodoric of Freiberg and Kamal al-Din al-Farisi Independently Formulate the Correct Qualitative Description of the Rainbow”", "https://www.encyclopedia.com/science/encyclopedias-almanacs-transcripts-and-maps/theodoric-freiberg-and-kamal-al-din-al-farisi-independently-formulate-correct-qualitative")],
+    39: [("Peakall, “Conservation of web proteins in the spider, Araneus diadematus” (PubMed)", "https://pubmed.ncbi.nlm.nih.gov/5548869/"),
+         ("Corver, Wilkerson, Miller & Gordus, “Distinct movement patterns generate stages of spider web-building,” Current Biology (2021)", "https://www.cell.com/current-biology/fulltext/S0960-9822(21)01270-7"),
+         ("Witt, “Drugs Alter Web-Building of Spiders,” Behavioral Science", "https://www.drpeterwitt.com/project/drugs-alter-web-building-of-spidersbehavioral-science/")],
+    40: [("Wikipedia, “Søren Absalon Larsen”", "https://en.wikipedia.org/wiki/S%C3%B8ren_Absalon_Larsen"),
+         ("DPA Microphones, “Larsen Effect” (Mic University dictionary)", "https://www.dpamicrophones.com/dictionary/l/larsen-effect/"),
+         ("Sound on Sound, “Preventing Acoustic Feedback On Stage” (Paul White, 2013)", "https://www.soundonsound.com/techniques/preventing-acoustic-feedback-stage")],
+    41: [("Wikipedia, “Fixed action pattern”", "https://en.wikipedia.org/wiki/Fixed_action_pattern"),
+         ("Schleidt, “How ‘Fixed’ Is the Fixed Action Pattern?,” Zeitschrift für Tierpsychologie (1974)", "https://pubmed.ncbi.nlm.nih.gov/4467663/"),
+         ("Wikipedia, “Oskar Heinroth”", "https://en.wikipedia.org/wiki/Oskar_Heinroth")],
 }
 
 # Curated entry points for the /start on-ramp page. Newcomers arrive from social / the
@@ -325,6 +409,20 @@ footer{border-top:1px solid var(--rule);margin-top:2.6rem;padding-top:1.4rem;fon
 .issue-list h2 a{color:var(--ink);border:0}
 .issue-list h2 a:hover{color:var(--accent)}
 .issue-list .blurb{margin:0;color:#46413a;font-size:1.06rem}
+/* Homepage archive filter — added 2026-07-13 (No. 31): the first client-side search,
+   deferred by every growth run since Run No. 18 as "still under the 30+ bar" until the
+   archive crossed it (now 31 issues). No-JS-safe: the box carries inline display:none
+   and is revealed only by the inline enhancement script, since the full reverse-chron
+   list is already present for no-JS readers to browse or Ctrl-F. Filters the existing
+   homepage <li>s in place against each one's data-search string (title + blurb + topic
+   tags), so a reader can type "kidney", "ozone", "firefly". No new page, no fetch, no
+   dependency, no stored state. Input reuses the themed CSS variables, so dark mode is
+   automatic; hidden in print (it's chrome, not content). */
+.sw-search{margin:1.8rem 0 0}
+.sw-search label{display:block;font-size:.85rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:0 0 .5rem;font-weight:600}
+.sw-search input{font:inherit;font-size:1.05rem;width:100%;box-sizing:border-box;padding:.6rem .8rem;color:var(--ink);background:var(--paper);border:1px solid var(--rule);border-radius:8px}
+.sw-search input:focus-visible{outline:3px solid var(--accent);outline-offset:2px;border-color:var(--accent)}
+.sw-count{font-size:.9rem;color:var(--muted);margin:.6rem 0 0;min-height:1.2em}
 .intro{font-size:1.12rem;color:#3a352d}
 .starthere{font-size:1rem;color:var(--muted);margin:.3rem 0 0}
 .related{border-top:1px solid var(--rule);margin-top:2.2rem;padding-top:1.3rem}
@@ -404,7 +502,7 @@ a:focus-visible,.skip-link:focus-visible{outline:3px solid var(--accent);outline
    the "one loop I'm watching" teaser, which is real editorial content, not chrome. */
 @media print{
   :root{--paper:#fff;--ink:#111;--muted:#444;--rule:#ccc;--accent:#000}
-  .skip-link,nav.top,.subscribe,.related,footer,#read-random,.kbdhint,.share{display:none!important}
+  .skip-link,nav.top,.subscribe,.related,footer,#read-random,.kbdhint,.share,.sw-search{display:none!important}
   body{background:#fff;color:#111}
   a{color:#111;text-decoration:underline}
   .wrap{max-width:100%;padding:0 .25in}
@@ -456,7 +554,21 @@ def head(title, desc, canonical, og_title, og_desc, og_img, og_type, tw_desc, pu
     t.append('<meta name="author" content="Mark">')
     if pub:
         t.append('<meta property="article:published_time" content="%s">' % pub)
-        t.append('<meta name="article:author" content="Mark">')
+        # article:modified_time mirrors published_time — issues are evergreen and we don't
+        # track a separate edit time; matches the BlogPosting "dateModified" in the JSON-LD.
+        t.append('<meta property="article:modified_time" content="%s">' % pub)
+        # Complete the Open Graph "article" namespace. published_time + author have been here
+        # since No. 18; section + one tag per topic added 2026-07-13 (No. 30). This reuses the
+        # same TOPICS data as <meta name="keywords"> and the JSON-LD "keywords"/"articleSection",
+        # so social unfurls and crawlers that read the article namespace can classify each
+        # issue's subject. Invisible (no reader-facing change); only emitted on issue pages
+        # (gated on `pub`, which only issue pages pass). Author switched name= -> property=
+        # (the spec-correct form for og:type=article properties).
+        t.append('<meta property="article:author" content="Mark">')
+        t.append('<meta property="article:section" content="Self-sustaining systems">')
+        if keywords:
+            for _tag in [k.strip() for k in keywords.split(",") if k.strip()]:
+                t.append('<meta property="article:tag" content="%s">' % attr(_tag))
     t.append('<meta property="og:site_name" content="The Standing Wave">')
     t.append('<meta property="og:type" content="%s">' % og_type)
     t.append('<meta property="og:title" content="%s">' % attr(og_title))
@@ -480,7 +592,15 @@ def head(title, desc, canonical, og_title, og_desc, og_img, og_type, tw_desc, pu
     return "\n".join(t)
 
 PUBLISHER_LD = {"@type": "Organization", "name": "The Standing Wave", "url": BASE,
-                "logo": {"@type": "ImageObject", "url": "%s/og/standingwave.png" % BASE}}
+                "logo": {"@type": "ImageObject", "url": "%s/og/standingwave.png" % BASE},
+                # sameAs — schema.org's standard way to link an entity to its other authoritative
+                # web presences, so crawlers/knowledge-graph builders can tell this and Thought Toys
+                # are the same publisher's work rather than two unrelated sites that happen to
+                # cross-link in prose. Added 2026-07-16 (No. 37): the /about page and homepage
+                # footer have linked to Thought Toys in visible HTML since it launched, but the
+                # relationship was never declared in structured data until now. One-directional
+                # here (this file doesn't control thoughttoys.com's own markup).
+                "sameAs": ["https://thoughttoys.com/"]}
 
 def breadcrumb_ld(name, url):
     # BreadcrumbList structured data (schema.org) — Home > <issue title>. A second,
@@ -489,9 +609,10 @@ def breadcrumb_ld(name, url):
     # a search result show "standingwave.ink > A Wave You Speak With" instead of a bare
     # URL, and gives crawlers an explicit, machine-readable site hierarchy. Added
     # 2026-07-06 (No. 18) — the last of the three reader/crawler-facing gaps identified
-    # by the Sunday-review build.py audit (dark mode and a custom 404 were the other two;
-    # client-side search remains the one deliberately not built, since a full search index
-    # is disproportionate machinery for 18 short items — see DECISIONS.md).
+    # by the Sunday-review build.py audit (dark mode and a custom 404 were the other two).
+    # [Note corrected 2026-07-16, No. 37: this comment used to say client-side search was
+    # "deliberately not built" — that was true on 2026-07-06 but stale; it shipped five days
+    # later as the homepage archive filter (see "Homepage archive filter" below, No. 31).]
     return {
         "@context": "https://schema.org",
         "@type": "BreadcrumbList",
@@ -501,11 +622,23 @@ def breadcrumb_ld(name, url):
         ],
     }
 
-TOPNAV = ('<p class="tagline">Field notes on things that run themselves</p>\n'
-          '<nav class="top"><a href="/">The Standing Wave</a>'
-          '<a href="/">← All issues</a>'
-          '<a href="/start">Start here</a>'
-          '<a href="/about">About</a></nav>')
+def topnav_html(current=None):
+    """Sitewide top nav, used on every page. `current` is the site-relative path of
+    the page being rendered ('/', '/start', '/topics', '/about'); the matching
+    link(s) get aria-current="page" for assistive tech, per the ARIA Authoring
+    Practices Guide's "current item in nav" pattern. Issue pages and the 404 page
+    call this with no argument (none of the five links represent them), which
+    produces output byte-identical to the old TOPNAV constant. Zero visual change:
+    no rule in style.css targets [aria-current]. Growth, Run No. 41.
+    On the homepage both "/" links (the wordmark and "All issues") legitimately
+    both represent the current page, so both get marked."""
+    def a(href, text):
+        cur = ' aria-current="page"' if href == current else ''
+        return '<a href="%s"%s>%s</a>' % (href, cur, text)
+    return ('<p class="tagline">Field notes on things that run themselves</p>\n'
+            '<nav class="top">' + a("/", "The Standing Wave") + a("/", "← All issues") +
+            a("/start", "Start here") + a("/topics", "Topics") + a("/about", "About") +
+            '</nav>')
 
 # Skip-to-content link — first focusable element on every page (see .skip-link CSS above).
 SKIP_LINK = '<a class="skip-link" href="#content">Skip to content</a>'
@@ -527,12 +660,12 @@ def random_link_html(exclude_slug=None):
     return box + "\n" + script
 
 def subscribe_html():
-    """Consent-forward email capture, shared across every reader-facing page."""
+    """Topic-scoped email consent plus the two existing feed options."""
     endpoint = json.dumps(LEAD_ENDPOINT)
     version = json.dumps(CONSENT_VERSION)
     return '''<section id="subscribe" class="subscribe">
 <strong>Get each issue.</strong>
-<span>One short email when a new issue is live — no noise.</span>
+<span>Join the list for one short email when a new issue is live — no noise.</span>
 <form class="subscribe-form" id="standingwave-subscribe" novalidate>
   <div class="subscribe-hp" aria-hidden="true"><label for="standingwave-website">Website</label><input id="standingwave-website" name="website" type="text" tabindex="-1" autocomplete="off"></div>
   <label class="subscribe-label" for="standingwave-email">Email address</label>
@@ -541,8 +674,9 @@ def subscribe_html():
   <p class="subscribe-status" role="status" aria-live="polite"></p>
 </form>
 <p class="subscribe-note">Prefer feeds? Follow by <a href="/feed.xml">RSS</a> or <a href="/feed.json">JSON Feed</a>.</p>
+<p class="subscribe-note">Want something playable between issues? <a href="https://thoughttoys.com/#subscribe">Thought Toys</a> has its own email list and <a href="https://thoughttoys.com/feed.xml">RSS feed</a>.</p>
 </section>
-<script>(function(){var form=document.getElementById("standingwave-subscribe");if(!form)return;var status=form.querySelector(".subscribe-status"),button=form.querySelector("button[type=submit]");function say(kind,message){status.className="subscribe-status"+(kind?" "+kind:"");status.setAttribute("role",kind==="error"?"alert":"status");status.textContent=message;}form.addEventListener("submit",async function(event){event.preventDefault();if(!form.reportValidity())return;var email=form.elements.email.value.trim(),website=form.elements.website.value;button.disabled=true;button.textContent="Subscribing…";say("","");try{var response=await fetch(%s,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({email:email,intent:"newsletter",site:"standingwave",interest:"updates",consent:true,consent_version:%s,page:window.location.pathname,website:website})});if(!response.ok)throw new Error("subscribe failed");form.reset();say("success","You’re on the list. The next issue will find you.");}catch(error){say("error","That did not land. Please try again in a moment.");}finally{button.disabled=false;button.textContent="Subscribe";}});})();</script>''' % (endpoint, version)
+<script>(function(){var form=document.getElementById("standingwave-subscribe");if(!form)return;var status=form.querySelector(".subscribe-status"),button=form.querySelector("button[type=submit]");function say(kind,message){status.className="subscribe-status"+(kind?" "+kind:"");status.setAttribute("role",kind==="error"?"alert":"status");status.textContent=message;}form.addEventListener("submit",async function(event){event.preventDefault();if(!form.reportValidity())return;var email=form.elements.email.value.trim(),website=form.elements.website.value;button.disabled=true;button.textContent="Subscribing…";say("","");try{var response=await fetch(%s,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({email:email,intent:"newsletter",site:"standingwave",interest:"updates",topics:["standingwave.new-issue"],consent:true,consent_version:%s,page:window.location.pathname,website:website})});if(!response.ok)throw new Error("subscribe failed");form.reset();say("success","You’re on the list. The next issue will find you.");}catch(error){say("error","That did not land. Please try again in a moment.");}finally{button.disabled=false;button.textContent="Subscribe";}});})();</script>''' % (endpoint, version)
 
 def sources_html(n):
     """'Further reading' — a small, curated public bibliography per issue, drawn from
@@ -604,8 +738,23 @@ def issue_html(it):
              prev_url=prev_url, next_url=next_url, keywords=kw)
     bc = '<script type="application/ld+json">%s</script>' % json.dumps(
         breadcrumb_ld(it["title"], canonical), ensure_ascii=False, separators=(",", ":"))
-    p = [h, SKIP_LINK, bc, '<article class="wrap" id="content">', TOPNAV]
-    p.append('<p class="issue-meta">Issue No. %d · %s · ~%d min read</p>' % (n, it["date"], mins))
+    # Content region: a <main id="content"> landmark (the skip-link target) wrapping the
+    # <article> for the post itself. Added 2026-07-13 (No. 29): issue pages — the site's 29
+    # primary pages — were the only page type missing a <main> landmark (index/start/about/404
+    # already had one), so the "Skip to content" link and screen-reader landmark navigation
+    # had no main region to land in. The <main> is unstyled (all layout stays on .wrap on the
+    # <article>), so this is a pure semantics/a11y fix with zero visual change. See WCAG 2.2 AA
+    # / ARIA landmark table-stakes in the operating directive.
+    p = [h, SKIP_LINK, bc, '<main id="content"><article class="wrap">', topnav_html()]
+    # Growth (Run No. 38): wrap every visible publication date in a semantic <time
+    # datetime="..."> element instead of plain text. Audited every date-rendering call
+    # site in this file (issue pages' byline + footer, the homepage list, /start) and
+    # confirmed none used <time> anywhere, despite JSON-LD already carrying a machine-
+    # readable datePublished for the same date on every issue page — the visible HTML
+    # itself never made the date unambiguous to a screen reader or a generic HTML
+    # parser that isn't reading JSON-LD. Purely semantic: <time> has no default browser
+    # styling, so this changes zero visual appearance; verified sitewide post-build.
+    p.append('<p class="issue-meta">Issue No. %d · <time datetime="%s">%s</time> · ~%d min read</p>' % (n, it["iso"], it["date"], mins))
     p.append("<h1>%s</h1>" % inline(it["title"]))
     p.append('<p class="dek">%s</p>' % inline(it["_dek"]))
     for para in it["_body"]:
@@ -665,8 +814,8 @@ def issue_html(it):
     p.append(sources_html(n))
     p.append(random_link_html(exclude_slug=slug))
     p.append('<footer>The Standing Wave · <a href="/">standingwave.ink</a><br>'
-             'Issue No. %d · written %s</footer>' % (n, it["date"]))
-    p.append("</article></body></html>")
+             'Issue No. %d · written <time datetime="%s">%s</time></footer>' % (n, it["iso"], it["date"]))
+    p.append("</article></main></body></html>")
     return "\n".join(p)
 
 def index_html():
@@ -692,21 +841,54 @@ def index_html():
              site_desc,
              canonical, "The Standing Wave", "Field notes on things that run themselves.",
              "%s/og/standingwave.png" % BASE, "website", "Field notes on things that run themselves.", ld=ld)
-    p = [h, SKIP_LINK, '<main class="wrap" id="content">', TOPNAV]
+    p = [h, SKIP_LINK, '<main class="wrap" id="content">', topnav_html("/")]
     p.append('<h1 class="site"><a href="/">The Standing Wave</a></h1>')
     p.append('<p class="intro">A small publication about self-sustaining systems. Some things last because they’re solid. Others last because they found a loop that pays for its own upkeep — a flame, a sourdough starter, a language, a sealed jar on a shelf. This is a publication about those: the patterns that hold their shape while everything inside them flows through and leaves. One issue, one system, explained as clearly and as beautifully as I can manage.</p>')
     p.append('<p class="starthere">New here? <a href="/start">Start here →</a></p>')
-    p.append('<ul class="issue-list">')
+    p.append('<div class="sw-search" id="sw-search" style="display:none">'
+             '<label for="sw-q">Search the archive</label>'
+             '<input type="search" id="sw-q" placeholder="Try firefly, ozone, kidney…" autocomplete="off" aria-describedby="sw-count">'
+             '<p class="sw-count" id="sw-count" aria-live="polite"></p></div>')
+    p.append('<ul class="issue-list" id="issue-list">')
     for it in reversed(issues):
-        p.append("<li>")
-        p.append('<p class="issue-meta">No. %d · %s</p>' % (it["number"], it["date"]))
+        hay = (it["title"] + " " + it["blurb"] + " " + " ".join(TOPICS.get(it["number"], []))).lower()
+        hay = hay.replace("&", "&amp;").replace('"', "&quot;").replace("<", "&lt;").replace(">", "&gt;")
+        p.append('<li data-search="%s">' % hay)
+        p.append('<p class="issue-meta">No. %d · <time datetime="%s">%s</time></p>' % (it["number"], it["iso"], it["date"]))
         p.append('<h2><a href="/issues/%s">%s</a></h2>' % (it["slug"], inline(it["title"])))
         p.append('<p class="blurb">%s</p>' % inline(it["blurb"]))
         p.append("</li>")
     p.append("</ul>")
+    # Progressive-enhancement filter (No. 31). No-JS: the box stays display:none and the
+    # full list above is browseable as-is. With JS: reveal the box and AND-match the typed
+    # terms against each <li>'s data-search (title + blurb + topics). Inline, no deps, no
+    # stored state — same pattern as the share/keyboard-nav/read-random enhancements, and
+    # already permitted by the site's script-src 'self' 'unsafe-inline' CSP in _headers.
+    p.append(r'''<script>
+(function(){
+  var box=document.getElementById('sw-search'),q=document.getElementById('sw-q'),
+      list=document.getElementById('issue-list'),count=document.getElementById('sw-count');
+  if(!box||!q||!list)return;
+  box.style.display='';
+  var items=[].slice.call(list.children),total=items.length;
+  function apply(){
+    var s=q.value.trim().toLowerCase();
+    if(!s){items.forEach(function(li){li.style.display='';});count.textContent='';return;}
+    var terms=s.split(/\s+/),n=0;
+    items.forEach(function(li){
+      var hay=li.getAttribute('data-search')||'';
+      var hit=terms.every(function(t){return hay.indexOf(t)>-1;});
+      li.style.display=hit?'':'none';if(hit)n++;
+    });
+    count.textContent=n+' of '+total+(n===1?' issue':' issues')+(n?'':' — no match');
+  }
+  q.addEventListener('input',apply);
+})();
+</script>''')
     p.append(subscribe_html())
     p.append(random_link_html())
     p.append('<footer>The Standing Wave · written at <a href="/">standingwave.ink</a> · '
+             '<a href="https://thoughttoys.com/">Thought Toys</a> (the toys) · '
              '<a href="https://musenexus.studio/ecosystem">Muse Nexus ecosystem</a><br>'
              'A pattern that shows up when there’s something to burn.</footer>')
     p.append("</main></body></html>")
@@ -722,7 +904,7 @@ def start_html():
              "What the series is about, and three issues to read first.")
     bc = '<script type="application/ld+json">%s</script>' % json.dumps(
         breadcrumb_ld("Start here", canonical), ensure_ascii=False, separators=(",", ":"))
-    p = [h, SKIP_LINK, bc, '<main class="wrap" id="content">', TOPNAV]
+    p = [h, SKIP_LINK, bc, '<main class="wrap" id="content">', topnav_html("/start")]
     p.append("<h1>Start here</h1>")
     p.append('<p class="dek">The Standing Wave is a publication about self-sustaining systems — the loops, cycles, and standing patterns that hold their shape while everything inside them flows through and leaves. One issue, one system, explained as clearly and as beautifully as I can manage.</p>')
     p.append('<p class="intro">The newest issue sits on the <a href="/">home page</a>, but the latest one isn’t the best way in — whichever of these three pulls you is. Read one; the rest of the series rhymes with it.</p>')
@@ -732,7 +914,7 @@ def start_html():
         if not it:
             continue
         p.append("<li>")
-        p.append('<p class="issue-meta">No. %d · %s</p>' % (it["number"], it["date"]))
+        p.append('<p class="issue-meta">No. %d · <time datetime="%s">%s</time></p>' % (it["number"], it["iso"], it["date"]))
         p.append('<h2><a href="/issues/%s">%s</a></h2>' % (it["slug"], inline(it["title"])))
         p.append('<p class="blurb">%s</p>' % inline(why))
         p.append("</li>")
@@ -764,14 +946,74 @@ def about_html():
              "What this is, and how it gets made.")
     bc = '<script type="application/ld+json">%s</script>' % json.dumps(
         breadcrumb_ld("About", canonical), ensure_ascii=False, separators=(",", ":"))
-    p = [h, SKIP_LINK, bc, '<main class="wrap" id="content">', TOPNAV]
+    p = [h, SKIP_LINK, bc, '<main class="wrap" id="content">', topnav_html("/about")]
     p.append("<h1>About</h1>")
     p.append('<p class="dek">What this is, and how it gets made.</p>')
-    p.append('<p class="intro">The Standing Wave is a publication about self-sustaining systems — the loops, cycles, and standing patterns that hold their shape while everything inside them flows through and leaves. One issue, one system: a flame, a heartbeat, a stalactite, a DRAM chip\'s memory. Usually 600 to 900 words, written to be readable in one sitting and to still hold up years later.</p>')
-    p.append("<p>Every issue is researched before it's written, not after. Facts get checked against current, credible sources — peer-reviewed papers where they exist, primary sources and major institutions where they don't — and where the evidence is genuinely unsettled (a physics dispute, a contested historical detail, a figure that varies by an order of magnitude depending on who measured it), the piece says so plainly instead of picking the tidier-sounding number. Most issues carry a short “Further reading” list at the bottom linking a few of the actual sources used to write them, drawn from the real research notes kept for each piece rather than added for show.</p>")
-    p.append("<p>New issues run three to four times a week, evergreen rather than tied to the news. There's no paywall, no ads, and nothing on this site tracks you. Read it here, receive each issue by email, or follow by RSS or JSON Feed and get the same words with nothing added.</p>")
+    p.append('<p class="intro">The Standing Wave is a publication about self-sustaining systems — the loops, cycles, and standing patterns that hold their shape while everything inside them flows through and leaves. One issue, one system: a flame, a heartbeat, a stalactite, a DRAM chip’s memory. Usually 600 to 900 words, written to be readable in one sitting and to still hold up years later.</p>')
+    p.append("<p>Every issue is researched before it’s written, not after. Facts get checked against current, credible sources — peer-reviewed papers where they exist, primary sources and major institutions where they don’t — and where the evidence is genuinely unsettled (a physics dispute, a contested historical detail, a figure that varies by an order of magnitude depending on who measured it), the piece says so plainly instead of picking the tidier-sounding number. Most issues carry a short “Further reading” list at the bottom linking a few of the actual sources used to write them, drawn from the real research notes kept for each piece rather than added for show.</p>")
+    p.append("<p>New issues run three to four times a week, evergreen rather than tied to the news. There’s no paywall, no ads, and nothing on this site tracks you. Read it here, or subscribe by RSS or JSON Feed and get the same words with nothing added.</p>")
+    p.append('<p>There’s a sister project, <a href="https://thoughttoys.com/">Thought Toys</a>, that asks the same question in a different medium — small interactive toys you play with in the browser instead of essays you read. Several of them are the very systems written up here: a phantom traffic jam, a standing wave, a flocking rule crossing into sudden order. If reading a system apart is one way in, touching one is the other.</p>')
     p.append("<p>Byline: Mark.</p>")
     p.append('<p class="starthere">New here? <a href="/start">Start here →</a></p>')
+    p.append(subscribe_html())
+    p.append(random_link_html())
+    p.append('<footer>The Standing Wave · <a href="/">standingwave.ink</a><br>'
+             'A pattern that shows up when there’s something to burn.</footer>')
+    p.append("</main></body></html>")
+    return "\n".join(p)
+
+def topics_html():
+    # Growth feature (scoped 2026-07-16 by Run No. 37, deferred once more by Run No. 38;
+    # built 2026-07-17, Run No. 39 -- Friday distribution & growth push). Every issue has
+    # carried curated TOPICS[] tags since Run No. 26 (2026-07-10), backfilled to all
+    # issues at the time and added for every issue since, but the data was invisible-only
+    # (meta keywords, JSON-LD keywords/articleSection, article:tag). This groups every
+    # issue by its existing tags into a third browse path, alongside the homepage's
+    # chronological list and each issue's curated "Related issues" block. Zero new
+    # editorial work -- 100% reuses already-curated data; this is purely a presentation
+    # addition. Deliberately reuses the proven `.related` block CSS (class-based
+    # selectors, not tag-based, so a plain <div> gets identical styling to the <nav> used
+    # on issue pages without claiming a redundant "navigation" landmark for every one of
+    # the ~150 topic groups) instead of inventing new visual language, exactly the
+    # low-risk approach Run No. 37 recommended -- this page ships ZERO new CSS.
+    canonical = BASE + "/topics"
+    desc = "Every issue of The Standing Wave, grouped by the ideas it touches — a third way into the archive."
+    by_topic = {}
+    for num, tags in TOPICS.items():
+        if num not in by_num:
+            continue
+        for tag in tags:
+            by_topic.setdefault(tag, []).append(num)
+    topic_names = sorted(by_topic.keys(), key=lambda s: s.lower())
+    ld = {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "Topics — The Standing Wave",
+        "description": desc,
+        "url": canonical,
+        "isPartOf": {"@type": "Blog", "name": "The Standing Wave", "url": BASE + "/"},
+    }
+    h = head("Topics — The Standing Wave", desc, canonical,
+             "Topics — The Standing Wave",
+             "Every issue, grouped by the ideas it touches.",
+             "%s/og/standingwave.png" % BASE, "website",
+             "Every issue, grouped by the ideas it touches.", ld=ld)
+    bc = '<script type="application/ld+json">%s</script>' % json.dumps(
+        breadcrumb_ld("Topics", canonical), ensure_ascii=False, separators=(",", ":"))
+    p = [h, SKIP_LINK, bc, '<main class="wrap" id="content">', topnav_html("/topics")]
+    p.append("<h1>Topics</h1>")
+    p.append('<p class="dek">Every issue, grouped by the ideas it touches.</p>')
+    p.append('<p class="intro">The <a href="/">home page</a> lists all %d issues by date, and each issue links '
+              'to a few thematically related ones. This is a third way in: every topic this archive has ever '
+              'carried, alphabetized, with every issue that touches it — %d topics across %d issues.</p>'
+              % (TOTAL, len(topic_names), TOTAL))
+    for tag in topic_names:
+        nums = sorted(set(by_topic[tag]))
+        p.append('<div class="related"><h2>%s</h2><ul>' % inline(tag))
+        for num in nums:
+            it = by_num[num]
+            p.append('<li><a href="/issues/%s">No. %d · %s</a></li>' % (it["slug"], it["number"], inline(it["title"])))
+        p.append("</ul></div>")
     p.append(subscribe_html())
     p.append(random_link_html())
     p.append('<footer>The Standing Wave · <a href="/">standingwave.ink</a><br>'
@@ -809,7 +1051,7 @@ def not_found_html():
          "</head><body>"]
     t.append(SKIP_LINK)
     t.append('<main class="wrap" id="content">')
-    t.append(TOPNAV)
+    t.append(topnav_html())
     t.append("<h1>This one didn’t hold its shape.</h1>")
     t.append('<p class="dek">Every standing wave in this publication needs something '
              'pushing on it, continuously, or it collapses back into whatever it was '
@@ -819,6 +1061,7 @@ def not_found_html():
     t.append('<p><a href="/">The home page →</a></p>')
     t.append('<p><a href="/start">Start here →</a> — three issues to read first</p>')
     t.append('<p><a id="rand-issue" href="/">Read a random issue →</a></p>')
+    t.append(subscribe_html())
     t.append(script)
     t.append('<footer>The Standing Wave · <a href="/">standingwave.ink</a><br>'
               'A pattern that shows up when there’s something to burn.</footer>')
@@ -830,18 +1073,39 @@ def rfc822(iso):
     return dt.strftime("%a, %d %b %Y %H:%M:%S +0000")
 
 def feed_xml():
+    # Growth (Run No. 33): both feeds below now emit per-item topic tags, reusing the
+    # existing TOPICS dict (built for <meta keywords>/JSON-LD, Run No. 26) — audited
+    # both feed builders directly and confirmed neither ever surfaced an item's topic
+    # to a subscriber before this run, despite the data already existing for every
+    # issue. RSS 2.0 supports repeatable <category> per <item>; JSON Feed 1.1 supports
+    # an optional "tags" array per item. Purely additive: no new data, no visual change,
+    # lets feed readers/aggregators that support category filtering (e.g. NetNewsWire,
+    # Feedly) group or filter issues by subject.
     items = []
     for it in reversed(issues):
         link = "%s/issues/%s" % (BASE, it["slug"])
         desc = smarten(it["blurb"])
+        cats = "".join("\n      <category>%s</category>" % html.escape(t)
+                        for t in TOPICS.get(it["number"], []))
+        # Growth (Run No. 34): per-item <enclosure> image, bringing RSS to parity with the
+        # JSON Feed (whose items have carried an "image" since launch) — audited both feed
+        # builders and confirmed RSS surfaced no per-item image before this run. Reuses each
+        # issue's existing 1200x630 OG card at /og/<slug>.png (no new asset). length is the
+        # card's real byte size when it exists on disk (true after the OG-gen pass every
+        # build does); falls back to 0 only on a from-scratch first build, which every real
+        # deploy rebuilds past. Lets RSS readers (NetNewsWire, Feedly, etc.) show a thumbnail.
+        og_path = os.path.join(OG, it["slug"] + ".png")
+        og_len = os.path.getsize(og_path) if os.path.exists(og_path) else 0
+        enc = '\n      <enclosure url="%s/og/%s.png" length="%d" type="image/png"/>' % (
+            BASE, it["slug"], og_len)
         items.append("""    <item>
       <title>%s</title>
       <link>%s</link>
       <guid isPermaLink="true">%s</guid>
       <pubDate>%s</pubDate>
-      <description>%s</description>
+      <description>%s</description>%s%s
     </item>""" % (html.escape("No. %d · %s" % (it["number"], it["title"])), link, link,
-                  rfc822(it["iso"]), html.escape(desc)))
+                  rfc822(it["iso"]), html.escape(desc), enc, cats))
     return """<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
@@ -850,18 +1114,25 @@ def feed_xml():
     <atom:link href="%s/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Field notes on things that run themselves.</description>
     <language>en-us</language>
+    <image>
+      <url>%s/favicon.png</url>
+      <title>The Standing Wave</title>
+      <link>%s/</link>
+      <width>48</width>
+      <height>48</height>
+    </image>
     <lastBuildDate>%s</lastBuildDate>
 %s
   </channel>
 </rss>
-""" % (BASE, BASE, rfc822(issues[-1]["iso"]), "\n".join(items))
+""" % (BASE, BASE, BASE, BASE, rfc822(issues[-1]["iso"]), "\n".join(items))
 
 def json_feed():
     # JSON Feed 1.1 (jsonfeed.org) — a second, modern subscribe surface alongside RSS.
     items = []
     for it in reversed(issues):
         link = "%s/issues/%s" % (BASE, it["slug"])
-        items.append({
+        item = {
             "id": link,
             "url": link,
             "title": "No. %d · %s" % (it["number"], it["title"]),
@@ -870,7 +1141,11 @@ def json_feed():
             "date_published": it["iso"],
             "image": "%s/og/%s.png" % (BASE, it["slug"]),
             "authors": [{"name": "Mark"}],
-        })
+        }
+        tags = TOPICS.get(it["number"])
+        if tags:
+            item["tags"] = tags
+        items.append(item)
     feed = {
         "version": "https://jsonfeed.org/version/1.1",
         "title": "The Standing Wave",
@@ -878,6 +1153,12 @@ def json_feed():
         "feed_url": BASE + "/feed.json",
         "description": "Field notes on things that run themselves.",
         "language": "en-US",
+        # Growth (Run No. 34): declare the publication icon on the JSON Feed (spec 1.1
+        # optional top-level fields), reusing the existing PWA icons — icon = 512px square,
+        # favicon = the small mark. Lets JSON Feed readers show a recognizable logo for the
+        # feed; complements the new RSS per-item <enclosure> images shipped the same run.
+        "icon": BASE + "/icon-512.png",
+        "favicon": BASE + "/favicon.png",
         "authors": [{"name": "Mark"}],
         "items": items,
     }
@@ -902,6 +1183,8 @@ def llms_txt():
     lines.append("- [Start here](%s/start): the premise, plus three issues to read first." % BASE)
     lines.append("- [About](%s/about): editorial standards and how issues get researched and sourced." % BASE)
     lines.append("- [All issues](%s/): the full archive, newest first." % BASE)
+    lines.append("- [Full text](%s/llms-full.txt): every issue's complete text, concatenated "
+                  "in one file for context ingestion." % BASE)
     lines.append("")
     lines.append("## Issues (oldest to newest)")
     lines.append("")
@@ -916,19 +1199,116 @@ def llms_txt():
     lines.append("- [JSON Feed](%s/feed.json)" % BASE)
     return "\n".join(lines) + "\n"
 
+def llms_full_txt():
+    # llms-full.txt (the companion half of the llmstxt.org convention: llms.txt is a
+    # concise index, llms-full.txt is the complete corpus concatenated for direct
+    # context-window ingestion, no fetching each issue individually). Added 2026-07-15
+    # (Run "No. 36," same-day follow-on): audited llms.txt directly and confirmed the
+    # site had shipped the "index" half of the convention (2026-07-13, Run No. 21's
+    # AI-agent-legibility work) but never the "full" half — a real, named gap in an
+    # otherwise-complete crawler/agent-legibility streak (RSS -> JSON Feed -> sitemap
+    # lastmod -> BreadcrumbList -> llms.txt). Reuses every issue's already-parsed
+    # frontmatter/body/teaser; no new content, no new editorial work, purely additive.
+    lines = ["# The Standing Wave — full text", ""]
+    lines.append("> Complete text of every issue, oldest to newest, concatenated for LLM "
+                  "context ingestion in one request. See %s/llms.txt for a concise "
+                  "navigational index instead, or %s/feed.json for a structured feed." % (BASE, BASE))
+    lines.append("")
+    for it in issues:
+        lines.append("---")
+        lines.append("")
+        lines.append("## No. %d · %s" % (it["number"], it["title"]))
+        lines.append("")
+        lines.append("%s/issues/%s · %s · ~%d min read" % (BASE, it["slug"], it["date"], read_minutes(it)))
+        lines.append("")
+        lines.append(it["_dek"])
+        lines.append("")
+        for para in it["_body"]:
+            lines.append(para)
+            lines.append("")
+        lines.append("### %s" % it["_teaser_title"])
+        lines.append("")
+        for para in it["_teaser"]:
+            lines.append(para)
+            lines.append("")
+    return "\n".join(lines).rstrip() + "\n"
+
 # ---------- write text outputs ----------
 open(os.path.join(SITE, "style.css"), "w", encoding="utf-8").write(CSS)
 open(os.path.join(SITE, "index.html"), "w", encoding="utf-8").write(index_html())
 open(os.path.join(SITE, "start.html"), "w", encoding="utf-8").write(start_html())
 open(os.path.join(SITE, "about.html"), "w", encoding="utf-8").write(about_html())
+open(os.path.join(SITE, "topics.html"), "w", encoding="utf-8").write(topics_html())
 open(os.path.join(SITE, "404.html"), "w", encoding="utf-8").write(not_found_html())
 for it in issues:
     open(os.path.join(SITE_ISSUES, it["slug"] + ".html"), "w", encoding="utf-8").write(issue_html(it))
 open(os.path.join(SITE, "feed.xml"), "w", encoding="utf-8").write(feed_xml())
 open(os.path.join(SITE, "feed.json"), "w", encoding="utf-8").write(json_feed())
 open(os.path.join(SITE, "llms.txt"), "w", encoding="utf-8").write(llms_txt())
+open(os.path.join(SITE, "llms-full.txt"), "w", encoding="utf-8").write(llms_full_txt())
 open(os.path.join(SITE, "robots.txt"), "w", encoding="utf-8").write(
     "User-agent: *\nAllow: /\nSitemap: %s/sitemap.xml\n" % BASE)
+# Security headers — Cloudflare Pages consumes a top-level `_headers` file and applies
+# these to every route. "Security headers" is named table-stakes in the operating
+# directive (alongside SEO / JSON-LD / OG+Twitter cards / WCAG 2.2 AA / Core Web
+# Vitals); added 2026-07-11 (No. 28) after confirming the site had none. Safe by
+# construction: the whole site loads ZERO third-party resources — every external URL is
+# an outbound citation <a href>, never a fetched script/style/font/image — so a
+# self-only CSP breaks nothing; it needs 'unsafe-inline' only because the site ships
+# small first-party inline <style>/<script> blocks (dark-mode CSS, share button,
+# keyboard nav, random-issue link). HSTS is set deliberately WITHOUT `preload`: preload
+# is a hard-to-reverse public commitment and is left as a future opt-in for Mark rather
+# than made unilaterally in an unattended run.
+CSP = ("default-src 'self'; script-src 'self' 'unsafe-inline'; "
+       "style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; "
+       "connect-src 'self'; form-action 'self'; base-uri 'self'; "
+       "frame-ancestors 'none'; object-src 'none'; upgrade-insecure-requests")
+HEADERS = "\n".join([
+    "/*",
+    "  X-Content-Type-Options: nosniff",
+    "  X-Frame-Options: DENY",
+    "  Referrer-Policy: strict-origin-when-cross-origin",
+    "  Cross-Origin-Opener-Policy: same-origin",
+    "  Permissions-Policy: accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()",
+    "  Strict-Transport-Security: max-age=63072000; includeSubDomains",
+    "  Content-Security-Policy: " + CSP,
+    "",
+    # Explicit Cache-Control for the site's genuinely static assets — added 2026-07-17
+    # (Run No. 40). Audited _headers directly and found it carried security headers only;
+    # every asset (OG cards, icons, manifest) was left to Cloudflare Pages' own default
+    # caching instead of an explicit policy, a real (if minor) Core Web Vitals/repeat-visit
+    # performance gap, named table-stakes in the operating directive alongside security
+    # headers. /og/* is safe to cache aggressively: build.py's OG-image generation has
+    # been idempotent (skip-if-exists) since Run No. 36, so a given slug's card never
+    # changes once made. Icons/manifest get a much shorter, still-real 30-day window
+    # instead of a year, since they're rarely but not provably never touched. Deliberately
+    # did NOT add a rule for /style.css — it changes with design-oriented growth work far
+    # more often than any of the above, and a long max-age there risks serving returning
+    # visitors a stale stylesheet after a future redesign; left on Cloudflare's shorter
+    # default instead of guessing a safe duration.
+    "/og/*",
+    "  Cache-Control: public, max-age=2592000, immutable",
+    "",
+    "/favicon.svg",
+    "  Cache-Control: public, max-age=2592000",
+    "",
+    "/favicon.png",
+    "  Cache-Control: public, max-age=2592000",
+    "",
+    "/apple-touch-icon.png",
+    "  Cache-Control: public, max-age=2592000",
+    "",
+    "/icon-192.png",
+    "  Cache-Control: public, max-age=2592000",
+    "",
+    "/icon-512.png",
+    "  Cache-Control: public, max-age=2592000",
+    "",
+    "/site.webmanifest",
+    "  Cache-Control: public, max-age=86400",
+    "",
+])
+open(os.path.join(SITE, "_headers"), "w", encoding="utf-8").write(HEADERS)
 # Favicon (SVG) — the brand mark (paper square, accent border, the "≈" divider glyph),
 # scalable and dependency-free so it always ships even if PIL/fonts are unavailable.
 FAVICON_SVG = """<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
@@ -956,22 +1336,38 @@ MANIFEST = {
 }
 open(os.path.join(SITE, "site.webmanifest"), "w", encoding="utf-8").write(
     json.dumps(MANIFEST, ensure_ascii=False, indent=2))
-# sitemap (with <lastmod> from each issue's iso date; homepage = newest issue)
+# sitemap (with <lastmod> from each issue's iso date; homepage = newest issue).
+# Image sitemap extension added 2026-07-14 (No. 32): every issue has had a real,
+# nameable 1200x630 OG card at /og/<slug>.png since Run No. 1's early growth work
+# (and the homepage has its own generic card), but the sitemap never told image
+# search crawlers any of them existed -- audited this file directly and confirmed
+# no xmlns:image / <image:image> anywhere before this run. Uses the standard
+# sitemaps.org image extension, which is purely additive (non-breaking for any
+# URL-only sitemap reader) and reuses images already generated for OG/Twitter
+# cards -- no new asset, no reader-facing change. /start and /about have no
+# dedicated card of their own (they share the generic og:image), so they're
+# deliberately left without an <image:image> entry rather than mislabeling.
 newest = max(it["iso"][:10] for it in issues)
-entries = [("%s/" % BASE, newest), ("%s/start" % BASE, newest), ("%s/about" % BASE, newest)] + [("%s/issues/%s" % (BASE, it["slug"]), it["iso"][:10]) for it in issues]
+entries = [("%s/" % BASE, newest, "%s/og/standingwave.png" % BASE, "The Standing Wave"),
+           ("%s/start" % BASE, newest, None, None),
+           ("%s/about" % BASE, newest, None, None),
+           ("%s/topics" % BASE, newest, None, None)] + [
+    ("%s/issues/%s" % (BASE, it["slug"]), it["iso"][:10], "%s/og/%s.png" % (BASE, it["slug"]), it["title"])
+    for it in issues]
 sm = ['<?xml version="1.0" encoding="UTF-8"?>',
-      '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
-for loc, lastmod in entries:
-    sm.append("  <url><loc>%s</loc><lastmod>%s</lastmod></url>" % (loc, lastmod))
+      '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" '
+      'xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">']
+for loc, lastmod, img, img_title in entries:
+    if img:
+        sm.append("  <url><loc>%s</loc><lastmod>%s</lastmod>"
+                   "<image:image><image:loc>%s</image:loc><image:title>%s</image:title></image:image></url>"
+                   % (loc, lastmod, img, esc_text(img_title)))
+    else:
+        sm.append("  <url><loc>%s</loc><lastmod>%s</lastmod></url>" % (loc, lastmod))
 sm.append("</urlset>")
 open(os.path.join(SITE, "sitemap.xml"), "w", encoding="utf-8").write("\n".join(sm))
 
 print("text outputs written:", TOTAL, "issues + index + start + feed(xml+json) + sitemap + robots")
-
-if os.environ.get("STANDING_WAVE_TEXT_ONLY") == "1":
-    print("binary art preserved (STANDING_WAVE_TEXT_ONLY=1)")
-    print("DONE -> site/")
-    sys.exit(0)
 
 # ---------- OG images ----------
 def find_font(names):
@@ -1002,7 +1398,15 @@ try:
                 cur=w
         if cur: lines.append(cur)
         return lines
-    def card(path,kicker,title,foot):
+    def card(path,kicker,title,foot,skip_if_exists=True):
+        # skip_if_exists: OG cards are a deterministic function of (kicker, title, foot) and
+        # never change once an issue ships, so re-rendering + re-writing all TOTAL+1 images
+        # every single run was pure wasted work (and, discovered 2026-07-15 Run "No. 36",
+        # unnecessarily re-touches files that don't need touching at all — cheaper and safer
+        # to only generate an image that doesn't exist yet). Purely a performance/robustness
+        # change; output is byte-for-byte the same for any (kicker,title,foot) combination.
+        if skip_if_exists and os.path.exists(path):
+            return
         W,H=1200,630
         img=Image.new("RGB",(W,H),PAPER); d=ImageDraw.Draw(img)
         d.rectangle([28,28,W-28,H-28],outline=ACCENT,width=3)
@@ -1015,16 +1419,20 @@ try:
             d.text((70,y),ln,font=ft,fill=INK); y+=lh
         d.text((70,H-86),foot,font=ff,fill=MUTED)
         img.save(path,"PNG")
+    og_made = 0
     for it in issues:
-        card(os.path.join(OG, it["slug"]+".png"),
-             "The Standing Wave · No. %d" % it["number"],
-             it["title"], "standingwave.ink")
+        p = os.path.join(OG, it["slug"]+".png")
+        was_new = not os.path.exists(p)
+        card(p, "The Standing Wave · No. %d" % it["number"], it["title"], "standingwave.ink")
+        if was_new: og_made += 1
     card(os.path.join(OG,"standingwave.png"),"The Standing Wave",
          "Field notes on things that run themselves","standingwave.ink")
-    print("OG images written:", TOTAL+1, "(font:", os.path.basename(serif or "default"),")")
+    print("OG images: %d total, %d newly generated this run (rest already existed, skipped)" % (TOTAL+1, og_made))
 
     # Favicon PNG fallbacks (browsers/iOS "add to home screen" that don't take SVG icons).
     def icon(path, size, radius):
+        if os.path.exists(path):  # deterministic brand asset — see card()'s skip_if_exists note
+            return
         img = Image.new("RGB", (size, size), PAPER)
         d = ImageDraw.Draw(img)
         b = max(2, size // 20)

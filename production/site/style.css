@@ -41,6 +41,20 @@ footer{border-top:1px solid var(--rule);margin-top:2.6rem;padding-top:1.4rem;fon
 .issue-list h2 a{color:var(--ink);border:0}
 .issue-list h2 a:hover{color:var(--accent)}
 .issue-list .blurb{margin:0;color:#46413a;font-size:1.06rem}
+/* Homepage archive filter — added 2026-07-13 (No. 31): the first client-side search,
+   deferred by every growth run since Run No. 18 as "still under the 30+ bar" until the
+   archive crossed it (now 31 issues). No-JS-safe: the box carries inline display:none
+   and is revealed only by the inline enhancement script, since the full reverse-chron
+   list is already present for no-JS readers to browse or Ctrl-F. Filters the existing
+   homepage <li>s in place against each one's data-search string (title + blurb + topic
+   tags), so a reader can type "kidney", "ozone", "firefly". No new page, no fetch, no
+   dependency, no stored state. Input reuses the themed CSS variables, so dark mode is
+   automatic; hidden in print (it's chrome, not content). */
+.sw-search{margin:1.8rem 0 0}
+.sw-search label{display:block;font-size:.85rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:0 0 .5rem;font-weight:600}
+.sw-search input{font:inherit;font-size:1.05rem;width:100%;box-sizing:border-box;padding:.6rem .8rem;color:var(--ink);background:var(--paper);border:1px solid var(--rule);border-radius:8px}
+.sw-search input:focus-visible{outline:3px solid var(--accent);outline-offset:2px;border-color:var(--accent)}
+.sw-count{font-size:.9rem;color:var(--muted);margin:.6rem 0 0;min-height:1.2em}
 .intro{font-size:1.12rem;color:#3a352d}
 .starthere{font-size:1rem;color:var(--muted);margin:.3rem 0 0}
 .related{border-top:1px solid var(--rule);margin-top:2.2rem;padding-top:1.3rem}
@@ -120,7 +134,7 @@ a:focus-visible,.skip-link:focus-visible{outline:3px solid var(--accent);outline
    the "one loop I'm watching" teaser, which is real editorial content, not chrome. */
 @media print{
   :root{--paper:#fff;--ink:#111;--muted:#444;--rule:#ccc;--accent:#000}
-  .skip-link,nav.top,.subscribe,.related,footer,#read-random,.kbdhint,.share{display:none!important}
+  .skip-link,nav.top,.subscribe,.related,footer,#read-random,.kbdhint,.share,.sw-search{display:none!important}
   body{background:#fff;color:#111}
   a{color:#111;text-decoration:underline}
   .wrap{max-width:100%;padding:0 .25in}
