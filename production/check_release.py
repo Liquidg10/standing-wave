@@ -19,6 +19,8 @@ CONSENT_VERSION = 'consent_version:"2026-07-18.2"'
 TOPIC_MARKER = 'topics:["standingwave.new-issue"]'
 EXPLICIT_CONSENT = "Email me new issues of The Standing Wave. I can unsubscribe at any time."
 LAB_HUB_LINK = 'href="https://musenexus.studio/labs"'
+LAB_HUB_CTA = "Explore Muse Nexus Labs"
+THOUGHT_TOYS_DOOR = 'href="https://thoughttoys.com/"'
 
 
 def fail(message: str) -> None:
@@ -103,6 +105,8 @@ for path in reader_pages:
         'href="/feed.xml"',
         'href="/feed.json"',
         LAB_HUB_LINK,
+        LAB_HUB_CTA,
+        THOUGHT_TOYS_DOOR,
     ):
         if marker not in page:
             fail(f"{path.relative_to(ROOT)} is missing subscription marker {marker}")

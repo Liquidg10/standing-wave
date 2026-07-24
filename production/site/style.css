@@ -2,11 +2,20 @@
 *{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
 body{margin:0;background:var(--paper);color:var(--ink);font-family:Georgia,"Iowan Old Style","Palatino Linotype",Palatino,serif;font-size:1.18rem;line-height:1.66;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased}
 .wrap{max-width:var(--measure);margin:0 auto;padding:2.4rem 1.3rem 4rem}
-.lab-network{display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;margin:0 0 1.25rem;
-font:600 .72rem/1.4 system-ui,-apple-system,"Segoe UI",sans-serif;letter-spacing:.11em;text-transform:uppercase;color:var(--muted)}
-.lab-network a{display:inline-flex;align-items:center;border:1px solid var(--rule);border-radius:999px;padding:.36rem .68rem;
-color:var(--accent);background:rgba(154,59,38,.035)}
-.lab-network a:hover{border-color:var(--accent);background:rgba(154,59,38,.08)}
+.lab-network{margin:0 0 1.5rem;padding:1rem;border:1px solid var(--rule);border-left:4px solid var(--accent);
+border-radius:4px;background:rgba(154,59,38,.045);font-family:system-ui,-apple-system,"Segoe UI",sans-serif}
+.lab-network__eyebrow{display:block;margin:0 0 .28rem;font-size:.68rem;line-height:1.3;font-weight:700;
+letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.lab-network__title{display:block;margin:0 0 .75rem;font-family:Georgia,"Iowan Old Style","Palatino Linotype",Palatino,serif;
+font-size:1.05rem;line-height:1.35;font-weight:600;color:var(--ink)}
+.lab-network__links{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:.65rem;align-items:stretch}
+.lab-network a{display:flex;align-items:center;justify-content:space-between;gap:.9rem;border:1px solid var(--accent);
+border-radius:4px;padding:.68rem .82rem;font-size:.82rem;line-height:1.25;font-weight:700}
+.lab-network__primary{color:var(--paper);background:var(--accent)}
+.lab-network__primary:hover{color:var(--paper);filter:brightness(.9)}
+.lab-network__sibling{color:var(--accent);background:var(--paper)}
+.lab-network__sibling:hover{background:rgba(154,59,38,.09)}
+.lab-network__arrow{font-size:1.15rem;line-height:1}
 .tagline{font-size:.8rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:0 0 1.6rem}
 nav.top{font-size:.95rem;margin-bottom:2.6rem;display:flex;gap:1.1rem;flex-wrap:wrap}
 a{color:var(--accent);text-decoration:none;border-bottom:1px solid rgba(154,59,38,.28)}
@@ -91,7 +100,7 @@ footer{border-top:1px solid var(--rule);margin-top:2.6rem;padding-top:1.4rem;fon
   padding:.7rem 1.1rem;z-index:100;border-radius:0 0 8px 0;font-size:.95rem;border:0}
 .skip-link:focus{left:0}
 a:focus-visible,.skip-link:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
-@media (max-width:480px){body{font-size:1.1rem}h1{font-size:1.95rem}.dek{font-size:1.18rem}.subscribe-row{grid-template-columns:1fr}.subscribe-form button{width:100%}}
+@media (max-width:480px){body{font-size:1.1rem}h1{font-size:1.95rem}.dek{font-size:1.18rem}.subscribe-row{grid-template-columns:1fr}.subscribe-form button{width:100%}.lab-network__links{grid-template-columns:1fr}}
 /* Keyboard-nav discoverability hint — added 2026-07-07 (No. 21), paired with the
    inline keydown-listener script in issue_html(). Quiet by design: same muted
    tone as the byline, not a call-to-action. */
@@ -127,6 +136,7 @@ a:focus-visible,.skip-link:focus-visible{outline:3px solid var(--accent);outline
 .dek,.intro,.subscribe,.sources li{color:#d9d0c0}
 .issue-list .blurb{color:#cfc6b4}
 .subscribe-form{background:#26221d}.subscribe-status.success{color:#8fcf9c}
+.lab-network{background:#26221d}.lab-network__sibling{background:#1c1a17}
 }
 /* Print stylesheet — added 2026-07-07 (No. 20). Reading an issue on paper (or
    "Print to PDF") had never been considered: without this, a printed page carried
@@ -139,7 +149,7 @@ a:focus-visible,.skip-link:focus-visible{outline:3px solid var(--accent);outline
    the "one loop I'm watching" teaser, which is real editorial content, not chrome. */
 @media print{
   :root{--paper:#fff;--ink:#111;--muted:#444;--rule:#ccc;--accent:#000}
-  .skip-link,nav.top,.subscribe,.related,footer,#read-random,.kbdhint,.share,.sw-search{display:none!important}
+  .skip-link,.lab-network,nav.top,.subscribe,.related,footer,#read-random,.kbdhint,.share,.sw-search{display:none!important}
   body{background:#fff;color:#111}
   a{color:#111;text-decoration:underline}
   .wrap{max-width:100%;padding:0 .25in}
