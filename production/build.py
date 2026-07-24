@@ -370,6 +370,11 @@ CSS = """:root{--paper:#faf6ef;--ink:#23201b;--muted:#6f685c;--rule:#e2d9c9;--ac
 *{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
 body{margin:0;background:var(--paper);color:var(--ink);font-family:Georgia,"Iowan Old Style","Palatino Linotype",Palatino,serif;font-size:1.18rem;line-height:1.66;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased}
 .wrap{max-width:var(--measure);margin:0 auto;padding:2.4rem 1.3rem 4rem}
+.lab-network{display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;margin:0 0 1.25rem;
+font:600 .72rem/1.4 system-ui,-apple-system,"Segoe UI",sans-serif;letter-spacing:.11em;text-transform:uppercase;color:var(--muted)}
+.lab-network a{display:inline-flex;align-items:center;border:1px solid var(--rule);border-radius:999px;padding:.36rem .68rem;
+color:var(--accent);background:rgba(154,59,38,.035)}
+.lab-network a:hover{border-color:var(--accent);background:rgba(154,59,38,.08)}
 .tagline{font-size:.8rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:0 0 1.6rem}
 nav.top{font-size:.95rem;margin-bottom:2.6rem;display:flex;gap:1.1rem;flex-wrap:wrap}
 a{color:var(--accent);text-decoration:none;border-bottom:1px solid rgba(154,59,38,.28)}
@@ -635,7 +640,9 @@ def topnav_html(current=None):
     def a(href, text):
         cur = ' aria-current="page"' if href == current else ''
         return '<a href="%s"%s>%s</a>' % (href, cur, text)
-    return ('<p class="tagline">Field notes on things that run themselves</p>\n'
+    return ('<p class="lab-network"><a href="https://musenexus.studio/labs">A Muse Nexus Lab ↗</a>'
+            '<span>Experiments in public</span></p>\n'
+            '<p class="tagline">Field notes on things that run themselves</p>\n'
             '<nav class="top">' + a("/", "The Standing Wave") + a("/", "← All issues") +
             a("/start", "Start here") + a("/topics", "Topics") + a("/about", "About") +
             '</nav>')
@@ -889,7 +896,7 @@ def index_html():
     p.append(random_link_html())
     p.append('<footer>The Standing Wave · written at <a href="/">standingwave.ink</a> · '
              '<a href="https://thoughttoys.com/">Thought Toys</a> (the toys) · '
-             '<a href="https://musenexus.studio/ecosystem">Muse Nexus ecosystem</a><br>'
+             '<a href="https://musenexus.studio/labs">Muse Nexus Labs</a><br>'
              'A pattern that shows up when there’s something to burn.</footer>')
     p.append("</main></body></html>")
     return "\n".join(p)
