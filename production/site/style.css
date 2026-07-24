@@ -2,6 +2,11 @@
 *{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
 body{margin:0;background:var(--paper);color:var(--ink);font-family:Georgia,"Iowan Old Style","Palatino Linotype",Palatino,serif;font-size:1.18rem;line-height:1.66;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased}
 .wrap{max-width:var(--measure);margin:0 auto;padding:2.4rem 1.3rem 4rem}
+.lab-network{display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;margin:0 0 1.25rem;
+font:600 .72rem/1.4 system-ui,-apple-system,"Segoe UI",sans-serif;letter-spacing:.11em;text-transform:uppercase;color:var(--muted)}
+.lab-network a{display:inline-flex;align-items:center;border:1px solid var(--rule);border-radius:999px;padding:.36rem .68rem;
+color:var(--accent);background:rgba(154,59,38,.035)}
+.lab-network a:hover{border-color:var(--accent);background:rgba(154,59,38,.08)}
 .tagline{font-size:.8rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:0 0 1.6rem}
 nav.top{font-size:.95rem;margin-bottom:2.6rem;display:flex;gap:1.1rem;flex-wrap:wrap}
 a{color:var(--accent);text-decoration:none;border-bottom:1px solid rgba(154,59,38,.28)}
